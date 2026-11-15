@@ -3,7 +3,7 @@ display_name: "李岳"
 first_name: "岳"
 last_name: "李"
 summary: "GPT 账号防封指南的作者；用户 2026-11-08 拿他的指南投喂工作室，并据此立项做了 10 号视频。"
-rank: 8
+rank: 7
 updated: "2026-11-08"
 ---
 

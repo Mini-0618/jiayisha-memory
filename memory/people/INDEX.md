@@ -2,16 +2,16 @@
 
 Every page under `~/memory/people/`, closest to the user first. Rendered by the relationships loop; each page carries the facts and the nature of the user's relationship with them.
 
-- **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付待二哥选定风格，与加伊莎账号无关。
+- **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
-- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，但用户同晚推翻平台音色方案，最终用本人克隆音套心中之城向处理，不克隆其本人声音。
+- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，用户最终用本人克隆音套心中之城向处理、不克隆其本人声音；2026-11-14 再提“巫师那样”时该口径再次守住，本地“巫师向”8 秒试听待用户判断。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
 - **柱子哥** — `~/memory/people/zhuzi-ge.md` — 抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。
 - **进化中的阿陈** — `~/memory/people/jinhua-zhong-de-achen.md` — 抖音对标账号，1.6 万粉；2026-11-10 标题拆解：其“AI 考场”实验型标题播放 5.9–27.2 万，远超 AI 日报拼盘标题，但日报标题把传闻当事实写、不可抄；其逐句配图已降为可用手法之一。
-- **汉生 张 (张汉生)** — `~/memory/people/zhang-han-sheng.md` — 抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户以其团队 120 亿播放的草台班子故事重写 AI 短剧主片，54 岁不再是标题主线。
 - **岳 李 (李岳)** — `~/memory/people/li-yue.md` — GPT 账号防封指南的作者；用户 2026-11-08 拿他的指南投喂工作室，并据此立项做了 10 号视频。
 - **K森动画阿K** — `~/memory/people/k-sen-dong-hua-a-k.md` — 动画科普创作者；用户 2026-11-08 发来他的生产线教程，SVG 加 Remotion 的图形动画路线是加伊莎动态信息设计缺口的升级候选。
 - **plotome** — `~/memory/people/plotome.md` — B站 AI 动画创作者；用户 2026-11-09 发来他的制作全流程视频（BV1xFnt6zE3K），其节奏标准与六审节点已被加伊莎采纳为制作规矩。
+- **八只手** — `~/memory/people/ba-zhi-shou.md` — 抖音电影混剪创作者；2026-11-12 用户发来其《人类用一百年，想象机器拥有灵魂的那一天》要求拆解式复刻，Muse 据其时间线骨架做出《机器灵魂一百年》生成版 v1（35 秒）待用户审。
 - **Michael大麦哥** — `~/memory/people/michael-damaige.md` — 抖音议题共鸣型对标账号，粉丝已破 700 万；用户 2026-11-06 委托研究其变现方式，星图植入 10 万/定制 12 万一条。
 - **星河 李 (李星河LXH)** — `~/memory/people/li-xinghe-lxh.md` — 抖音对标账号，约 40 万粉；靠“作家传记”合集连载 102 期沉淀粉丝，用户 2026-11-06 委托研究其打法。
 - **电子智人** — `~/memory/people/dianzi-zhiren.md` — 抖音对标账号，只发 11 条作品就拿到 144.6 万赞并入选平台精选作者；粉丝数未确认，用户 2026-11-06 委托研究其打法。
@@ -27,4 +27,66 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **whata-ha** — `~/memory/people/whata-ha.md` — 抖音 AI 短剧对标账号；作品《The Accident》，2026-11-10 新增为加伊莎 AI 短剧对标。
 - **罗臣臣** — `~/memory/people/luo-chen-chen.md` — 抖音 AI 短剧对标账号，2026-11-10 新增为加伊莎 AI 短剧对标；代表作与数据尚未核实。
 - **白昼与茄** — `~/memory/people/bai-zhou-yu-qie.md` — 抖音 AI 短剧对标账号，2026-11-10 新增为加伊莎 AI 短剧对标；代表作与数据尚未核实。
-- **心中之城** — `~/memory/people/xin-zhong-zhi-cheng.md` — 抖音解说类创作者；用户 2026-11-11 拿他的低沉磁性男中音作加伊莎旁白声音参照，最终用本人克隆音套心中之城向 C 档处理靠近该质感，未直接往来、不克隆其本人声音。
+- **心中之城** — `~/memory/people/xin-zhong-zhi-cheng.md` — 抖音解说类创作者；用户 2026-11-11 拿他的低沉磁性男中音作加伊莎旁白声音参照，最终用本人克隆音套心中之城向 C 档处理靠近该质感、未直接往来、不克隆其本人声音；2026-11-14 正式路线仍定 C 档，另做一版“巫师向”8 秒试听待用户判断。
+- **汉生 张 (张汉生)** — `~/memory/people/zhang-han-sheng.md` — 抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户曾以其团队 120 亿播放的故事重写 AI 短剧主片，但 2026-11-12 已拍板该稿作废、改走更好的新做法。
+- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；paulgraham.com 为知识库固定来源站，2026-11-14 知识库收录《How to Do Great Work》，同日自学第十七轮全文通读《How to Think for Yourself》提炼 P7/P8 规则。
+- **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 自学第十八轮全文读《Looking Back on the Spanish War》、第十九轮全文读《The Spike》，分别合炼 H1–H8 与 O1–O8 规则。
+- **Richard Feynman** — `~/memory/people/richard-feynman.md` — 文本能力训练的阅读来源之一；用户2026-11-12将 Caltech 档案库定为知识库固定来源站，2026-11-13 知识库再收录其《There's Plenty of Room at the Bottom》并提炼现场算术手法。
+- **Hans Rosling** — `~/memory/people/hans-rosling.md` — 文本能力训练的阅读来源之一（TED演讲《The best stats you've ever seen》）；用户2026-11-12将 TED 定为知识库固定来源站，2026-11-14 知识库再收录其 TED 2006 演讲并与 Max Roser 合出视频选题，该演讲此前只核到官方介绍、未通读逐字稿。
+- **栀栀为知之** — `~/memory/people/zhi-zhi-wei-zhi-zhi.md` — 抖音 MJ 人物美学创作者；用户 2026-11-11 发来其《MJ风格训练(一)人物美学》图文作审美参照，垂目表情与单一高饱和锚点色被提炼进加伊莎审美档案。
+- **小王要拍照** — `~/memory/people/xiao-wang-yao-pai-zhao.md` — 抖音 MJ 近景人像创作者；用户 2026-11-11 发来其银发近景图文作审美参照，极特写微表情与逆光光斑被提炼进加伊莎审美档案。
+- **霖恩** — `~/memory/people/lin-en.md` — 抖音 MJ 美学创作者；用户 2026-11-11 发来其夜市组图作审美参照，直视镜头、双色温对撞与带雀斑毛孔的不完美皮肤被提炼进加伊莎审美档案。
+- **Gleb Kuznetsov** — `~/memory/people/gleb-kuznetsov.md` — Dribbble 设计师；用户 2026-11-13 发来其 Personal Memory Graph 作 Super OS 共享记忆中心（3D 记忆星图）的设计语言参考，只提语言不原样复制。
+- **George Railean** — `~/memory/people/george-railean.md` — Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。
+- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。
+- **DeepSeek ("DS")** — `~/memory/people/deepseek.md` — 简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。
+- **GPT** — `~/memory/people/gpt.md` — 用户转交材料、Muse 验收的外部 AI 对照方，Super OS 中负责研究写稿；2026-11-12 Signal 第二组故事板已对账齐套，2026-11-13 跨平台共享记忆仍未验证；2026-11-14 写的 Loui 账号起步手册 26 条模板被采纳为超级个体中心「账号起步手册」母版，执行篇按用户拍板标搁置中。
+- **Groq** — `~/memory/people/groq.md` — 开源模型高速推理平台；用户 2026-11-14 提供其 API，Muse 当日验活并登记为 Super OS API 第 5 条、Agent 第 5 号，定位快速推理/转写短任务；同日实测其声音模型被条款阻断、无中文与克隆入口，生成用户声音此路不通。
+- **Adichie** — `~/memory/people/adichie.md` — 文本能力训练的阅读来源之一；2026-11-12知识库收录其 TED 演讲《单一故事的危险》，并衍生 D 库选题「关于 AI，流行的单一故事是什么」，该演讲逐字稿尚未完整取得。
+- **Nova** — `~/memory/people/nova.md` — 加伊莎 AI Studio（CORE-001）的开发执行方；2026-11-12 验收退回补件，GitHub 官方连接仅授权 jiayisha-memory 一仓；2026-11-13 补件待用户确认「04:48 放行」是否属实后才转发任务书。
+- **Punk** — `~/memory/people/punk2898.md` — X 创作者 @punk2898；用户转发过他的算法帖标题，2026-11-12 让 Muse 拆解其《我把 X 算法"裸奔"了》的写法与手绘风配图，Loui 已将其列入种子关注。
+- **Marvis** — `~/memory/people/marvis.md` — 腾讯 Marvis，用户电脑上的 3D 建模执行 agent；2026-11-10 起承接 GPT 出图、脚本驱动 Blender 的建模流程，已做出人民大会堂内部建模并因运算量大把电脑跑卡。
+- **宝玉** — `~/memory/people/bao-yu-dotey.md` — X 创作者 @dotey（宝玉）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 与提示工程。
+- **卡兹克** — `~/memory/people/ka-zi-ke-khazix0918.md` — X 创作者 @Khazix0918（卡兹克）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 产品与长文。
+- **刘老板** — `~/memory/people/liu-lao-ban-leo-xiaolei.md` — X 创作者 @leo_xiaolei（刘老板）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 短剧教程。
+- **硅基人老王** — `~/memory/people/gui-ji-ren-lao-wang.md` — X 创作者 @AI_oldwang（硅基人老王）；2026-11-12 Loui 第一批种子关注之一、中文主力对标，Loui 的第一条回复即发在他的远程岗位薪资帖下；2026-11-14 体检指出 Loui 英文简介与他的中文简介几乎逐句对应。
+- **Ryan** — `~/memory/people/ryan-ryangrowthh.md` — X 创作者 @ryangrowthh（Ryan）；2026-11-12 Loui 第一批种子关注之一，专讲 X 增长，其独立拆解与 Muse 深研对上。
+- **@heyadam_ai** — `~/memory/people/heyadam-ai.md` — X 账号 @heyadam_ai；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。
+- **AI Will** — `~/memory/people/ai-will-financeyf5.md` — X 创作者 AI Will（@FinanceYF5）；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样；同日 Loui 回复过他一条帖，曝光 42、无互动。
+- **@ottleyai** — `~/memory/people/ottleyai.md` — X 账号 @ottleyai；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。
+- **@AIwithAriel** — `~/memory/people/aiwithariel.md` — X 账号 @AIwithAriel；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。
+- **十一** — `~/memory/people/shi-yi.md` — 抖音催婚名场面视频作者；用户 2026-11-12 发来其视频作《催婚》家宴挡话的参考样本（1分21秒，标「虚构演绎」），双方没有直接往来；《催婚》当晚已搁置，该参考随项目封存。
+- **胖头小鱼丸QAQ** — `~/memory/people/pang-tou-xiao-yu-wan-qaq.md` — 抖音「装豆包」视频作者；用户 2026-11-12 发来其视频作《催婚》逗逗宝宝的原型参考（36秒，分享12.3万、约为点赞3倍），双方没有直接往来；《催婚》当晚已搁置，该参考随项目封存。
+- **Kim Cross** — `~/memory/people/kim-cross.md` — 2026-11-12 自学第九轮全文读其两篇 Nieman Storyboard 采访文章，提炼进本轮采访规则。
+- **Ira Glass** — `~/memory/people/ira-glass.md` — 2026-11-12 自学第九轮读 CJR 对他的访谈（Jesse Thorn 采访），本轮报告称全文已读。
+- **Jesse Thorn** — `~/memory/people/jesse-thorn.md` — 2026-11-12 自学第九轮读其在 CJR 采访 Ira Glass 的 Q&A，本轮报告称全文已读。
+- **Hannah Ritchie** — `~/memory/people/hannah-ritchie.md` — Our World in Data 文章作者；2026-11-13 知识库收录其《How much energy do data centers and artificial intelligence use?》，提炼「AI 用电真正问题不是总量，是集中度」并衍生 D 库选题。
+- **Angelina Osborne** — `~/memory/people/angelina-osborne.md` — London Museum 文章作者；2026-11-13 知识库收录其伦敦码头多元文化往事一文，衍生 D 库选题《被删掉的那一半故事：谁的声音不在 AI 的训练数据里？》。
+- **Brian Clark** — `~/memory/people/brian-clark.md` — 自学第十一轮阅读来源；2026-11-13 通读其 The Barefoot Writer 访谈（2012），「意义＋着迷」标题两分法提炼为 T2 规则进合并清单。
+- **Grok** — `~/memory/people/grok.md` — 用户 2026-11-13 评估能否用 Grok 会员额度干活并尝试登录 Telegram 上标注「Grok Bot」的机器人；Muse 判断其多半非 xAI 官方，官方 Grok 已含在 Loui 号的 X Premium 里，尚无实际协作。
+- **John Morreall** — `~/memory/people/john-morreall.md` — 自学第十二轮阅读来源；2026-11-13 读其《Philosophy of Humor》，与另两篇合炼出讽刺规则 H1–H8。
+- **Jonathan Swift** — `~/memory/people/jonathan-swift.md` — 自学第十二轮阅读来源；2026-11-13 读其《A Modest Proposal》，与另两篇合炼出讽刺规则 H1–H8。
+- **鲁迅** — `~/memory/people/lu-xun.md` — 自学第十二轮阅读来源；2026-11-13 读其《什么是"讽刺"？》，与另两篇合炼出讽刺规则 H1–H8。
+- **John Grierson** — `~/memory/people/john-grierson.md` — 自学第十三轮阅读来源；2026-11-13 读其《First Principles of Documentary》，与另两篇合炼出纪录片叙事规则 D1–D8。
+- **Werner Herzog** — `~/memory/people/werner-herzog.md` — 自学第十三轮阅读来源；2026-11-13 读其《Minnesota Declaration》，与另两篇合炼出纪录片叙事规则 D1–D8。
+- **Errol Morris** — `~/memory/people/errol-morris.md` — 自学第十三轮阅读来源；2026-11-13 读其《The Anti-Post-Modern Post-Modernist》，与另两篇合炼出纪录片叙事规则 D1–D8。
+- **Max Roser** — `~/memory/people/max-roser.md` — Our World in Data 文章作者；2026-11-14 知识库收录其《The history of the end of poverty has just begun》，并与 Hans Rosling 合出视频选题；2026-11-15 知识库收录并全文读《The short history of global living conditions》，合炼历史叙事 H1–H8 规则。
+- **念孙 钱 (钱念孙)** — `~/memory/people/qian-niansun.md` — 自学第十四轮阅读来源；2026-11-13 读其《朱光潜论中国诗的声律及诗体衍变》用于语言节奏训练，提炼 J1–J8 规则进合并清单。
+- **Jesse Eisinger** — `~/memory/people/jesse-eisinger.md` — ProPublica 调查记者；2026-11-14 自学第十五轮全文读其合著《The Secret IRS Files》，该文为调查报道规则 I1–I8 的来源之一。
+- **Jeff Ernsthausen** — `~/memory/people/jeff-ernsthausen.md` — ProPublica 调查记者；2026-11-14 自学第十五轮全文读其合著《The Secret IRS Files》，该文为调查报道规则 I1–I8 的来源之一。
+- **Paul Kiel** — `~/memory/people/paul-kiel.md` — ProPublica 调查记者；2026-11-14 自学第十五轮全文读其合著《The Secret IRS Files》，该文为调查报道规则 I1–I8 的来源之一。
+- **福涛 韩 (韩福涛)** — `~/memory/people/han-futao.md` — 新京报调查记者；2026-11-14 自学第十五轮读其《罐车运输乱象调查》，跟车时间线与信源保护做法提炼进调查报道规则 I1–I8。
+- **Debbie Cenziper** — `~/memory/people/debbie-cenziper.md` — ProPublica／Pittsburgh Post-Gazette 调查报道合著者；2026-11-14 自学第十五轮全文读其合著的飞利浦 CPAP 召回调查方法论，该文为调查报道规则 I1–I8 的来源之一。
+- **Michael Sallah (Michael D. Sallah)** — `~/memory/people/michael-d-sallah.md` — ProPublica／Pittsburgh Post-Gazette 调查报道合著者；2026-11-14 自学第十五轮全文读其合著的飞利浦 CPAP 召回调查方法论，该文为调查报道规则 I1–I8 的来源之一。
+- **Michael Korsh** — `~/memory/people/michael-korsh.md` — ProPublica／Pittsburgh Post-Gazette 调查报道合著者；2026-11-14 自学第十五轮全文读其合著的飞利浦 CPAP 召回调查方法论，该文为调查报道规则 I1–I8 的来源之一。
+- **Evan Robinson-Johnson** — `~/memory/people/evan-robinson-johnson.md` — ProPublica／Pittsburgh Post-Gazette 调查报道合著者；2026-11-14 自学第十五轮全文读其合著的飞利浦 CPAP 召回调查方法论，该文为调查报道规则 I1–I8 的来源之一。
+- **Kevin Kelly** — `~/memory/people/kevin-kelly.md` — 自学第十六轮阅读来源；2026-11-14 通读其《1,000 True Fans》，与另三篇合炼出评论区运营规则 C1–C8 进合并清单。
+- **Clay Shirky** — `~/memory/people/clay-shirky.md` — 自学第十六轮阅读来源；2026-11-14 通读其《A Group Is Its Own Worst Enemy》，与另三篇合炼出评论区运营规则 C1–C8 进合并清单。
+- **夸父** — `~/memory/people/kua-fu.md` — 自学第十六轮阅读来源；2026-11-14 通读其《评论区运营：被低估的第二流量池》，与另三篇合炼出评论区运营规则 C1–C8 进合并清单。
+- **Daniel Kahneman** — `~/memory/people/daniel-kahneman.md` — 文本能力训练的阅读来源之一；2026-11-14 自学第十七轮全文通读其 TED 2010 演讲《经验与记忆之谜》，提炼出峰值-结尾、记忆句、聚焦错觉三条写稿规则。
+- **Barry Schwartz** — `~/memory/people/barry-schwartz.md` — 文本能力训练的阅读来源之一；2026-11-14 自学第十七轮全文通读其 TED 2005 演讲《选择悖论》，提炼出选择过载、期望管理、带走的东西三条写稿规则。
+- **Yuval Harari (Yuval Noah Harari)** — `~/memory/people/yuval-noah-harari.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十八轮全文通读其 TED 2015 演讲《What explains the rise of humans?》，与 Orwell、Roser 合炼历史叙事 H1–H8 规则。
+- **Tom Chatfield** — `~/memory/people/tom-chatfield.md` — 文本能力训练的阅读来源之一；2026-11-15 知识库每日收集收录其 Psyche 文章《How to think clearly》，提炼“讲给九岁孩子听”检验法进 B 库。
+- **Nick Kabrel** — `~/memory/people/nick-kabrel.md` — 文本能力训练的阅读来源之一；2026-11-15 知识库每日收集收录其 Psyche 文章《How to use AI chatbots to make you smarter》，提炼“三明治”用 AI 法进 B 库。
+- **飙 项 (项飙)** — `~/memory/people/xiang-biao.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与康岚的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。
+- **岚 康 (康岚)** — `~/memory/people/kang-lan.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与项飙的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。

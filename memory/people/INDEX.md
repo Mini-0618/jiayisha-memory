@@ -29,7 +29,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **白昼与茄** — `~/memory/people/bai-zhou-yu-qie.md` — 抖音 AI 短剧对标账号，2026-11-10 新增为加伊莎 AI 短剧对标；代表作与数据尚未核实。
 - **心中之城** — `~/memory/people/xin-zhong-zhi-cheng.md` — 抖音解说类创作者；用户 2026-11-11 拿他的低沉磁性男中音作加伊莎旁白声音参照，最终用本人克隆音套心中之城向 C 档处理靠近该质感、未直接往来、不克隆其本人声音；2026-11-14 正式路线仍定 C 档，另做一版“巫师向”8 秒试听待用户判断。
 - **汉生 张 (张汉生)** — `~/memory/people/zhang-han-sheng.md` — 抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户曾以其团队 120 亿播放的故事重写 AI 短剧主片，但 2026-11-12 已拍板该稿作废、改走更好的新做法。
-- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；paulgraham.com 为知识库固定来源站，2026-11-14 知识库收录《How to Do Great Work》，同日自学第十七轮全文通读《How to Think for Yourself》提炼 P7/P8 规则。
+- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；paulgraham.com 为知识库固定来源站，2026-11-15 自学第二十轮全文读《How to Make Wealth》《The Power of the Marginal》，合炼 8 条经济科技写稿规则，合并清单达 159 项。
 - **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 自学第十八轮全文读《Looking Back on the Spanish War》、第十九轮全文读《The Spike》，分别合炼 H1–H8 与 O1–O8 规则。
 - **Richard Feynman** — `~/memory/people/richard-feynman.md` — 文本能力训练的阅读来源之一；用户2026-11-12将 Caltech 档案库定为知识库固定来源站，2026-11-13 知识库再收录其《There's Plenty of Room at the Bottom》并提炼现场算术手法。
 - **Hans Rosling** — `~/memory/people/hans-rosling.md` — 文本能力训练的阅读来源之一（TED演讲《The best stats you've ever seen》）；用户2026-11-12将 TED 定为知识库固定来源站，2026-11-14 知识库再收录其 TED 2006 演讲并与 Max Roser 合出视频选题，该演讲此前只核到官方介绍、未通读逐字稿。
@@ -43,7 +43,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **GPT** — `~/memory/people/gpt.md` — 用户转交材料、Muse 验收的外部 AI 对照方，Super OS 中负责研究写稿；2026-11-12 Signal 第二组故事板已对账齐套，2026-11-13 跨平台共享记忆仍未验证；2026-11-14 写的 Loui 账号起步手册 26 条模板被采纳为超级个体中心「账号起步手册」母版，执行篇按用户拍板标搁置中。
 - **Groq** — `~/memory/people/groq.md` — 开源模型高速推理平台；用户 2026-11-14 提供其 API，Muse 当日验活并登记为 Super OS API 第 5 条、Agent 第 5 号，定位快速推理/转写短任务；同日实测其声音模型被条款阻断、无中文与克隆入口，生成用户声音此路不通。
 - **Adichie** — `~/memory/people/adichie.md` — 文本能力训练的阅读来源之一；2026-11-12知识库收录其 TED 演讲《单一故事的危险》，并衍生 D 库选题「关于 AI，流行的单一故事是什么」，该演讲逐字稿尚未完整取得。
-- **Nova** — `~/memory/people/nova.md` — 加伊莎 AI Studio（CORE-001）的开发执行方；2026-11-12 验收退回补件，GitHub 官方连接仅授权 jiayisha-memory 一仓；2026-11-13 补件待用户确认「04:48 放行」是否属实后才转发任务书。
+- **Nova** — `~/memory/people/nova.md` — 加伊莎 AI Studio（CORE-001）的开发执行方；2026-11-12 验收退回补件，截至 2026-11-15「04:48 放行」确认仍未决、补件任务书无法转发，ai-studio 仓库授权仍未补勾。
 - **Punk** — `~/memory/people/punk2898.md` — X 创作者 @punk2898；用户转发过他的算法帖标题，2026-11-12 让 Muse 拆解其《我把 X 算法"裸奔"了》的写法与手绘风配图，Loui 已将其列入种子关注。
 - **Marvis** — `~/memory/people/marvis.md` — 腾讯 Marvis，用户电脑上的 3D 建模执行 agent；2026-11-10 起承接 GPT 出图、脚本驱动 Blender 的建模流程，已做出人民大会堂内部建模并因运算量大把电脑跑卡。
 - **宝玉** — `~/memory/people/bao-yu-dotey.md` — X 创作者 @dotey（宝玉）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 与提示工程。
@@ -90,3 +90,12 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Nick Kabrel** — `~/memory/people/nick-kabrel.md` — 文本能力训练的阅读来源之一；2026-11-15 知识库每日收集收录其 Psyche 文章《How to use AI chatbots to make you smarter》，提炼“三明治”用 AI 法进 B 库。
 - **飙 项 (项飙)** — `~/memory/people/xiang-biao.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与康岚的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。
 - **岚 康 (康岚)** — `~/memory/people/kang-lan.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与项飙的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。
+- **Tim Harford** — `~/memory/people/tim-harford.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第二十轮全文读其 TED 2011 演讲《Trial, error and the God complex》，与 Paul Graham 两篇合炼 8 条经济科技写稿规则。
+- **Roger Ebert** — `~/memory/people/roger-ebert.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《How to Read a Movie》，与 Walter Murch、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。
+- **Walter Murch** — `~/memory/people/walter-murch.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Rule of Six》一节，与 Roger Ebert、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。
+- **David Bordwell** — `~/memory/people/david-bordwell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），与 Roger Ebert、Walter Murch 三篇合炼 8 条视觉叙事与剪辑规则。
+- **Anton Chekhov** — `~/memory/people/anton-chekhov.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其六条写作规则（The Marginalian 整理，1888 年信件摘录），与纳博科夫、伍尔夫三篇合炼 8 条文学语言规则。
+- **Vladimir Nabokov** — `~/memory/people/vladimir-nabokov.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《Good Readers and Good Writers》（1948 年讲稿），与契诃夫、伍尔夫三篇合炼 8 条文学语言规则。
+- **Virginia Woolf** — `~/memory/people/virginia-woolf.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《How Should One Read a Book?》（1926 年），与契诃夫、纳博科夫三篇合炼 8 条文学语言规则。
+- **Bertrand Russell** — `~/memory/people/bertrand-russell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《The Value of Philosophy》（1912），与密尔《On Liberty》第二章、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。
+- **John Mill (John Stuart Mill)** — `~/memory/people/john-stuart-mill.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《On Liberty》第二章（1859），与罗素《The Value of Philosophy》、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。

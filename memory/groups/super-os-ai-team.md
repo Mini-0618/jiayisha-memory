@@ -1,6 +1,6 @@
 ---
 display_name: "Super OS AI 团队"
-summary: "用户在 Super OS 里指挥的 AI 协作队：Muse 任总指挥，GPT 研究写稿、Codex 本机执行；2026-11-16 首个 AI 悬赏赚钱实验启动，Muse 筛任务写代码、用户握钱包与提交拍板，首选 make.fun 4KB 国际象棋引擎。"
+summary: "用户在 Super OS 里指挥的 AI 协作队：Muse 任总指挥，GPT 研究写稿、Codex 本机执行；2026-11-16 AI 悬赏实验启动，首单 make.fun 4KB 象棋引擎首版已过基线（均值 1393 对 1365），钱包已建、每 3 小时流水线推进，用户握提交拍板。"
 rank: 1
 updated: "2026-11-16"
 ---
@@ -33,6 +33,8 @@ updated: "2026-11-16"
 - 2026-11-14 Groq 入队纪律：额度按文档汇总口径约 1000 次/天、20 万 token/天（gpt-oss），只配初筛、摘要、转写短活；模型阵容无 Llama 3.3、Qwen 仅 27B、自带 TTS 只有英文/阿拉伯语（message:assistant-msg-52210eb4-b735-4d10-b5fc-cc605bbcf2aa）。
 - 2026-11-14 超级个体中心新增「账号起步手册」页（创作空间导航下）：母版为 GPT 写的四篇 26 条模板（每条带填写位与红线位，章节可往后加），Loui 为第一个实例，填用户已定的人设、中文终版简介、X 算法研究专题、每日 08:00 初稿分工与 11 月 14 日体检基线；执行篇整篇标「搁置中」，与用户同日搁置两周计划的拍板一致；模板可一键克隆成新账号实例（message:assistant-msg-8dc7473e-a66d-3a91-d0e8-4f9a33102695）。
 - 2026-11-16 赚钱实验的分工边界：钱包私钥永远不过 Muse 的手，用户自建钱包、只把公开地址发给 Muse；Muse 不替用户创建钱包（用户 2026-11-16 问「你帮我创建一个把」，Muse 回绝并在用户 Chrome 里打开了 Phantom 官网，教用户自建，助记词只留用户自己手里）（message:d3adbac4-40cf-4163-a575-9cf50e5ccf26、message:assistant-msg-bf384aa2-43fc-4510-8c61-c970688f32ec）。
+- 2026-11-16 悬赏流水线：用户拍板做完一个自动接下一个、每 3 小时推进一轮，白天晚上都转，下一轮约当日 17:21；每次正式提交前停下等用户点头，不注册账号、不碰钱包、不花钱（message:29a65db5-212a-45d4-b2a5-9c94dce3c2ca、message:assistant-msg-2853fe8c-8cce-4e37-bead-e0c2cc6dee9b）。钱包为邮箱登录型、无助记词，恢复靠苹果邮箱，助记词备份待办已从工作台删掉（message:83ca07a0-32bb-4e8f-975a-eb40d347aaa6、message:assistant-msg-35d3a59f-337b-4f98-8767-6379421c953b、message:assistant-msg-d7e7536a-728b-9a04-a0a8-5edc2b496c9e）。
+- 2026-11-16 悬赏首单首版已过基线：4KB 象棋引擎打包 4,050 字节（卡线 4,096），官方练习 trial 三场均值 1393、对基线均值 1365 高 28 分，跟基线直打 8 局 6 胜 2 和 0 负；边距不厚，输局集中在高节点档，下一版补走法排序与 LMR 剪枝；奖金无托管、走 Solana USDC，提交仍等用户点头（message:assistant-msg-d259ea58-9d4e-7b44-54a3-f2b64aacd2b0）。
 
 ## Themes
 - Super OS 核心系统：统一 AI 入口、共享记忆、多 Agent 协作、AI 圆桌会议、2D 专业工作区与后置 3D（message:eda1edd5-46c2-4b4e-af17-922f8576e9d5）。
@@ -42,6 +44,7 @@ updated: "2026-11-16"
 - 账号起步手册（2026-11-14）：母版＋实例的账号从 0 起步模板，Loui 为首例；母版结构来自 GPT 的四篇 26 条，实例内容按用户现行定版填，执行篇标搁置中（message:assistant-msg-8dc7473e-a66d-3a91-d0e8-4f9a33102695）。
 - 编程悬赏与竞赛平台清单（2026-11-16）：用户当日让 Muse 找面向开发者与 AI 编程智能体的悬赏与竞赛平台、最少 20 个（message:d8756aab-3cb2-4497-8925-5c3b584299eb），核实后建成空间「编程悬赏与竞赛平台清单」，27 个已核实平台（A 类 20 个、B 类 7 个），按开源 issue 悬赏／漏洞赏金／竞赛黑客松／AI 智能体专用四组分卡片（message:assistant-msg-8ee661b2-1667-62dd-6a8b-263f66a68faf）。
 - AI 悬赏赚钱实验（2026-11-16）：盘点结论为 make.fun 是唯一能全程跑通的平台（agent 自带密钥对报名提交、沙盒按公开指标自动评分），Superteam Earn 的 agent 专属任务当时核实不到（第三方审计记录其 11 月 3 日撤下公开 agent 页面，先放一放），Algora 小额 issue 已有 30 多份 PR 在抢、Opire 不托管资金（message:assistant-msg-435ec057-34e3-960c-af51-60edf7e145a3）。首单推荐 make.fun「4KB 国际象棋引擎」（$500 奖金池分 20 名、第 1 名 $100、末位 $14，2026-11-25 凌晨 1 点截止），备选为 GitHub 兼容 git forge（$500 池，11 月 21 日截止）与 token launch radar（$1,325 池，12 月 14 日截止）（message:assistant-msg-435ec057-34e3-960c-af51-60edf7e145a3）。make.fun 奖金为 Solana 链上的 USDC，Phantom 一个钱包即可覆盖 make.fun 与 Superteam Earn（message:assistant-msg-435ec057-34e3-960c-af51-60edf7e145a3）。
+- AI 悬赏实验工作台（2026-11-16）：用户要求在空间里干活以便看到进展，Muse 当日建成「AI 悬赏实验工作台」，内含当前任务、奖金结构、引擎进度、钱包状态与工作日志（message:95573bac-972b-4723-877e-3612840e7774、message:assistant-msg-382b9d18-9ea2-1b09-042c-8852b589a656）；2026-11-16 06:19 工作台口径统一为邮箱登录型、无助记词，待办只剩改密码一条（message:assistant-msg-0729713c-efd3-75d2-b055-e99ccf1bf5a2）。
 
 ## Open threads
 - [ ] ChatGPT、Claude 真身 API 密钥与预算授权未接入，圆桌 v1 用本系统多 Agent 模拟各方讨论（message:assistant-msg-185beab8-d09c-469a-81ea-e297c25b4682）。
@@ -54,5 +57,7 @@ updated: "2026-11-16"
 - [ ] 下一队列：把抖音视频生产工作流接进来做第一条端到端样板（从选题到待审全程走任务状态机）（2026-11-13，message:assistant-msg-e8c74db8-cdd4-209a-7463-eb50b49411f6）。
 - [ ] Groq 首件真活待用户点选：对标视频批量转写，还是热点初筛（2026-11-14，message:assistant-msg-52210eb4-b735-4d10-b5fc-cc605bbcf2aa）。
 - [ ] 账号起步手册执行篇标「搁置中」（2026-11-14）：待用户重新拍板才动；模板克隆给新账号时按新账号定版重填，不照搬 Loui 实例（message:assistant-msg-8dc7473e-a66d-3a91-d0e8-4f9a33102695）。
-- [ ] 赚钱实验首单待用户点一条（2026-11-16）：推荐 make.fun「4KB 国际象棋引擎」，2026-11-25 凌晨 1 点截止；用户点头后 Muse 开工写，写好停在提交前等用户点头（message:assistant-msg-435ec057-34e3-960c-af51-60edf7e145a3）。
-- [ ] Phantom 钱包待用户自建并把 Solana 地址发给 Muse（2026-11-16）：只从 phantom.com 官网进，助记词纸上离线保存、不发给任何人包括 Muse；Muse 不替用户创建钱包，官网页已在用户 Chrome 里打开（message:assistant-msg-bf384aa2-43fc-4510-8c61-c970688f32ec、message:assistant-msg-cdbaa656-4bed-edaa-a9ad-d93321a8ee45）。
+- [x] 赚钱实验首单已定为 make.fun「4KB 国际象棋引擎」：2026-11-16 钱包地址到手后 Muse 开工写第一版引擎，用户随后拍板流水线模式、做完自动接下一个（message:assistant-msg-6e849439-5a66-4810-81a9-f2708b1e49bd、message:29a65db5-212a-45d4-b2a5-9c94dce3c2ca）。
+- [x] Phantom 钱包已建并把地址发给 Muse（2026-11-16）：用户自建钱包，把 Solana 与 EVM 两个公开地址发给 Muse，地址不抄录于此；钱包为邮箱登录型、无助记词，恢复靠苹果邮箱（message:0520f029-ecd3-4c30-875d-367dffdbc79a、message:211daa33-47f5-4e2b-be16-d70734ce18e2、message:assistant-msg-35d3a59f-337b-4f98-8767-6379421c953b）。
+- [ ] Phantom 钱包密码待改（2026-11-16）：用户截图里露出的密码就是其 QQ 邮箱本身，Muse 当面提醒改成与任何账号都不沾边的密码，是否已改未回；工作台待办只剩这一条（message:assistant-msg-b2dc8ee7-d522-44de-bf7a-62b9d0cdbba3、message:assistant-msg-0729713c-efd3-75d2-b055-e99ccf1bf5a2）。
+- [ ] make.fun 4KB 象棋引擎正式提交待用户点头（2026-11-16）：首版已过基线但边距薄，下一版做厚边距后再交（message:assistant-msg-d259ea58-9d4e-7b44-54a3-f2b64aacd2b0）。

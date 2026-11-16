@@ -99,3 +99,13 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Virginia Woolf** — `~/memory/people/virginia-woolf.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《How Should One Read a Book?》（1926 年），与契诃夫、纳博科夫三篇合炼 8 条文学语言规则。
 - **Bertrand Russell** — `~/memory/people/bertrand-russell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《The Value of Philosophy》（1912），与密尔《On Liberty》第二章、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。
 - **John Mill (John Stuart Mill)** — `~/memory/people/john-stuart-mill.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《On Liberty》第二章（1859），与罗素《The Value of Philosophy》、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。
+- **Herman Melville** — `~/memory/people/herman-melville.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其《Bartleby, the Scrivener》（1853），提炼先给观众看人物留下的痕迹、再决定是否解释处境的写法。
+- **E. M. Forster** — `~/memory/people/e-m-forster.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核查其《The Machine Stops》（1909），提炼用母子对生活方式的分歧呈现技术依赖的写法。
+- **Erik Brynjolfsson** — `~/memory/people/erik-brynjolfsson.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Danielle Li、Lindsey Raymond 合著的《Generative AI at Work》（QJE 2025），5,172 名客服、效率平均提高 15%，该研究成了加伊莎 21 号切片的事实底子。
+- **Danielle Li** — `~/memory/people/danielle-li.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Erik Brynjolfsson、Lindsey Raymond 合著的《Generative AI at Work》（QJE 2025），5,172 名客服、效率平均提高 15%。
+- **Lindsey Raymond** — `~/memory/people/lindsey-raymond.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Erik Brynjolfsson、Danielle Li 合著的《Generative AI at Work》（QJE 2025），5,172 名客服、效率平均提高 15%。
+- **Shakked Noy** — `~/memory/people/shakked-noy.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Whitney Zhang 合著的 ChatGPT 生产率随机实验（Science 2023），453 名专业人员、完成时间平均减少 40%、质量评分提高 18%。
+- **Whitney Zhang** — `~/memory/people/whitney-zhang.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Shakked Noy 合著的 ChatGPT 生产率随机实验（Science 2023），453 名专业人员、完成时间平均减少 40%、质量评分提高 18%。
+- **Aristotle** — `~/memory/people/aristotle.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其《诗学》人物相关章节，与 Mamet、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。
+- **David Mamet** — `~/memory/people/david-mamet.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 2005 年致《The Unit》编剧组备忘录，与亚里士多德、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。
+- **Andrew Stanton** — `~/memory/people/andrew-stanton.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 TED 2012 演讲《The clues to a great story》，与亚里士多德、Mamet 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。

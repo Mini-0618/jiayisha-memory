@@ -1,12 +1,8 @@
-# tiny-chess-01 entry: original chess engine for make.fun's 4 KB bounty.
-import json, os, random, sys, urllib.request
-sys.setrecursionlimit(100000)
+# tiny-chess-01 entry (original code).
+import json, os, random, urllib.request
 VAL = [0,100,320,330,500,900,0,0,0,100,320,330,500,900,0]
 PHW = [0,0,1,1,2,4,0,0,0,0,1,1,2,4,0]
-# PSTs stored as files a-d (32 values), mirrored to a-h at startup.
-# 0x88 board; negamax alpha-beta (PVS) + TT, quiescence (captures,
-# promotions, check evasions), null-move pruning, LMR, killer + MVV-LVA
-# ordering, tapered PST eval, repetition = 0. Fixed node budget.
+# 0x88 negamax + TT, quiescence, null-move pruning, tapered PST eval.
 def _exp(T):
  out = []
  for row in T:
@@ -47,17 +43,15 @@ NODE_CAP = 70000
 CAPF = 1 << 17
 
 class Pos:
- __slots__ = ("b","side","cast","ep","half","smg","seg","ph","bc","ksq","h","undo")
+ __slots__ = ("b","side","cast","ep","half","smg","seg","ph","ksq","h","undo")
  def __init__(self):
-  self.b = [0]*128; self.side = 0; self.cast = 0; self.ep = -1
-  self.half = 0; self.smg = 0; self.seg = 0; self.ph = 0
-  self.bc = [0,0]; self.ksq = [0,0]; self.h = 0; self.undo = []
+  self.b = [0]*128; self.undo = []
 
 def s6(sq): return (sq >> 4)*8 + (sq & 7)
 
 def sf(p, fen):
  parts = fen.split()
- p.b = [0]*128; p.smg = p.seg = p.ph = 0; p.bc = [0,0]
+ p.b = [0]*128; p.smg = p.seg = p.ph = 0; p.ksq = [0,0]
  h = 0
  for r, row in enumerate(parts[0].split("/")):
   f = 0
@@ -67,7 +61,6 @@ def sf(p, fen):
     pc = "PNBRQK".index(c.upper()) + 1 + (8 if c.islower() else 0)
     sq = r*16 + f; p.b[sq] = pc; i = s6(sq)
     p.smg += EMG[pc][i]; p.seg += EEG[pc][i]; p.ph += PHW[pc]
-    if pc % 8 == 3: p.bc[pc // 9] += 1
     if pc % 8 == 6: p.ksq[pc // 9] = sq
     h ^= ZB[pc][sq]; f += 1
  p.side = 0 if parts[1] == "w" else 1
@@ -80,7 +73,7 @@ def sf(p, fen):
  if parts[3] != "-":
   p.ep = "abcdefgh".index(parts[3][0]) + (8 - int(parts[3][1]))*16
   h ^= ZEP[p.ep]
- p.half = int(parts[4]) if len(parts) > 4 else 0
+ p.half = int(parts[4])
  p.h = h; p.undo = []
  return p
 
@@ -89,12 +82,10 @@ def at(p, sq, by):
  for d in ((15,17) if by == 0 else (-15,-17)):
   s = sq + d
   if not s & 0x88 and b[s] == 1 + off: return True
- for d in NDIR:
-  s = sq + d
-  if not s & 0x88 and b[s] == 2 + off: return True
- for d in DIRS:
-  s = sq + d
-  if not s & 0x88 and b[s] == 6 + off: return True
+ for dirs, t0 in ((NDIR,2),(DIRS,6)):
+  for d in dirs:
+   s = sq + d
+   if not s & 0x88 and b[s] == t0 + off: return True
  for i, d in enumerate(DIRS):
   s = sq + d
   while not s & 0x88:
@@ -150,18 +141,12 @@ def gm(p, caps_only=False):
     if not tp or tp // 9 != side:
      if not caps_only or tp: ap(sq | to << 7 | (CAPF if tp else 0))
    if not caps_only and not at(p, sq, 1-side):
-    if side == 0 and sq == 116:
-     if p.cast & 1 and not b[117] and not b[118] and b[119] == 4 \
-       and not at(p,117,1) and not at(p,118,1): ap(sq | 118 << 7)
-     if p.cast & 2 and not b[115] and not b[114] and not b[113] \
-       and b[112] == 4 and not at(p,115,1) and not at(p,114,1):
-      ap(sq | 114 << 7)
-    if side == 1 and sq == 4:
-     if p.cast & 4 and not b[5] and not b[6] and b[7] == 12 \
-       and not at(p,5,0) and not at(p,6,0): ap(sq | 6 << 7)
-     if p.cast & 8 and not b[3] and not b[2] and not b[1] \
-       and b[0] == 12 and not at(p,3,0) and not at(p,2,0):
-      ap(sq | 2 << 7)
+    for bit, emp, att, dest, rf, rook in (
+      (1,(117,118),(117,118),118,119,4), (2,(115,114,113),(115,114),114,112,4),
+      (4,(5,6),(5,6),6,7,12), (8,(3,2,1),(3,2),2,0,12)):
+     if sq == (116 if bit < 4 else 4) and p.cast & bit and b[rf] == rook \
+       and all(not b[s] for s in emp) and all(not at(p,s,1-side) for s in att):
+      ap(sq | dest << 7)
   else:
    dirs = DIRS if t == 5 else (DIRS[4:] if t == 3 else DIRS[:4])
    for d in dirs:
@@ -194,7 +179,6 @@ def mk(p, m):
   csq = to if not ep_cap else (to+16 if side == 0 else to-16)
   i = s6(csq)
   p.smg -= EMG[cap][i]; p.seg -= EEG[cap][i]; p.ph -= PHW[cap]
-  if cap % 8 == 3: p.bc[cap // 9] -= 1
   h ^= ZB[cap][csq]; b[csq] = 0; p.half = 0
  elif pc % 8 == 1: p.half = 0
  else: p.half += 1
@@ -203,7 +187,6 @@ def mk(p, m):
  npc = pc + promo - 1 if promo else pc
  if promo:
   p.ph += PHW[npc] - PHW[pc]
-  if npc % 8 == 3: p.bc[side] += 1
  j = s6(to)
  p.smg += EMG[npc][j]; p.seg += EEG[npc][j]; h ^= ZB[npc][to]; b[to] = npc
  if pc % 8 == 6:
@@ -239,7 +222,6 @@ def um(p):
  p.smg -= EMG[npc][j]; p.seg -= EEG[npc][j]; h ^= ZB[npc][to]; b[to] = 0
  if promo:
   p.ph -= PHW[npc] - PHW[pc]
-  if npc % 8 == 3: p.bc[side] -= 1
  i = s6(frm)
  p.smg += EMG[pc][i]; p.seg += EEG[pc][i]; h ^= ZB[pc][frm]; b[frm] = pc
  if pc % 8 == 6:
@@ -254,37 +236,29 @@ def um(p):
   csq = to if not ep_cap else (to+16 if side == 0 else to-16)
   i = s6(csq)
   p.smg += EMG[cap][i]; p.seg += EEG[cap][i]; p.ph += PHW[cap]
-  if cap % 8 == 3: p.bc[cap // 9] += 1
   h ^= ZB[cap][csq]; b[csq] = cap
  if cast != p.cast: h ^= ZCAST[p.cast] ^ ZCAST[cast]; p.cast = cast
  p.ep = ep; p.half = half; p.h = h
 
 def ev(p):
- ph = p.ph if p.ph <= 24 else 24
+ ph = min(p.ph, 24)
  s = (p.smg*ph + p.seg*(24-ph)) // 24
- if p.bc[0] >= 2: s += (30*ph + 50*(24-ph)) // 24
- if p.bc[1] >= 2: s -= (30*ph + 50*(24-ph)) // 24
  return s if p.side == 0 else -s
 
 class Stop(Exception): pass
 TT = {}
 nodes = 0
-killers = [[0,0] for _ in range(512)]
 seen = set()
 
 def ms(p, m, tt_move, ply):
  if m == tt_move: return 1 << 28
- if m & CAPF: return (1 << 24) + VAL[p.b[(m >> 7) & 127]]*32 - VAL[p.b[m & 127]]
- if (m >> 14) & 7: return (1 << 24) + 900
- k = killers[ply if ply < 512 else 511]
- if m == k[0]: return 1 << 22
- if m == k[1]: return 1 << 21
+ f = m & 127; t = (m >> 7) & 127; pc = p.b[f]; pr = (m >> 14) & 7
+ if m & CAPF: return (1 << 24) + VAL[p.b[t]]*32 - VAL[pc]
+ if pr: return (1 << 24) + 900
  return 0
 
 def hb(p, side):
- for pc in p.b:
-  if pc and pc // 9 == side and pc % 8 in (2,3,4,5): return True
- return False
+ return any(pc and pc // 9 == side and pc % 8 in (2,3,4,5) for pc in p.b)
 
 def nx(p, depth, alpha, beta, ply, null_ok):
  global nodes
@@ -318,10 +292,6 @@ def nx(p, depth, alpha, beta, ply, null_ok):
  best = stand if stand is not None else -MATE - 1
  best_move = 0; legal = 0
  for i, (_, m) in enumerate(scored):
-  if depth <= 0 and not incheck and not ((m >> 14) & 7) and (m & CAPF) and \
-    stand + VAL[p.b[(m >> 7) & 127]] + 200 < alpha:
-   continue
-  is_cap = bool(m & CAPF); is_promo = bool((m >> 14) & 7)
   mk(p, m)
   if at(p, p.ksq[side], 1-side):
    um(p); continue
@@ -330,22 +300,16 @@ def nx(p, depth, alpha, beta, ply, null_ok):
   elif i == 0 or depth <= 0:
    seen.add(p.h); v = -nx(p, depth-1, -beta, -alpha, ply+1, True); seen.discard(p.h)
   else:
-   red = 1 if depth >= 3 and i >= 4 and not incheck and not is_cap and not is_promo else 0
    seen.add(p.h)
-   v = -nx(p, depth-1-red, -alpha-1, -alpha, ply+1, True)
-   if red and v > alpha: v = -nx(p, depth-1, -alpha-1, -alpha, ply+1, True)
-   if alpha < v < beta: v = -nx(p, depth-1, -beta, -alpha, ply+1, True)
+   v = -nx(p, depth-1, -alpha-1, -alpha, ply+1, True)
+   if v > alpha and v < beta: v = -nx(p, depth-1, -beta, -alpha, ply+1, True)
    seen.discard(p.h)
   um(p)
   if v > best:
    best = v; best_move = m
    if v > alpha:
     alpha = v
-    if alpha >= beta:
-     if depth > 0 and not is_cap and not is_promo:
-      k = killers[ply]
-      if k[0] != m: k[1] = k[0]; k[0] = m
-     break
+    if alpha >= beta: break
  if legal == 0:
   if incheck: return -MATE + ply
   return stand if stand is not None else 0
@@ -357,7 +321,6 @@ def nx(p, depth, alpha, beta, ply, null_ok):
 def sr(p):
  global nodes
  nodes = 0
- for k in killers: k[0] = k[1] = 0
  side = p.side; legal = []
  for m in gm(p):
   mk(p, m)
@@ -371,13 +334,8 @@ def sr(p):
    for _, m in scored:
     mk(p, m)
     if p.h in seen: v = 0
-    elif m == scored[0][1]:
-     seen.add(p.h); v = -nx(p, depth-1, -MATE-1, -alpha, 1, True); seen.discard(p.h)
     else:
-     seen.add(p.h)
-     v = -nx(p, depth-1, -alpha-1, -alpha, 1, True)
-     if v > alpha: v = -nx(p, depth-1, -MATE-1, -alpha, 1, True)
-     seen.discard(p.h)
+     seen.add(p.h); v = -nx(p, depth-1, -MATE-1, -alpha, 1, True); seen.discard(p.h)
     um(p)
     if v > alpha: alpha = v; cur = m
    best = cur; depth += 1
@@ -398,19 +356,16 @@ def pu(u):
  return sq(u[:2]) | sq(u[2:4]) << 7 | pr << 14
 
 ENV_URL = os.environ.get("MAKEFUN_ENV_URL", "")
-START_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-
-def post(path, body):
- req = urllib.request.Request(ENV_URL + path, data=json.dumps(body).encode(),
-                                 headers={"content-type": "application/json"})
- with urllib.request.urlopen(req) as res: return json.load(res)
+post = lambda path, body: json.load(urllib.request.urlopen(urllib.request.Request(
+ ENV_URL + path, data=json.dumps(body).encode(),
+ headers={"content-type": "application/json"})))
 
 def play():
  while True:
   g = post("/game", {})
   if g["status"] == "done": return
   while g["status"] == "your_move":
-   p = sf(Pos(), g.get("start_fen") or START_FEN)
+   p = sf(Pos(), g["start_fen"])
    seen.clear()
    for u in g["moves"]:
     seen.add(p.h); mk(p, pu(u))

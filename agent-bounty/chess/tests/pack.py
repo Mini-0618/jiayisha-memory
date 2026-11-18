@@ -57,10 +57,10 @@ def esc(s):
     return "".join(out)
 
 
-def pack(src_path, out_path):
+def pack(src_path, out_path, dict_size=12288):
     data = open(src_path, "rb").read()
     mini = minify(data)
-    filters = [{"id": lzma.FILTER_LZMA1, "dict_size": 12288,
+    filters = [{"id": lzma.FILTER_LZMA1, "dict_size": dict_size,
                 "lc": 3, "lp": 0, "pb": 0, "preset": 6}]
     payload = lzma.compress(mini, format=lzma.FORMAT_ALONE, filters=filters)
     s = esc(payload.decode("latin-1"))
@@ -72,7 +72,10 @@ def pack(src_path, out_path):
 if __name__ == "__main__":
     src = sys.argv[1] if len(sys.argv) > 1 else SRC
     out = sys.argv[2] if len(sys.argv) > 2 else OUT
-    raw, mini, pay, total = pack(src, out)
+    # Optional 3rd arg: LZMA dict size. Default 12288 reproduces v1-v9.
+    # v10 needs 16384 (12288 packs it to 4097, 16384 to 4095).
+    dsize = int(sys.argv[3]) if len(sys.argv) > 3 else 12288
+    raw, mini, pay, total = pack(src, out, dsize)
     print(f"source {raw} bytes, minified {mini} bytes, payload {pay} bytes, "
           f"packed {total} bytes "
           f"({'OK <=4096' if total <= 4096 else 'OVER 4096 by ' + str(total - 4096)})")

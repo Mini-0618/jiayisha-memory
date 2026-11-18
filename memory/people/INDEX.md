@@ -39,7 +39,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **霖恩** — `~/memory/people/lin-en.md` — 抖音 MJ 美学创作者；用户 2026-11-11 发来其夜市组图作审美参照，直视镜头、双色温对撞与带雀斑毛孔的不完美皮肤被提炼进加伊莎审美档案。
 - **Gleb Kuznetsov** — `~/memory/people/gleb-kuznetsov.md` — Dribbble 设计师；用户 2026-11-13 发来其 Personal Memory Graph 作 Super OS 共享记忆中心（3D 记忆星图）的设计语言参考，只提语言不原样复制。
 - **George Railean** — `~/memory/people/george-railean.md` — Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。
-- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。
+- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可，Muse 出稿配音、Codex 做画面合成；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。
 - **DeepSeek ("DS")** — `~/memory/people/deepseek.md` — 简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。
 - **Groq** — `~/memory/people/groq.md` — 开源模型高速推理平台；用户 2026-11-14 提供其 API，Muse 当日验活并登记为 Super OS API 第 5 条、Agent 第 5 号，定位快速推理/转写短任务；同日实测其声音模型被条款阻断、无中文与克隆入口，生成用户声音此路不通。
 - **Adichie** — `~/memory/people/adichie.md` — 文本能力训练的阅读来源之一；2026-11-12知识库收录其 TED 演讲《单一故事的危险》，并衍生 D 库选题「关于 AI，流行的单一故事是什么」，该演讲逐字稿尚未完整取得。
@@ -123,3 +123,6 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Lhamsuren Munkh-Erdene** — `~/memory/people/lhamsuren-munkh-erdene.md` — 知识库 2026-11-18 收录其 Aeon 文章《The origins of the state are not agrarian but pastoralist》，讲国家起源于游牧而非农业。
 - **Zahaan Bharmal** — `~/memory/people/zahaan-bharmal.md` — 知识库 2026-11-18 收录其 Aeon 文章《How to use physics to make sense of the messiness of life》，衍生 D 库选题《为什么越努力，越脆弱？——“冗余容量”》。
 - **Jeffrey Reid** — `~/memory/people/jeffrey-reid.md` — 知识库 2026-11-18 收录其 Psyche 文章《How to think like a Hegelian》，衍生 D 库新问题《与 AI 比计算必输，那人还剩什么可比？》。
+- **咔哒阿柠** — `~/memory/people/ka-da-a-ning.md` — 抖音 AI 科普创作者；用户 2026-11-18 发来其《Personal Agent到底是啥？》（阿柠AI科普第 7 集）问做法，想借其固定角色加章节制、换成自己的数字人形象；双方没有直接往来。
+- **Craig Silverman** — `~/memory/people/craig-silverman.md` — 《Verification Handbook》编者；2026-11-18 自学第 32 轮读其书第 2、9 章等，合炼证据核查规则核1–核8，合并清单升至 255 项。
+- **Holden Seidlitz** — `~/memory/people/holden-seidlitz.md` — 《纽约客》资深核查员；2026-11-18 自学第 32 轮全文读其核查访谈，合炼证据核查规则核1–核8。

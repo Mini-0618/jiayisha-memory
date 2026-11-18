@@ -1,7 +1,7 @@
 ---
 display_name: "plotome"
 summary: "B站 AI 动画创作者；用户 2026-11-09 发来他的制作全流程视频（BV1xFnt6zE3K），其节奏标准与六审节点已被加伊莎采纳为制作规矩。"
-rank: 9
+rank: 10
 updated: "2026-11-10"
 ---
 

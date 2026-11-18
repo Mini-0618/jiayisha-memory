@@ -3,7 +3,7 @@ display_name: "Hans Rosling"
 first_name: "Hans"
 last_name: "Rosling"
 summary: "文本能力训练的阅读来源之一（TED演讲《The best stats you've ever seen》）；用户2026-11-12将 TED 定为知识库固定来源站，2026-11-14 知识库再收录其 TED 2006 演讲并与 Max Roser 合出视频选题，该演讲此前只核到官方介绍、未通读逐字稿。"
-rank: 31
+rank: 32
 updated: "2026-11-14"
 ---
 

@@ -3,6 +3,7 @@
 Every page under `~/memory/people/`, closest to the user first. Rendered by the relationships loop; each page carries the facts and the nature of the user's relationship with them.
 
 - **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
+- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；2026-11-18 两篇抖音算法稿（投喂 35/36）待逐条核官方原文，素材库 V1.3 缺口驱动方案待用户批准；此前 V1.2 验收通过、真实测试 FAIL 仅 1 个合格镜头。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
 - **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，用户最终用本人克隆音套心中之城向处理、不克隆其本人声音；2026-11-14 再提“巫师那样”时该口径再次守住，本地“巫师向”8 秒试听待用户判断。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
@@ -40,7 +41,6 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **George Railean** — `~/memory/people/george-railean.md` — Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。
 - **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。
 - **DeepSeek ("DS")** — `~/memory/people/deepseek.md` — 简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。
-- **GPT** — `~/memory/people/gpt.md` — 用户转交材料、Muse 验收的外部 AI 对照方，Super OS 中负责研究写稿；2026-11-12 Signal 第二组故事板已对账齐套，2026-11-13 跨平台共享记忆仍未验证；2026-11-14 写的 Loui 账号起步手册 26 条模板被采纳为超级个体中心「账号起步手册」母版，执行篇按用户拍板标搁置中。
 - **Groq** — `~/memory/people/groq.md` — 开源模型高速推理平台；用户 2026-11-14 提供其 API，Muse 当日验活并登记为 Super OS API 第 5 条、Agent 第 5 号，定位快速推理/转写短任务；同日实测其声音模型被条款阻断、无中文与克隆入口，生成用户声音此路不通。
 - **Adichie** — `~/memory/people/adichie.md` — 文本能力训练的阅读来源之一；2026-11-12知识库收录其 TED 演讲《单一故事的危险》，并衍生 D 库选题「关于 AI，流行的单一故事是什么」，该演讲逐字稿尚未完整取得。
 - **Nova** — `~/memory/people/nova.md` — 加伊莎 AI Studio（CORE-001）的开发执行方；2026-11-12 验收退回补件，截至 2026-11-15「04:48 放行」确认仍未决、补件任务书无法转发，ai-studio 仓库授权仍未补勾。
@@ -58,7 +58,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **十一** — `~/memory/people/shi-yi.md` — 抖音催婚名场面视频作者；用户 2026-11-12 发来其视频作《催婚》家宴挡话的参考样本（1分21秒，标「虚构演绎」），双方没有直接往来；《催婚》当晚已搁置，该参考随项目封存。
 - **胖头小鱼丸QAQ** — `~/memory/people/pang-tou-xiao-yu-wan-qaq.md` — 抖音「装豆包」视频作者；用户 2026-11-12 发来其视频作《催婚》逗逗宝宝的原型参考（36秒，分享12.3万、约为点赞3倍），双方没有直接往来；《催婚》当晚已搁置，该参考随项目封存。
 - **Kim Cross** — `~/memory/people/kim-cross.md` — 2026-11-12 自学第九轮全文读其两篇 Nieman Storyboard 采访文章，提炼进本轮采访规则。
-- **Ira Glass** — `~/memory/people/ira-glass.md` — 2026-11-12 自学第九轮读 CJR 对他的访谈（Jesse Thorn 采访），本轮报告称全文已读。
+- **Ira Glass** — `~/memory/people/ira-glass.md` — 2026-11-12 自学第九轮读 CJR 对他的访谈（Jesse Thorn 采访），本轮报告称全文已读；2026-11-17 第 26 轮又读其与 Chris Ware 的对谈实录，仅用了已读的公开引文段，未通读全文。
 - **Jesse Thorn** — `~/memory/people/jesse-thorn.md` — 2026-11-12 自学第九轮读其在 CJR 采访 Ira Glass 的 Q&A，本轮报告称全文已读。
 - **Hannah Ritchie** — `~/memory/people/hannah-ritchie.md` — Our World in Data 文章作者；2026-11-13 知识库收录其《How much energy do data centers and artificial intelligence use?》，提炼「AI 用电真正问题不是总量，是集中度」并衍生 D 库选题。
 - **Angelina Osborne** — `~/memory/people/angelina-osborne.md` — London Museum 文章作者；2026-11-13 知识库收录其伦敦码头多元文化往事一文，衍生 D 库选题《被删掉的那一半故事：谁的声音不在 AI 的训练数据里？》。
@@ -109,3 +109,17 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Aristotle** — `~/memory/people/aristotle.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其《诗学》人物相关章节，与 Mamet、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。
 - **David Mamet** — `~/memory/people/david-mamet.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 2005 年致《The Unit》编剧组备忘录，与亚里士多德、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。
 - **Andrew Stanton** — `~/memory/people/andrew-stanton.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 TED 2012 演讲《The clues to a great story》，与亚里士多德、Mamet 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。
+- **火水iFireWater** — `~/memory/people/huo-shui-ifirewater.md` — 抖音长文解读类创作者（粉丝 3486）；用户 2026-11-17 评复刻测试片「就是差点动效」，动效加强路线改走 GPT 方案，第 01 集 16.8 秒动效测试片已出、GPT 有条件批准、V2 返工被用户叫停；双方没有直接往来。
+- **Julian Treasure** — `~/memory/people/julian-treasure.md` — 自学第 26 轮阅读来源；2026-11-17 全文读其 TED 2013 演讲《How to speak so that people want to listen》，合炼声音与旁白设计规则 Y1–Y8。
+- **Rob Rosenthal** — `~/memory/people/rob-rosenthal.md` — 自学第 26 轮阅读来源；2026-11-17 全文读其 Transom 文章《Deploy This One Tiny Maneuver to Improve Audio Essays》，合炼声音与旁白设计规则 Y1–Y8。
+- **Chris Ware** — `~/memory/people/chris-ware.md` — 自学第 26 轮阅读来源；其与 Ira Glass 的 2002 年对谈实录《Glass/Ware》仅用了已读的公开引文段，未通读全文。
+- **Derek van Zoonen** — `~/memory/people/derek-van-zoonen.md` — 知识库 2026-11-17 收录其 Aeon 文章《We need a language to name the grief that comes without death》，衍生 D 库选题《没有葬礼的失去》。
+- **Paul Katsafanas** — `~/memory/people/paul-katsafanas.md` — 知识库 2026-11-17 收录其 Aeon 文章《What explains the perpetual need for political enemies?》，衍生 D 库观点「安抚不了怨恨政治，因为敌人就是它的燃料」。
+- **Andrew Brenner (Andrew T Brenner)** — `~/memory/people/andrew-t-brenner.md` — 知识库 2026-11-17 收录其 Aeon 文章《A new answer to why there is something rather than nothing》。
+- **Yousri Marzouki** — `~/memory/people/yousri-marzouki.md` — 知识库 2026-11-17 收录其 Psyche 文章《How to reclaim your attention》，衍生 D 库新问题「注意力是管出来的，还是安放出来的？」。
+- **Maria Popova** — `~/memory/people/maria-popova.md` — 知识库 2026-11-17 收录其 The Marginalian 文章《How to Shed the Surface-Self》，借 Evelyn Underhill 讲表层自我与深层自我的冲突。
+- **仁勋 黄 (黄仁勋)** — `~/memory/people/huang-renxun.md` — 英伟达创始人；用户 16 号抖音切片讲他辞职，2026-11-18 又把英伟达 Q3 破千亿作续集候选、顺延下周。
+- **Shahram Khosravi** — `~/memory/people/shahram-khosravi.md` — 知识库 2026-11-18 收录其 Aeon 文章《Those forced to cross borders are imagining a radical new world》，讲被禁锢者内部长出的另一种想象。
+- **Lhamsuren Munkh-Erdene** — `~/memory/people/lhamsuren-munkh-erdene.md` — 知识库 2026-11-18 收录其 Aeon 文章《The origins of the state are not agrarian but pastoralist》，讲国家起源于游牧而非农业。
+- **Zahaan Bharmal** — `~/memory/people/zahaan-bharmal.md` — 知识库 2026-11-18 收录其 Aeon 文章《How to use physics to make sense of the messiness of life》，衍生 D 库选题《为什么越努力，越脆弱？——“冗余容量”》。
+- **Jeffrey Reid** — `~/memory/people/jeffrey-reid.md` — 知识库 2026-11-18 收录其 Psyche 文章《How to think like a Hegelian》，衍生 D 库新问题《与 AI 比计算必输，那人还剩什么可比？》。

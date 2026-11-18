@@ -247,6 +247,7 @@ def ev(p):
 
 class Stop(Exception): pass
 TT = {}
+KL = [0]*128
 nodes = 0
 seen = set()
 
@@ -255,6 +256,7 @@ def ms(p, m, tt_move, ply):
  f = m & 127; t = (m >> 7) & 127; pc = p.b[f]; pr = (m >> 14) & 7
  if m & CAPF: return (1 << 24) + VAL[p.b[t]]*32 - VAL[pc]
  if pr: return (1 << 24) + 900
+ if m == KL[ply]: return 1 << 23
  return 0
 
 def hb(p, side):
@@ -309,7 +311,9 @@ def nx(p, depth, alpha, beta, ply, null_ok):
    best = v; best_move = m
    if v > alpha:
     alpha = v
-    if alpha >= beta: break
+    if alpha >= beta:
+     if depth > 0 and not m & CAPF: KL[ply] = m
+     break
  if legal == 0:
   if incheck: return -MATE + ply
   return stand if stand is not None else 0

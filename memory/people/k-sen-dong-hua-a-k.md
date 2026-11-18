@@ -1,7 +1,7 @@
 ---
 display_name: "K森动画阿K"
 summary: "动画科普创作者；用户 2026-11-08 发来他的生产线教程，SVG 加 Remotion 的图形动画路线是加伊莎动态信息设计缺口的升级候选。"
-rank: 8
+rank: 9
 updated: "2026-11-08"
 ---
 

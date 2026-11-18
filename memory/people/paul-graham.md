@@ -3,7 +3,7 @@ display_name: "Paul Graham"
 first_name: "Paul"
 last_name: "Graham"
 summary: "文本能力训练的阅读来源之一；paulgraham.com 为知识库固定来源站，2026-11-15 自学第二十轮全文读《How to Make Wealth》《The Power of the Marginal》，合炼 8 条经济科技写稿规则，合并清单达 159 项。"
-rank: 28
+rank: 29
 updated: "2026-11-15"
 ---
 

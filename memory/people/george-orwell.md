@@ -3,7 +3,7 @@ display_name: "George Orwell"
 first_name: "George"
 last_name: "Orwell"
 summary: "文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 自学第十八轮全文读《Looking Back on the Spanish War》、第十九轮全文读《The Spike》，分别合炼 H1–H8 与 O1–O8 规则。"
-rank: 29
+rank: 30
 updated: "2026-11-15"
 ---
 

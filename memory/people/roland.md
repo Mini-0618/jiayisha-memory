@@ -2,7 +2,7 @@
 display_name: "Roland"
 first_name: "Roland"
 summary: "X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。"
-rank: 2
+rank: 3
 updated: "2026-11-06"
 ---
 

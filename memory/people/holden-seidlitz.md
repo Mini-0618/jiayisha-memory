@@ -3,7 +3,7 @@ display_name: "Holden Seidlitz"
 first_name: "Holden"
 last_name: "Seidlitz"
 summary: "《纽约客》资深核查员；2026-11-18 自学第 32 轮全文读其核查访谈，合炼证据核查规则核1–核8。"
-rank: "124"
+rank: 124
 updated: "2026-11-18"
 ---
 

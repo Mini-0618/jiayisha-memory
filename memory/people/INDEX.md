@@ -91,7 +91,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **飙 项 (项飙)** — `~/memory/people/xiang-biao.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与康岚的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。
 - **岚 康 (康岚)** — `~/memory/people/kang-lan.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与项飙的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。
 - **Tim Harford** — `~/memory/people/tim-harford.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第二十轮全文读其 TED 2011 演讲《Trial, error and the God complex》，与 Paul Graham 两篇合炼 8 条经济科技写稿规则。
-- **Roger Ebert** — `~/memory/people/roger-ebert.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《How to Read a Movie》，与 Walter Murch、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。
+- **Roger Ebert** — `~/memory/people/roger-ebert.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《How to Read a Movie》合炼视觉叙事规则 V1–V8；2026-11-19 第三十四轮全文读其《Dreaming in Color》（访谈《欢乐谷》导演 Gary Ross），合炼色彩与光线规则色1–色8，合并清单升至 271 项。
 - **Walter Murch** — `~/memory/people/walter-murch.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Rule of Six》一节，与 Roger Ebert、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。
 - **David Bordwell** — `~/memory/people/david-bordwell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），与 Roger Ebert、Walter Murch 三篇合炼 8 条视觉叙事与剪辑规则。
 - **Anton Chekhov** — `~/memory/people/anton-chekhov.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其六条写作规则（The Marginalian 整理，1888 年信件摘录），与纳博科夫、伍尔夫三篇合炼 8 条文学语言规则。
@@ -126,3 +126,16 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **咔哒阿柠** — `~/memory/people/ka-da-a-ning.md` — 抖音 AI 科普创作者；用户 2026-11-18 发来其《Personal Agent到底是啥？》（阿柠AI科普第 7 集）问做法，想借其固定角色加章节制、换成自己的数字人形象；双方没有直接往来。
 - **Craig Silverman** — `~/memory/people/craig-silverman.md` — 《Verification Handbook》编者；2026-11-18 自学第 32 轮读其书第 2、9 章等，合炼证据核查规则核1–核8，合并清单升至 255 项。
 - **Holden Seidlitz** — `~/memory/people/holden-seidlitz.md` — 《纽约客》资深核查员；2026-11-18 自学第 32 轮全文读其核查访谈，合炼证据核查规则核1–核8。
+- **Sutton** — `~/memory/people/sutton.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮全文读其《The Bitter Lesson》，合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。
+- **Hamel Husain** — `~/memory/people/hamel-husain.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮全文读其《Your AI Product Needs Evals》（2024-03-29），合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。
+- **Dell'Acqua** — `~/memory/people/dell-acqua.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮读其合著的 HBS 工作论文《Navigating the Jagged Technological Frontier》（WP 24-013）摘要与第 1–3.3 节，合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。
+- **Mary Risk** — `~/memory/people/mary-risk.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十四轮全文读其 StudioBinder《How to Use Color in Film》（50+ 电影调色板实例），与另两篇同轮合炼色彩与光线规则色1–色8。
+- **Gary Ross** — `~/memory/people/gary-ross.md` — 《欢乐谷》导演；2026-11-19 自学第三十四轮全文读 Roger Ebert 1998 年访谈他的《Dreaming in Color》，谈色彩，同轮合炼色彩与光线规则色1–色8。
+- **Parisa Khoshnami** — `~/memory/people/parisa-khoshnami.md` — 知识库 2026-11-19 收录其 Aeon 文章《It's not political: the young fashionistas of Tehran》，讲伊朗年轻人以日常在场而非口号实现改变。
+- **Ben Daitz** — `~/memory/people/ben-daitz.md` — 知识库 2026-11-19 收录其 Aeon 文章《How does Roshi Joan Halifax make sense of her Buddhist life?》，讲利他与同理心是可耗尽的边缘状态、警惕病态利他。
+- **Jessica Riskin** — `~/memory/people/jessica-riskin.md` — 知识库 2026-11-19 收录其 Aeon 文章《The self-making world of Jean-Baptiste Lamarck》，讲拉马克式主动塑造在表观遗传与行为选择中被重新讨论。
+- **Danny Bate** — `~/memory/people/danny-bate.md` — 知识库 2026-11-19 收录其 Psyche 文章《How to be a word detective》，讲从词根拆解追形态与义变的词源侦探法。
+- **Kurt Vonnegut** — `~/memory/people/kurt-vonnegut.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《故事的形状》、2026-11-12 提炼「冯内古特八问」检查卡，2026-11-19 第三十五轮全文读《Here is a lesson in creative writing》合炼情绪曲线规则张1–张8，合并清单升至 279 项。
+- **Emma Coats** — `~/memory/people/emma-coats.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《皮克斯讲故事的 22 条规则》，2026-11-17 第二十五轮全文重读提炼结尾规则 K1–K8，2026-11-19 第三十五轮全文读《Pixar's 22 Rules of Storytelling》合炼情绪曲线规则张1–张8，合并清单升至 279 项。
+- **Reagan** — `~/memory/people/reagan.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十五轮读其与合作者合著的《The emotional arcs of stories are dominated by six basic shapes》（arXiv:1606.07772），合炼情绪曲线规则张1–张8，合并清单升至 279 项。
+- **强 杜 (杜强)** — `~/memory/people/du-qiang.md` — 文本能力训练的阅读来源之一；2026-11-11 自学第五轮全文读其《探寻非虚构写作的背后》（澎湃新闻 2020-04-10，清华讲座整理），与冯内古特、Emma Coats 同轮合炼 8 条叙事结构规则。

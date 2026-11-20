@@ -5,7 +5,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
 - **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；2026-11-18 两篇抖音算法稿（投喂 35/36）待逐条核官方原文，素材库 V1.3 缺口驱动方案待用户批准；此前 V1.2 验收通过、真实测试 FAIL 仅 1 个合格镜头。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
-- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，用户最终用本人克隆音套心中之城向处理、不克隆其本人声音；2026-11-14 再提“巫师那样”时该口径再次守住，本地“巫师向”8 秒试听待用户判断。
+- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，用户最终用本人克隆音套心中之城向处理、不克隆其本人声音；2026-11-20 其《别做梦了，AI风口，与你无关》2.45GB 压缩包已由用户传上夸克网盘（2.4GB，18:06 传完），但分享需先绑定手机号，蒸馏待用户发分享链接后开工。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
 - **柱子哥** — `~/memory/people/zhuzi-ge.md` — 抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。
 - **进化中的阿陈** — `~/memory/people/jinhua-zhong-de-achen.md` — 抖音对标账号，1.6 万粉；2026-11-10 标题拆解：其“AI 考场”实验型标题播放 5.9–27.2 万，远超 AI 日报拼盘标题，但日报标题把传闻当事实写、不可抄；其逐句配图已降为可用手法之一。
@@ -30,8 +30,8 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **白昼与茄** — `~/memory/people/bai-zhou-yu-qie.md` — 抖音 AI 短剧对标账号，2026-11-10 新增为加伊莎 AI 短剧对标；代表作与数据尚未核实。
 - **心中之城** — `~/memory/people/xin-zhong-zhi-cheng.md` — 抖音解说类创作者；用户 2026-11-11 拿他的低沉磁性男中音作加伊莎旁白声音参照，最终用本人克隆音套心中之城向 C 档处理靠近该质感、未直接往来、不克隆其本人声音；2026-11-14 正式路线仍定 C 档，另做一版“巫师向”8 秒试听待用户判断。
 - **汉生 张 (张汉生)** — `~/memory/people/zhang-han-sheng.md` — 抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户曾以其团队 120 亿播放的故事重写 AI 短剧主片，但 2026-11-12 已拍板该稿作废、改走更好的新做法。
-- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；paulgraham.com 为知识库固定来源站，2026-11-15 自学第二十轮全文读《How to Make Wealth》《The Power of the Marginal》，合炼 8 条经济科技写稿规则，合并清单达 159 项。
-- **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 自学第十八轮全文读《Looking Back on the Spanish War》、第十九轮全文读《The Spike》，分别合炼 H1–H8 与 O1–O8 规则。
+- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；2026-11-19 第三十六轮再读《How to Think for Yourself》合炼类比规则类1–类8，2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项。
+- **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 第十八、十九轮合炼历史叙事 H1–H8 与社会观察 O1–O8 规则，2026-11-20 第三十九轮再读《Politics and the English Language》合炼细节规则细1–细8，合并清单升至 311 项。
 - **Richard Feynman** — `~/memory/people/richard-feynman.md` — 文本能力训练的阅读来源之一；用户2026-11-12将 Caltech 档案库定为知识库固定来源站，2026-11-13 知识库再收录其《There's Plenty of Room at the Bottom》并提炼现场算术手法。
 - **Hans Rosling** — `~/memory/people/hans-rosling.md` — 文本能力训练的阅读来源之一（TED演讲《The best stats you've ever seen》）；用户2026-11-12将 TED 定为知识库固定来源站，2026-11-14 知识库再收录其 TED 2006 演讲并与 Max Roser 合出视频选题，该演讲此前只核到官方介绍、未通读逐字稿。
 - **栀栀为知之** — `~/memory/people/zhi-zhi-wei-zhi-zhi.md` — 抖音 MJ 人物美学创作者；用户 2026-11-11 发来其《MJ风格训练(一)人物美学》图文作审美参照，垂目表情与单一高饱和锚点色被提炼进加伊莎审美档案。
@@ -135,7 +135,18 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Ben Daitz** — `~/memory/people/ben-daitz.md` — 知识库 2026-11-19 收录其 Aeon 文章《How does Roshi Joan Halifax make sense of her Buddhist life?》，讲利他与同理心是可耗尽的边缘状态、警惕病态利他。
 - **Jessica Riskin** — `~/memory/people/jessica-riskin.md` — 知识库 2026-11-19 收录其 Aeon 文章《The self-making world of Jean-Baptiste Lamarck》，讲拉马克式主动塑造在表观遗传与行为选择中被重新讨论。
 - **Danny Bate** — `~/memory/people/danny-bate.md` — 知识库 2026-11-19 收录其 Psyche 文章《How to be a word detective》，讲从词根拆解追形态与义变的词源侦探法。
-- **Kurt Vonnegut** — `~/memory/people/kurt-vonnegut.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《故事的形状》、2026-11-12 提炼「冯内古特八问」检查卡，2026-11-19 第三十五轮全文读《Here is a lesson in creative writing》合炼情绪曲线规则张1–张8，合并清单升至 279 项。
+- **Kurt Vonnegut** — `~/memory/people/kurt-vonnegut.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《故事的形状》、2026-11-12 提炼「冯内古特八问」检查卡，2026-11-19 第三十五轮全文读《Here is a lesson in creative writing》合炼情绪曲线规则张1–张8，第三十七轮读《How to Write with Style》合炼删稿规则删1–删8，合并清单升至 295 项。
 - **Emma Coats** — `~/memory/people/emma-coats.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《皮克斯讲故事的 22 条规则》，2026-11-17 第二十五轮全文重读提炼结尾规则 K1–K8，2026-11-19 第三十五轮全文读《Pixar's 22 Rules of Storytelling》合炼情绪曲线规则张1–张8，合并清单升至 279 项。
 - **Reagan** — `~/memory/people/reagan.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十五轮读其与合作者合著的《The emotional arcs of stories are dominated by six basic shapes》（arXiv:1606.07772），合炼情绪曲线规则张1–张8，合并清单升至 279 项。
 - **强 杜 (杜强)** — `~/memory/people/du-qiang.md` — 文本能力训练的阅读来源之一；2026-11-11 自学第五轮全文读其《探寻非虚构写作的背后》（澎湃新闻 2020-04-10，清华讲座整理），与冯内古特、Emma Coats 同轮合炼 8 条叙事结构规则。
+- **Bartha** — `~/memory/people/bartha.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十六轮全文读其 SEP《Analogy and Analogical Reasoning》，合炼类比推理规则类1–类8，合并清单升至 287 项。
+- **Gentner** — `~/memory/people/gentner.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十六轮全文读其《Structure-Mapping》（1983），合炼类比推理规则类1–类8，合并清单升至 287 项。
+- **Elmore Leonard** — `~/memory/people/elmore-leonard.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十七轮全文读其《Easy on the Adverbs, Exclamation Points and Especially Hooptedoodle》，合炼删稿规则删1–删8，合并清单升至 295 项。
+- **William Zinsser** — `~/memory/people/william-zinsser.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十七轮全文读其《On Writing Well》第 2 章〈Simplicity〉，合炼删稿规则删1–删8，合并清单升至 295 项。
+- **自清 朱 (朱自清)** — `~/memory/people/zhu-ziqing.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十八轮全文读其《论说话的多少》，合炼口语化改写规则口1–口8，合并清单升至 303 项。
+- **Francis Bacon** — `~/memory/people/francis-bacon.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十八轮全文读其《Of Discourse》，合炼口语化改写规则口1–口8，合并清单升至 303 项。
+- **Michel de Montaigne** — `~/memory/people/michel-de-montaigne.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十八轮全文读其《On the Art of Discussion》，合炼口语化改写规则口1–口8，合并清单升至 303 项。
+- **Tom Wooldridge** — `~/memory/people/tom-wooldridge.md` — 知识库 2026-11-20 收录其 Aeon 文章《What would parenting by AI look like?》，衍生 D 库选题《孩子半夜在跟 AI 说话，父母该担心吗？》.
+- **Dylan Jow** — `~/memory/people/dylan-jow.md` — 知识库 2026-11-20 收录其 Aeon 文章《Why astrophysics needs to abandon the 'Big Questions'}》，提炼 B 库术语翻转法。
+- **Laura Yoviene Sykes** — `~/memory/people/laura-yoviene-sykes.md` — 知识库 2026-11-20 收录其 Psyche 文章《How to help someone whose thinking seems delusional》，衍生 D 库选题《家人信了阴谋论，别急着反驳：先问三句话》。
+- **E. B. White** — `~/memory/people/e-b-white.md` — 文本能力训练的阅读来源之一；2026-11-20 自学第三十九轮全文读《Once More to the Lake》（1941），与奥威尔、Paul Graham 同轮合炼细节写作规则细1–细8，合并清单升至 311 项。

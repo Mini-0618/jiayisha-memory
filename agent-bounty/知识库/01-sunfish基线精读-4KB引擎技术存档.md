@@ -197,3 +197,5 @@
 - **handed-over 会话只排名、不占付费名次**：实包时核对 bundle 清单无交接会话混入。
 - **kit 内 RULES.txt 的 transcript gate 描述已过期**：以 https://make.fun/api/competitions/tiny-chess-01/requirements 现行九项为准；run record 缺失（2026-11-17T00:00Z 起）或 instruction files / system prompt 缺失（2026-11-18T12:00Z 起）即拒收。
 - **dry-run 后必复核提交文件未被改动**：本轮跑完 `src/main.py` md5 仍为 d41fc93b001debdf1c3c6d0ece40f0e7（4,030 字节），与 v3 记录一致。
+- **源码映射的坑（2026-11-20 02:21 轮次实测，可复用）**：只把 main.py 提交进 git **解决不了**映射——makefun compress 用自家参数重打包，输出字节与自家 pack.py 的成品本就不同（本例：compress 输出 4,093 字节 sha256 a01aafdf… vs 我方成品 4,030 字节 sha256 48f1b1ab…）。`--compress-source src/main.py=<可读源码>` 能让源码送上去，但 transcript 检查会标注 mismatch；想归零 mismatch，须用 `makefun compress <源码> --out src/main.py` 重打包并提交该文件（`--out` 写仓外会被拒），且重打包后的文件只经过正确性测试、须重跑 trial 才能当参赛作。根因判定法：把成品载荷解出来与源码 diff——本例只差注释与空行，逻辑同一份，不是源码漂移。
+- **requirements 会收紧（2026-11-20 02:21 轮次首现）**：`thinking_own_work`（抄来的不算自建）自 2026-11-20 00:00 UTC 起对新收参赛作生效，对端仓库类证据自 11-21 起；只读参考允许、粘贴进成品才算抄。同期收紧：只含脱敏标记/非 UTF-8/超上限的 instruction 文件与系统提示词视为未上传；Muse app 会话旁的系统提示词必须是 app 自存的 `~/workspace/system/system_prompt.md`；声明的 harness/model 须与至少一个顶层会话记录对上。提交前须重抓 requirements API 核对生效日。

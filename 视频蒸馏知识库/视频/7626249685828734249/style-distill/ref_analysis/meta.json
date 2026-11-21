@@ -1,0 +1,15 @@
+{
+  "path": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/别做梦了，AI风口，与你无关.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "duration_s": 756.0,
+  "nb_frames_est": 22680,
+  "video_codec": "h264",
+  "pix_fmt": "yuv420p",
+  "bit_rate": "1240132",
+  "has_audio": true,
+  "audio_codec": "aac",
+  "audio_sample_rate": 44100,
+  "aspect": "1920:1080"
+}

@@ -1,0 +1,2751 @@
+{
+  "name": "ref-measured",
+  "version": 1,
+  "description": "Style base distilled from 别做梦了，AI风口，与你无关.mp4",
+  "source": {
+    "video": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/别做梦了，AI风口，与你无关.mp4",
+    "analysis_dir": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis",
+    "distilled_at": "2026-11-20T19:10:57+00:00",
+    "duration_s": 756.0
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "aspect": "1920:1080"
+  },
+  "palette": {
+    "bg": "#838384",
+    "text": "#0C0D10",
+    "text_muted": "#E4E4E4",
+    "surface": "#7B7B7C",
+    "primary": "#8D673E",
+    "accent": "#8D673E",
+    "measured_swatches": [
+      {
+        "hex": "#0C0D10",
+        "ratio": 0.2682
+      },
+      {
+        "hex": "#7D8183",
+        "ratio": 0.1295
+      },
+      {
+        "hex": "#302C2A",
+        "ratio": 0.1277
+      },
+      {
+        "hex": "#E4E4E4",
+        "ratio": 0.1252
+      },
+      {
+        "hex": "#5B5B5B",
+        "ratio": 0.1139
+      },
+      {
+        "hex": "#AEB2B6",
+        "ratio": 0.1089
+      },
+      {
+        "hex": "#213A4D",
+        "ratio": 0.0842
+      },
+      {
+        "hex": "#8A653C",
+        "ratio": 0.0424
+      }
+    ]
+  },
+  "typography": {
+    "vibe": "拉丁无衬线",
+    "families": {
+      "display": {
+        "css": "\"Inter Tight\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", sans-serif",
+        "vibe": "粗黑几何无衬线（推测）",
+        "free_substitutes": [
+          "Inter / Inter Tight (SIL OFL 1.1)",
+          "Geist (SIL OFL 1.1)",
+          "Manrope (SIL OFL 1.1)",
+          "Noto Sans CJK SC / 思源黑体 Source Han Sans SC (SIL OFL 1.1)",
+          "HarmonyOS Sans SC (华为免费商用许可，使用前核对条款)",
+          "MiSans (小米免费商用许可，使用前核对条款)"
+        ],
+        "license_note": "只用开源/免费可商用替代字体，不复制参考片的字体文件"
+      },
+      "body": {
+        "css": "\"Inter\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", \"HarmonyOS Sans SC\", sans-serif",
+        "vibe": "中性无衬线（推测）",
+        "free_substitutes": [
+          "Noto Sans CJK SC / 思源黑体 Source Han Sans SC (SIL OFL 1.1)",
+          "HarmonyOS Sans SC (华为免费商用许可，使用前核对条款)",
+          "MiSans (小米免费商用许可，使用前核对条款)",
+          "Inter / Inter Tight (SIL OFL 1.1)",
+          "Geist (SIL OFL 1.1)",
+          "Manrope (SIL OFL 1.1)"
+        ]
+      },
+      "mono": {
+        "css": "\"JetBrains Mono\", \"Noto Sans Mono CJK SC\", monospace",
+        "vibe": "等宽代码字体",
+        "free_substitutes": [
+          "JetBrains Mono (SIL OFL 1.1)",
+          "Fira Code (SIL OFL 1.1)",
+          "Noto Sans Mono CJK SC (SIL OFL 1.1)"
+        ]
+      }
+    },
+    "scale_px": {
+      "display": 120,
+      "h1": 72,
+      "h2": 52,
+      "body": 40,
+      "caption": 32,
+      "code": 30
+    },
+    "weights": {
+      "display": 800,
+      "h1": 700,
+      "body": 500
+    },
+    "letter_spacing_em": -0.01,
+    "line_height": 1.35,
+    "font_substitutions": [
+      {
+        "role": "display",
+        "observed_vibe": "粗黑几何无衬线（推测）",
+        "original_font": "unknown",
+        "substitute": "Inter Tight",
+        "license": "SIL OFL 1.1",
+        "alternatives": [
+          "Inter / Inter Tight (SIL OFL 1.1)",
+          "Geist (SIL OFL 1.1)",
+          "Manrope (SIL OFL 1.1)",
+          "Noto Sans CJK SC / 思源黑体 Source Han Sans SC (SIL OFL 1.1)"
+        ],
+        "size_px": 120,
+        "adjust": "先对照参考关键帧调字号/字距/字重，再确认许可证；不得使用参考片的字体文件"
+      },
+      {
+        "role": "body",
+        "observed_vibe": "中性无衬线（推测）",
+        "original_font": "unknown",
+        "substitute": "Inter",
+        "license": "SIL OFL 1.1",
+        "alternatives": [
+          "Noto Sans CJK SC / 思源黑体 Source Han Sans SC (SIL OFL 1.1)",
+          "HarmonyOS Sans SC (华为免费商用许可，使用前核对条款)",
+          "MiSans (小米免费商用许可，使用前核对条款)",
+          "Inter / Inter Tight (SIL OFL 1.1)"
+        ],
+        "size_px": 40,
+        "adjust": "先对照参考关键帧调字号/字距/字重，再确认许可证；不得使用参考片的字体文件"
+      },
+      {
+        "role": "mono",
+        "observed_vibe": "等宽代码字体",
+        "original_font": "unknown",
+        "substitute": "JetBrains Mono",
+        "license": "SIL OFL 1.1",
+        "alternatives": [
+          "JetBrains Mono (SIL OFL 1.1)",
+          "Fira Code (SIL OFL 1.1)",
+          "Noto Sans Mono CJK SC (SIL OFL 1.1)"
+        ],
+        "size_px": 30,
+        "adjust": "先对照参考关键帧调字号/字距/字重，再确认许可证；不得使用参考片的字体文件"
+      }
+    ]
+  },
+  "layout": {
+    "margins_pct": {
+      "left": 8.31,
+      "right": 8.31,
+      "top": 15.0,
+      "bottom": 15.0
+    },
+    "alignment": "left",
+    "safe_area_pct": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "grid": {
+      "columns": 12,
+      "gutter_pct": 2.0,
+      "fit_ratio": 0.382
+    },
+    "common_left_edges_px": [
+      1229.1,
+      151.3,
+      1404.3,
+      1509.7,
+      1788.0,
+      1542.8
+    ],
+    "decor": {
+      "grid_lines": false,
+      "glow": true,
+      "noise": false
+    },
+    "radius_px": 16
+  },
+  "motion": {
+    "durations_s": {
+      "fast": 0.25,
+      "base": 0.5,
+      "slow": 0.9
+    },
+    "easing": {
+      "family_guess": null,
+      "enter": {
+        "cubic_bezier": [
+          0.16,
+          1,
+          0.3,
+          1
+        ]
+      },
+      "exit": {
+        "cubic_bezier": [
+          0.7,
+          0,
+          0.84,
+          0
+        ]
+      },
+      "emphasis": {
+        "cubic_bezier": [
+          0.34,
+          1.56,
+          0.64,
+          1
+        ]
+      }
+    },
+    "spring": {
+      "damping": 12,
+      "stiffness": 140,
+      "mass": 1
+    },
+    "enter_style": "fade",
+    "title_enter_style": "fade",
+    "enter_distance_px": 40,
+    "stagger_s": 0.15,
+    "transition": {
+      "type": "fade",
+      "duration_s": 1.5
+    },
+    "typing_cps": 28,
+    "easings": {
+      "enter": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "exit": "cubic-bezier(0.7, 0, 0.84, 0)",
+      "emphasis": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "spring": "spring(damping=12, stiffness=140, mass=1)"
+    },
+    "keyframes": {
+      "enter": {
+        "duration_s": 0.5,
+        "easing": "enter",
+        "frames": [
+          {
+            "offset": 0,
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "opacity": 1
+          }
+        ]
+      },
+      "title_enter": {
+        "duration_s": 0.9,
+        "easing": "enter",
+        "frames": [
+          {
+            "offset": 0,
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "opacity": 1
+          }
+        ]
+      },
+      "transition_in": {
+        "duration_s": 1.5,
+        "easing": "enter",
+        "frames": [
+          {
+            "offset": 0,
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "opacity": 1
+          }
+        ]
+      },
+      "typewriter": {
+        "chars_per_s": 28,
+        "caret_blink_s": 0.5
+      }
+    }
+  },
+  "rhythm": {
+    "shot_mean_s": 2.385,
+    "shot_median_s": 2.0,
+    "motion_onset_interval_s": null,
+    "visual_bpm": null,
+    "audio_bpm": 61.5,
+    "av_sync": {
+      "rule": "视觉事件起点对齐音频起音点（容差 80 ms）",
+      "match_ratio": 0.696,
+      "median_offset_ms": 1.0
+    },
+    "entrance_events_per_min": 0.0,
+    "pacing_rule": "平均每 2.385 s 一个镜头；镜头内元素约每 None s 入场一个"
+  },
+  "components": [
+    {
+      "type": "title_card",
+      "template_segment": "title",
+      "scenes": [
+        0
+      ],
+      "evidence": "≤3 text lines with large heading @ 00:00:00.000",
+      "confidence": 0.6,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-01",
+          "V-15"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-01": "文字与动态排版",
+          "V-15": "封面、片头、片尾与品牌包装"
+        }
+      },
+      "params": {}
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        17
+      ],
+      "evidence": "evidence_frame pixel detector on scene017_settled.png @ 00:01:13.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8D\", \"textured_ratio\": 0.56, \"highlight_color\": \"#B08D69\", \"highlight_stroke_px\": 8, \"highlight_box_p",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8B8A8D",
+        "textured_ratio": 0.56,
+        "highlight_color": "#B08D69",
+        "highlight_stroke_px": 8,
+        "highlight_box_pct": [
+          55.7,
+          61.3,
+          9.2,
+          19.8
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        23
+      ],
+      "evidence": "evidence_frame pixel detector on scene023_settled.png @ 00:01:32.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.59, \"highlight_color\": \"#267188\", \"highlight_stroke_px\": 21, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89888B",
+        "textured_ratio": 0.59,
+        "highlight_color": "#267188",
+        "highlight_stroke_px": 21,
+        "highlight_box_pct": [
+          23.4,
+          63.0,
+          12.8,
+          18.0
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        33
+      ],
+      "evidence": "evidence_frame pixel detector on scene033_settled.png @ 00:01:55.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.72}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.72
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        34
+      ],
+      "evidence": "evidence_frame pixel detector on scene034_settled.png @ 00:01:56.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A8A8C\", \"textured_ratio\": 0.72}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A8A8C",
+        "textured_ratio": 0.72
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        72
+      ],
+      "evidence": "evidence_frame pixel detector on scene072_settled.png @ 00:03:24.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.68, \"highlight_color\": \"#74A6BF\", \"highlight_stroke_px\": 15, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.68,
+        "highlight_color": "#74A6BF",
+        "highlight_stroke_px": 15,
+        "highlight_box_pct": [
+          49.4,
+          9.8,
+          10.9,
+          36.1
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        74
+      ],
+      "evidence": "evidence_frame pixel detector on scene074_settled.png @ 00:03:27.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.63}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89888B",
+        "textured_ratio": 0.63
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        75
+      ],
+      "evidence": "evidence_frame pixel detector on scene075_settled.png @ 00:03:30.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89898B\", \"textured_ratio\": 0.55}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89898B",
+        "textured_ratio": 0.55
+      }
+    },
+    {
+      "type": "timeline",
+      "template_segment": "timeline",
+      "scenes": [
+        82
+      ],
+      "evidence": "timeline pixel detector on scene082_settled.png @ 00:03:52.500: {\"node_count\": 3, \"node_color\": \"#25293B\", \"node_size_px\": 56, \"line_color\": \"#332C38\", \"line_px\": 8, \"line_y_pct\": 67.4, \"line_span_pct\": 50.9}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [
+          "UI-09"
+        ],
+        "video": [
+          "V-03",
+          "V-04"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-09": "信息与内容组件",
+          "V-03": "信息图与逻辑解释",
+          "V-04": "新闻、论文与证据展示"
+        }
+      },
+      "params": {
+        "node_count": 3,
+        "node_color": "#25293B",
+        "node_size_px": 56,
+        "line_color": "#332C38",
+        "line_px": 8,
+        "line_y_pct": 67.4,
+        "line_span_pct": 50.9
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        89
+      ],
+      "evidence": "evidence_frame pixel detector on scene089_settled.png @ 00:04:13.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8D\", \"textured_ratio\": 0.55, \"highlight_color\": \"#2A5A8C\", \"highlight_stroke_px\": 92, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8B8A8D",
+        "textured_ratio": 0.55,
+        "highlight_color": "#2A5A8C",
+        "highlight_stroke_px": 92,
+        "highlight_box_pct": [
+          5.1,
+          9.3,
+          89.7,
+          88.5
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        90
+      ],
+      "evidence": "evidence_frame pixel detector on scene090_settled.png @ 00:04:14.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.58, \"highlight_color\": \"#1B4F79\", \"highlight_stroke_px\": 119, \"highlight_box",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.58,
+        "highlight_color": "#1B4F79",
+        "highlight_stroke_px": 119,
+        "highlight_box_pct": [
+          12.1,
+          9.8,
+          77.9,
+          86.1
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        91
+      ],
+      "evidence": "evidence_frame pixel detector on scene091_settled.png @ 00:04:18.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.61, \"highlight_color\": \"#1C5D96\", \"highlight_stroke_px\": 65, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89888B",
+        "textured_ratio": 0.61,
+        "highlight_color": "#1C5D96",
+        "highlight_stroke_px": 65,
+        "highlight_box_pct": [
+          12.6,
+          44.6,
+          78.0,
+          47.4
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        93
+      ],
+      "evidence": "evidence_frame pixel detector on scene093_settled.png @ 00:04:25.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888A\", \"textured_ratio\": 0.56, \"highlight_color\": \"#0C3360\", \"highlight_stroke_px\": 12, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89888A",
+        "textured_ratio": 0.56,
+        "highlight_color": "#0C3360",
+        "highlight_stroke_px": 12,
+        "highlight_box_pct": [
+          82.0,
+          29.1,
+          8.8,
+          7.8
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        94
+      ],
+      "evidence": "evidence_frame pixel detector on scene094_settled.png @ 00:04:27.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.62, \"highlight_color\": \"#266492\", \"highlight_stroke_px\": 17, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898989",
+        "textured_ratio": 0.62,
+        "highlight_color": "#266492",
+        "highlight_stroke_px": 17,
+        "highlight_box_pct": [
+          75.3,
+          39.1,
+          11.1,
+          17.0
+        ]
+      }
+    },
+    {
+      "type": "timeline",
+      "template_segment": "timeline",
+      "scenes": [
+        97
+      ],
+      "evidence": "timeline pixel detector on scene097_settled.png @ 00:04:31.500: {\"node_count\": 9, \"node_color\": \"#EBEAE9\", \"node_size_px\": 22, \"line_color\": \"#FEFEFF\", \"line_px\": 5, \"line_y_pct\": 41.0, \"line_span_pct\": 51.9}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [
+          "UI-09"
+        ],
+        "video": [
+          "V-03",
+          "V-04"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-09": "信息与内容组件",
+          "V-03": "信息图与逻辑解释",
+          "V-04": "新闻、论文与证据展示"
+        }
+      },
+      "params": {
+        "node_count": 9,
+        "node_color": "#EBEAE9",
+        "node_size_px": 22,
+        "line_color": "#FEFEFF",
+        "line_px": 5,
+        "line_y_pct": 41.0,
+        "line_span_pct": 51.9
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        111
+      ],
+      "evidence": "evidence_frame pixel detector on scene111_settled.png @ 00:05:02.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.6}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.6
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        128
+      ],
+      "evidence": "evidence_frame pixel detector on scene128_settled.png @ 00:05:42.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.61, \"highlight_color\": \"#B49C6F\", \"highlight_stroke_px\": 5, \"highlight_box_p",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.61,
+        "highlight_color": "#B49C6F",
+        "highlight_stroke_px": 5,
+        "highlight_box_pct": [
+          5.1,
+          9.4,
+          20.7,
+          17.2
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        129
+      ],
+      "evidence": "evidence_frame pixel detector on scene129_settled.png @ 00:05:44.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.67, \"highlight_color\": \"#9D741B\", \"highlight_stroke_px\": 4, \"highlight_box_p",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898C",
+        "textured_ratio": 0.67,
+        "highlight_color": "#9D741B",
+        "highlight_stroke_px": 4,
+        "highlight_box_pct": [
+          5.0,
+          25.7,
+          56.9,
+          15.6
+        ]
+      }
+    },
+    {
+      "type": "timeline",
+      "template_segment": "timeline",
+      "scenes": [
+        143
+      ],
+      "evidence": "timeline pixel detector on scene143_settled.png @ 00:06:10.500: {\"node_count\": 4, \"node_color\": \"#DFDFDF\", \"node_size_px\": 14, \"line_color\": \"#DFDFDF\", \"line_px\": 4, \"line_y_pct\": 51.7, \"line_span_pct\": 58.0}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [
+          "UI-09"
+        ],
+        "video": [
+          "V-03",
+          "V-04"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-09": "信息与内容组件",
+          "V-03": "信息图与逻辑解释",
+          "V-04": "新闻、论文与证据展示"
+        }
+      },
+      "params": {
+        "node_count": 4,
+        "node_color": "#DFDFDF",
+        "node_size_px": 14,
+        "line_color": "#DFDFDF",
+        "line_px": 4,
+        "line_y_pct": 51.7,
+        "line_span_pct": 58.0
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        160
+      ],
+      "evidence": "evidence_frame pixel detector on scene160_settled.png @ 00:06:47.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.58, \"highlight_color\": \"#5C8FAA\", \"highlight_stroke_px\": 8, \"highlight_box_p",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898989",
+        "textured_ratio": 0.58,
+        "highlight_color": "#5C8FAA",
+        "highlight_stroke_px": 8,
+        "highlight_box_pct": [
+          33.5,
+          54.4,
+          9.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        236
+      ],
+      "evidence": "evidence_frame pixel detector on scene236_settled.png @ 00:09:45.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.56}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#89888B",
+        "textured_ratio": 0.56
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        248
+      ],
+      "evidence": "evidence_frame pixel detector on scene248_settled.png @ 00:10:02.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.58, \"highlight_color\": \"#1F5682\", \"highlight_stroke_px\": 90, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898989",
+        "textured_ratio": 0.58,
+        "highlight_color": "#1F5682",
+        "highlight_stroke_px": 90,
+        "highlight_box_pct": [
+          20.5,
+          24.4,
+          58.8,
+          62.2
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        252
+      ],
+      "evidence": "evidence_frame pixel detector on scene252_settled.png @ 00:10:09.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898A\", \"textured_ratio\": 0.58, \"highlight_color\": \"#183F76\", \"highlight_stroke_px\": 27, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A898A",
+        "textured_ratio": 0.58,
+        "highlight_color": "#183F76",
+        "highlight_stroke_px": 27,
+        "highlight_box_pct": [
+          34.6,
+          53.0,
+          26.5,
+          35.4
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        253
+      ],
+      "evidence": "evidence_frame pixel detector on scene253_settled.png @ 00:10:13.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.64, \"highlight_color\": \"#2C5680\", \"highlight_stroke_px\": 74, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898989",
+        "textured_ratio": 0.64,
+        "highlight_color": "#2C5680",
+        "highlight_stroke_px": 74,
+        "highlight_box_pct": [
+          23.0,
+          28.5,
+          48.1,
+          59.1
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        261
+      ],
+      "evidence": "evidence_frame pixel detector on scene261_settled.png @ 00:10:31.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8B\", \"textured_ratio\": 0.76}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8B8A8B",
+        "textured_ratio": 0.76
+      }
+    },
+    {
+      "type": "timeline",
+      "template_segment": "timeline",
+      "scenes": [
+        265
+      ],
+      "evidence": "timeline pixel detector on scene265_settled.png @ 00:10:38.500: {\"node_count\": 13, \"node_color\": \"#F6F6F6\", \"node_size_px\": 40, \"line_color\": \"#613F16\", \"line_px\": 8, \"line_y_pct\": 53.1, \"line_span_pct\": 89.7}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [
+          "UI-09"
+        ],
+        "video": [
+          "V-03",
+          "V-04"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-09": "信息与内容组件",
+          "V-03": "信息图与逻辑解释",
+          "V-04": "新闻、论文与证据展示"
+        }
+      },
+      "params": {
+        "node_count": 13,
+        "node_color": "#F6F6F6",
+        "node_size_px": 40,
+        "line_color": "#613F16",
+        "line_px": 8,
+        "line_y_pct": 53.1,
+        "line_span_pct": 89.7
+      }
+    },
+    {
+      "type": "timeline",
+      "template_segment": "timeline",
+      "scenes": [
+        276
+      ],
+      "evidence": "timeline pixel detector on scene276_settled.png @ 00:11:00.000: {\"node_count\": 6, \"node_color\": \"#131234\", \"node_size_px\": 16, \"line_color\": \"#1D1C2A\", \"line_px\": 5, \"line_y_pct\": 80.6, \"line_span_pct\": 81.4}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [
+          "UI-09"
+        ],
+        "video": [
+          "V-03",
+          "V-04"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-09": "信息与内容组件",
+          "V-03": "信息图与逻辑解释",
+          "V-04": "新闻、论文与证据展示"
+        }
+      },
+      "params": {
+        "node_count": 6,
+        "node_color": "#131234",
+        "node_size_px": 16,
+        "line_color": "#1D1C2A",
+        "line_px": 5,
+        "line_y_pct": 80.6,
+        "line_span_pct": 81.4
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        285
+      ],
+      "evidence": "evidence_frame pixel detector on scene285_settled.png @ 00:11:21.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A8A8A\", \"textured_ratio\": 0.58}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#8A8A8A",
+        "textured_ratio": 0.58
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        288
+      ],
+      "evidence": "evidence_frame pixel detector on scene288_settled.png @ 00:11:26.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.54, \"highlight_color\": \"#4D758C\", \"highlight_stroke_px\": 10, \"highlight_box_",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898989",
+        "textured_ratio": 0.54,
+        "highlight_color": "#4D758C",
+        "highlight_stroke_px": 10,
+        "highlight_box_pct": [
+          60.8,
+          9.6,
+          11.5,
+          10.2
+        ]
+      }
+    },
+    {
+      "type": "evidence_frame",
+      "template_segment": "evidence",
+      "scenes": [
+        289
+      ],
+      "evidence": "evidence_frame pixel detector on scene289_settled.png @ 00:11:30.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898A89\", \"textured_ratio\": 0.57}",
+      "confidence": 0.75,
+      "taxonomy": {
+        "ui": [],
+        "video": [
+          "V-04",
+          "V-05",
+          "V-09"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "V-04": "新闻、论文与证据展示",
+          "V-05": "产品演示与屏幕录制",
+          "V-09": "2.5D、视差与镜头运动"
+        }
+      },
+      "params": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "frame_color": "#898A89",
+        "textured_ratio": 0.57
+      }
+    },
+    {
+      "type": "transition",
+      "template_segment": null,
+      "scenes": [],
+      "evidence": "63 motion events straddling cuts at ['00:00:00.000', '00:00:06.500', '00:00:24.000', '00:00:48.500']",
+      "confidence": 0.7,
+      "taxonomy": {
+        "ui": [
+          "UI-02"
+        ],
+        "video": [
+          "V-07"
+        ],
+        "source": "/home/hatch/workspace/motion-resource-center-skills/skills/code-video-style-distill/references/motion-taxonomy.md",
+        "verified": true,
+        "names": {
+          "UI-02": "页面与布局转场",
+          "V-07": "电影化转场"
+        }
+      },
+      "params": {}
+    }
+  ],
+  "components_style": {
+    "progress_bar": false,
+    "subtitle": {
+      "position": "bottom",
+      "bg_opacity": 0.6
+    },
+    "evidence": {
+      "frame_color": "#8B8A8D",
+      "frame_stroke_px": 3,
+      "radius_px": 16,
+      "highlight_color": "#B08D69",
+      "highlight_stroke_px": 8,
+      "source_color": "#E4E4E4",
+      "zoom_scale": 1.12,
+      "enter_s": 0.5,
+      "highlight_delay_s": 0.9,
+      "measured": {
+        "box_pct": [
+          0.0,
+          0.0,
+          100.0,
+          100.0
+        ],
+        "highlight_box_pct": [
+          55.7,
+          61.3,
+          9.2,
+          19.8
+        ]
+      }
+    },
+    "timeline": {
+      "line_color": "#332C38",
+      "line_px": 8,
+      "node_color": "#25293B",
+      "node_size_px": 56,
+      "date_color": "#25293B",
+      "label_color": "#0C0D10",
+      "enter_stagger_s": 0.25,
+      "enter_s": 0.5,
+      "measured": {
+        "node_count": 3,
+        "line_span_pct": 50.9
+      }
+    },
+    "compare": {
+      "panel_fill": "#7B7B7C",
+      "title_color": "#8D673E",
+      "gap_pct": 4,
+      "radius_px": 16,
+      "highlight_color": "#8D673E",
+      "enter_stagger_s": 0.2,
+      "enter_s": 0.5
+    },
+    "flow": {
+      "node_fill": "#7B7B7C",
+      "node_stroke": "#8D673E",
+      "node_stroke_px": 3,
+      "radius_px": 16,
+      "arrow_color": "#E4E4E4",
+      "arrow_px": 4,
+      "step_s": 0.35,
+      "enter_s": 0.5,
+      "orientation": "horizontal"
+    }
+  },
+  "provenance": {
+    "canvas.fps": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/meta.json"
+        }
+      ],
+      "method": "ffprobe"
+    },
+    "canvas.height": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/meta.json"
+        }
+      ],
+      "method": "ffprobe"
+    },
+    "canvas.width": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/meta.json"
+        }
+      ],
+      "method": "ffprobe"
+    },
+    "components[0]:title_card": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "evidence": "≤3 text lines with large heading @ 00:00:00.000"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[10]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene090_settled.png @ 00:04:14.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.58, \"highlight_color\": \"#1B4F79\", \"highlight_stroke_px\": 119, \"highlight_box"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[11]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene091_settled.png @ 00:04:18.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.61, \"highlight_color\": \"#1C5D96\", \"highlight_stroke_px\": 65, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[12]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene093_settled.png @ 00:04:25.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888A\", \"textured_ratio\": 0.56, \"highlight_color\": \"#0C3360\", \"highlight_stroke_px\": 12, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[13]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene094_settled.png @ 00:04:27.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.62, \"highlight_color\": \"#266492\", \"highlight_stroke_px\": 17, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[14]:timeline": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene097_settled.png @ 00:04:31.500: {\"node_count\": 9, \"node_color\": \"#EBEAE9\", \"node_size_px\": 22, \"line_color\": \"#FEFEFF\", \"line_px\": 5, \"line_y_pct\": 41.0, \"line_span_pct\": 51.9}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[15]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene111_settled.png @ 00:05:02.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.6}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[16]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene128_settled.png @ 00:05:42.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.61, \"highlight_color\": \"#B49C6F\", \"highlight_stroke_px\": 5, \"highlight_box_p"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[17]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene129_settled.png @ 00:05:44.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.67, \"highlight_color\": \"#9D741B\", \"highlight_stroke_px\": 4, \"highlight_box_p"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[18]:timeline": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene143_settled.png @ 00:06:10.500: {\"node_count\": 4, \"node_color\": \"#DFDFDF\", \"node_size_px\": 14, \"line_color\": \"#DFDFDF\", \"line_px\": 4, \"line_y_pct\": 51.7, \"line_span_pct\": 58.0}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[19]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene160_settled.png @ 00:06:47.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.58, \"highlight_color\": \"#5C8FAA\", \"highlight_stroke_px\": 8, \"highlight_box_p"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[1]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene017_settled.png @ 00:01:13.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8D\", \"textured_ratio\": 0.56, \"highlight_color\": \"#B08D69\", \"highlight_stroke_px\": 8, \"highlight_box_p"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[20]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene236_settled.png @ 00:09:45.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.56}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[21]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene248_settled.png @ 00:10:02.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.58, \"highlight_color\": \"#1F5682\", \"highlight_stroke_px\": 90, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[22]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene252_settled.png @ 00:10:09.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898A\", \"textured_ratio\": 0.58, \"highlight_color\": \"#183F76\", \"highlight_stroke_px\": 27, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[23]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene253_settled.png @ 00:10:13.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.64, \"highlight_color\": \"#2C5680\", \"highlight_stroke_px\": 74, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[24]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene261_settled.png @ 00:10:31.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8B\", \"textured_ratio\": 0.76}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[25]:timeline": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene265_settled.png @ 00:10:38.500: {\"node_count\": 13, \"node_color\": \"#F6F6F6\", \"node_size_px\": 40, \"line_color\": \"#613F16\", \"line_px\": 8, \"line_y_pct\": 53.1, \"line_span_pct\": 89.7}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[26]:timeline": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene276_settled.png @ 00:11:00.000: {\"node_count\": 6, \"node_color\": \"#131234\", \"node_size_px\": 16, \"line_color\": \"#1D1C2A\", \"line_px\": 5, \"line_y_pct\": 80.6, \"line_span_pct\": 81.4}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[27]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene285_settled.png @ 00:11:21.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A8A8A\", \"textured_ratio\": 0.58}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[28]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene288_settled.png @ 00:11:26.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898989\", \"textured_ratio\": 0.54, \"highlight_color\": \"#4D758C\", \"highlight_stroke_px\": 10, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[29]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene289_settled.png @ 00:11:30.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#898A89\", \"textured_ratio\": 0.57}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[2]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene023_settled.png @ 00:01:32.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.59, \"highlight_color\": \"#267188\", \"highlight_stroke_px\": 21, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[30]:transition": {
+      "status": "seen",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "evidence": "63 motion events straddling cuts at ['00:00:00.000', '00:00:06.500', '00:00:24.000', '00:00:48.500']"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[3]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene033_settled.png @ 00:01:55.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.72}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[4]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene034_settled.png @ 00:01:56.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A8A8C\", \"textured_ratio\": 0.72}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[5]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene072_settled.png @ 00:03:24.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.68, \"highlight_color\": \"#74A6BF\", \"highlight_stroke_px\": 15, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[6]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene074_settled.png @ 00:03:27.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.63}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[7]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene075_settled.png @ 00:03:30.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89898B\", \"textured_ratio\": 0.55}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[8]:timeline": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene082_settled.png @ 00:03:52.500: {\"node_count\": 3, \"node_color\": \"#25293B\", \"node_size_px\": 56, \"line_color\": \"#332C38\", \"line_px\": 8, \"line_y_pct\": 67.4, \"line_span_pct\": 50.9}"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components[9]:evidence_frame": {
+      "status": "seen",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene089_settled.png @ 00:04:13.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8D\", \"textured_ratio\": 0.55, \"highlight_color\": \"#2A5A8C\", \"highlight_stroke_px\": 92, \"highlight_box_"
+        }
+      ],
+      "method": "heuristic detector",
+      "note": "taxonomy mapping is a manual table"
+    },
+    "components_style.compare": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "not detected in reference → default mapping from palette/motion/layout (unknown ≠ absent)"
+    },
+    "components_style.evidence": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "evidence": "evidence_frame pixel detector on scene017_settled.png @ 00:01:13.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8B8A8D\", \"textured_ratio\": 0.56, \"highlight_color\": \"#B08D69\", \"highlight_stroke_px\": 8, \"highlight_box_p"
+        },
+        {
+          "evidence": "evidence_frame pixel detector on scene023_settled.png @ 00:01:32.500: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#89888B\", \"textured_ratio\": 0.59, \"highlight_color\": \"#267188\", \"highlight_stroke_px\": 21, \"highlight_box_"
+        },
+        {
+          "evidence": "evidence_frame pixel detector on scene033_settled.png @ 00:01:55.000: {\"box_pct\": [0.0, 0.0, 100.0, 100.0], \"frame_color\": \"#8A898C\", \"textured_ratio\": 0.72}"
+        }
+      ],
+      "method": "evidence_frame pixel detector (scripts/components_detect.py)"
+    },
+    "components_style.flow": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "not detected in reference → default mapping from palette/motion/layout (unknown ≠ absent)"
+    },
+    "components_style.progress_bar": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "edge-bar detection"
+    },
+    "components_style.subtitle": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    },
+    "components_style.timeline": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "evidence": "timeline pixel detector on scene082_settled.png @ 00:03:52.500: {\"node_count\": 3, \"node_color\": \"#25293B\", \"node_size_px\": 56, \"line_color\": \"#332C38\", \"line_px\": 8, \"line_y_pct\": 67.4, \"line_span_pct\": 50.9}"
+        },
+        {
+          "evidence": "timeline pixel detector on scene097_settled.png @ 00:04:31.500: {\"node_count\": 9, \"node_color\": \"#EBEAE9\", \"node_size_px\": 22, \"line_color\": \"#FEFEFF\", \"line_px\": 5, \"line_y_pct\": 41.0, \"line_span_pct\": 51.9}"
+        },
+        {
+          "evidence": "timeline pixel detector on scene143_settled.png @ 00:06:10.500: {\"node_count\": 4, \"node_color\": \"#DFDFDF\", \"node_size_px\": 14, \"line_color\": \"#DFDFDF\", \"line_px\": 4, \"line_y_pct\": 51.7, \"line_span_pct\": 58.0}"
+        }
+      ],
+      "method": "timeline pixel detector (scripts/components_detect.py)"
+    },
+    "layout.alignment": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "left-aligned boxes 0.854, centred 0.079"
+    },
+    "layout.decor.glow": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "background corners differ by ΔE 13.6 → gradient/glow"
+    },
+    "layout.decor.grid_lines": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        }
+      ],
+      "method": "rows/cols of faint (ΔE 1.2–12) pixels repeating at a regular period",
+      "note": "none found"
+    },
+    "layout.decor.noise": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "film grain/noise not measured"
+    },
+    "layout.grid": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "best-fit column grid to box left edges",
+      "note": "gutter is a default"
+    },
+    "layout.margins_pct.bottom": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "lowest foreground edge (subtitle)"
+    },
+    "layout.margins_pct.left": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "5th percentile of foreground-box left edges"
+    },
+    "layout.margins_pct.right": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "mirrored from left (content does not reach right edge)"
+    },
+    "layout.margins_pct.top": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "clipped bottom margin; vertical centring assumed"
+    },
+    "layout.radius_px": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    },
+    "layout.safe_area_pct": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "min(margins)"
+    },
+    "motion.durations_s": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "1-D k-means of motion-event durations (frame-diff threshold)",
+      "note": "event length excludes the sub-threshold tail of ease-out curves → real tween may be ~10–25% longer"
+    },
+    "motion.easing.emphasis": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default overshoot"
+    },
+    "motion.easing.enter": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ease-out"
+    },
+    "motion.easing.exit": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "exits not separately measured"
+    },
+    "motion.easing.family_guess": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "velocity-profile peak position / oscillation"
+    },
+    "motion.easings": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "CSS strings derived from motion.easing / spring"
+    },
+    "motion.enter_distance_px": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default (flow magnitude not converted to distance)"
+    },
+    "motion.enter_style": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "majority optical-flow direction of entrance events"
+    },
+    "motion.keyframes": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "keyframe tracks reconstructed from enter_style / transition type + measured durations"
+    },
+    "motion.spring": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "generic under-damped spring; not fitted"
+    },
+    "motion.stagger_s": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "median interval between entrance onsets within a scene"
+    },
+    "motion.title_enter_style": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "easing family of first event in scene 0"
+    },
+    "motion.transition.duration_s": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        },
+        {
+          "tc": "00:00:00.000",
+          "event_duration_s": 2.5
+        },
+        {
+          "tc": "00:00:06.500",
+          "event_duration_s": 4.0
+        },
+        {
+          "tc": "00:00:24.000",
+          "event_duration_s": 2.0
+        },
+        {
+          "tc": "00:00:48.500",
+          "event_duration_s": 1.5
+        },
+        {
+          "tc": "00:00:53.500",
+          "event_duration_s": 3.0
+        },
+        {
+          "tc": "00:01:07.500",
+          "event_duration_s": 1.5
+        }
+      ],
+      "method": "frames with energy ≥20% of peak around the cut"
+    },
+    "motion.transition.type": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        },
+        {
+          "tc": "00:00:00.000",
+          "event_duration_s": 2.5
+        },
+        {
+          "tc": "00:00:06.500",
+          "event_duration_s": 4.0
+        },
+        {
+          "tc": "00:00:24.000",
+          "event_duration_s": 2.0
+        },
+        {
+          "tc": "00:00:48.500",
+          "event_duration_s": 1.5
+        },
+        {
+          "tc": "00:00:53.500",
+          "event_duration_s": 3.0
+        },
+        {
+          "tc": "00:01:07.500",
+          "event_duration_s": 1.5
+        }
+      ],
+      "method": "optical-flow direction during events spanning a cut",
+      "note": "wipe vs fade cannot be told apart by flow; check keyframes"
+    },
+    "motion.typing_cps": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    },
+    "palette.accent": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "only one chromatic colour measured"
+    },
+    "palette.bg": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene000_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene001_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene002_settled.png"
+        },
+        {
+          "frame": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/keyframes/scene003_settled.png"
+        }
+      ],
+      "method": "mode of quantised frame-border pixels",
+      "note": "border share 0.036"
+    },
+    "palette.measured_swatches": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/palette_global.png"
+        }
+      ],
+      "method": "global k-means (k=8, Lab), merged ΔE<4"
+    },
+    "palette.primary": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/palette_global.png"
+        }
+      ],
+      "method": "most frequent chromatic k-means cluster (Lab) of foreground pixels",
+      "note": "role assignment (primary vs accent) is inferred; the colour value is measured"
+    },
+    "palette.surface": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "no uniform panel found; derived from bg"
+    },
+    "palette.text": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "highest-contrast neutral palette cluster vs bg"
+    },
+    "palette.text_muted": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "mid-contrast neutral palette cluster"
+    },
+    "rhythm.audio_bpm": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/audio_onsets.csv"
+        }
+      ],
+      "method": "spectral-flux autocorrelation"
+    },
+    "rhythm.av_sync": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "pairs": [
+            {
+              "visual_s": 7.5,
+              "audio_s": 7.546,
+              "offset_ms": 46.0
+            },
+            {
+              "visual_s": 9.5,
+              "audio_s": 9.474,
+              "offset_ms": -26.0
+            },
+            {
+              "visual_s": 25.0,
+              "audio_s": 25.078,
+              "offset_ms": 78.0
+            },
+            {
+              "visual_s": 46.5,
+              "audio_s": 46.44,
+              "offset_ms": -60.0
+            }
+          ]
+        }
+      ],
+      "method": "nearest audio onset to each cut/entrance"
+    },
+    "rhythm.entrance_events_per_min": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "analysis.json#motion.events"
+        }
+      ],
+      "method": "non-transition motion events / duration × 60 (scripts/distill.py entrance_density)",
+      "note": "events are motion-energy bursts: simultaneous entrances inside one burst count once"
+    },
+    "rhythm.motion_onset_interval_s": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv"
+        }
+      ],
+      "method": "median interval between motion onsets"
+    },
+    "rhythm.pacing_rule": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "summary of shot + stagger stats"
+    },
+    "rhythm.shot_mean_s": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/scenes.csv"
+        },
+        {
+          "tc": "00:00:00.500"
+        },
+        {
+          "tc": "00:00:06.500"
+        },
+        {
+          "tc": "00:00:07.500"
+        },
+        {
+          "tc": "00:00:09.500"
+        },
+        {
+          "tc": "00:00:24.000"
+        }
+      ],
+      "method": "detected cuts"
+    },
+    "rhythm.shot_median_s": {
+      "status": "seen",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "file": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/scenes.csv"
+        },
+        {
+          "tc": "00:00:00.500"
+        },
+        {
+          "tc": "00:00:06.500"
+        },
+        {
+          "tc": "00:00:07.500"
+        },
+        {
+          "tc": "00:00:09.500"
+        },
+        {
+          "tc": "00:00:24.000"
+        }
+      ],
+      "method": "detected cuts"
+    },
+    "rhythm.visual_bpm": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "60 / onset interval folded into 60–180"
+    },
+    "typography.families": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "font identity cannot be measured from pixels",
+      "note": "families are free substitutes chosen by vibe; original font name is UNKNOWN — confirm vibe on contact sheet"
+    },
+    "typography.font_substitutions": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "vibe → free substitute table (references/font-alternatives.md)",
+      "note": "original font identity is UNKNOWN; never ship the original font file"
+    },
+    "typography.letter_spacing_em": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    },
+    "typography.line_height": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    },
+    "typography.scale_px.body": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ladder scaled to canvas height"
+    },
+    "typography.scale_px.caption": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ladder scaled to canvas height"
+    },
+    "typography.scale_px.code": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "body × 0.75"
+    },
+    "typography.scale_px.display": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ladder scaled to canvas height"
+    },
+    "typography.scale_px.h1": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ladder scaled to canvas height"
+    },
+    "typography.scale_px.h2": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default ladder scaled to canvas height"
+    },
+    "typography.vibe": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "OCR script mix + code detection"
+    },
+    "typography.weights": {
+      "status": "unknown",
+      "confidence": 0.2,
+      "method": "default"
+    }
+  },
+  "unknowns": [
+    {
+      "path": "components_style.compare",
+      "why": "not detected in reference → default mapping from palette/motion/layout (unknown ≠ absent)"
+    },
+    {
+      "path": "components_style.flow",
+      "why": "not detected in reference → default mapping from palette/motion/layout (unknown ≠ absent)"
+    },
+    {
+      "path": "components_style.progress_bar",
+      "why": "edge-bar detection"
+    },
+    {
+      "path": "components_style.subtitle",
+      "why": "default"
+    },
+    {
+      "path": "layout.decor.noise",
+      "why": "film grain/noise not measured"
+    },
+    {
+      "path": "layout.radius_px",
+      "why": "default"
+    },
+    {
+      "path": "motion.durations_s",
+      "why": "1-D k-means of motion-event durations (frame-diff threshold)"
+    },
+    {
+      "path": "motion.easing.emphasis",
+      "why": "default overshoot"
+    },
+    {
+      "path": "motion.easing.enter",
+      "why": "default ease-out"
+    },
+    {
+      "path": "motion.easing.exit",
+      "why": "exits not separately measured"
+    },
+    {
+      "path": "motion.easings",
+      "why": "CSS strings derived from motion.easing / spring"
+    },
+    {
+      "path": "motion.enter_distance_px",
+      "why": "default (flow magnitude not converted to distance)"
+    },
+    {
+      "path": "motion.enter_style",
+      "why": "majority optical-flow direction of entrance events"
+    },
+    {
+      "path": "motion.spring",
+      "why": "generic under-damped spring; not fitted"
+    },
+    {
+      "path": "motion.stagger_s",
+      "why": "median interval between entrance onsets within a scene"
+    },
+    {
+      "path": "motion.typing_cps",
+      "why": "default"
+    },
+    {
+      "path": "palette.accent",
+      "why": "only one chromatic colour measured"
+    },
+    {
+      "path": "palette.surface",
+      "why": "no uniform panel found; derived from bg"
+    },
+    {
+      "path": "typography.families",
+      "why": "font identity cannot be measured from pixels"
+    },
+    {
+      "path": "typography.letter_spacing_em",
+      "why": "default"
+    },
+    {
+      "path": "typography.line_height",
+      "why": "default"
+    },
+    {
+      "path": "typography.scale_px.body",
+      "why": "default ladder scaled to canvas height"
+    },
+    {
+      "path": "typography.scale_px.caption",
+      "why": "default ladder scaled to canvas height"
+    },
+    {
+      "path": "typography.scale_px.code",
+      "why": "body × 0.75"
+    },
+    {
+      "path": "typography.scale_px.display",
+      "why": "default ladder scaled to canvas height"
+    },
+    {
+      "path": "typography.scale_px.h1",
+      "why": "default ladder scaled to canvas height"
+    },
+    {
+      "path": "typography.scale_px.h2",
+      "why": "default ladder scaled to canvas height"
+    },
+    {
+      "path": "typography.weights",
+      "why": "default"
+    }
+  ],
+  "fidelity_notes": {
+    "rule": "seen = measured from pixels/audio with evidence; inferred = derived by heuristic or visual judgement; unknown = not measured (≠ absent). Rule adapted from aicodeking/leanrea (MIT).",
+    "status_counts": {
+      "seen": 45,
+      "inferred": 20,
+      "unknown": 28
+    },
+    "measured": [
+      "canvas.fps",
+      "canvas.height",
+      "canvas.width",
+      "components[10]:evidence_frame",
+      "components[11]:evidence_frame",
+      "components[12]:evidence_frame",
+      "components[13]:evidence_frame",
+      "components[14]:timeline",
+      "components[15]:evidence_frame",
+      "components[16]:evidence_frame",
+      "components[17]:evidence_frame",
+      "components[18]:timeline",
+      "components[19]:evidence_frame",
+      "components[1]:evidence_frame",
+      "components[20]:evidence_frame",
+      "components[21]:evidence_frame",
+      "components[22]:evidence_frame",
+      "components[23]:evidence_frame",
+      "components[24]:evidence_frame",
+      "components[25]:timeline",
+      "components[26]:timeline",
+      "components[27]:evidence_frame",
+      "components[28]:evidence_frame",
+      "components[29]:evidence_frame",
+      "components[2]:evidence_frame",
+      "components[30]:transition",
+      "components[3]:evidence_frame",
+      "components[4]:evidence_frame",
+      "components[5]:evidence_frame",
+      "components[6]:evidence_frame",
+      "components[7]:evidence_frame",
+      "components[8]:timeline",
+      "components[9]:evidence_frame",
+      "components_style.evidence",
+      "components_style.timeline",
+      "layout.margins_pct.bottom",
+      "layout.margins_pct.left",
+      "motion.transition.duration_s",
+      "palette.bg",
+      "palette.measured_swatches",
+      "palette.primary",
+      "rhythm.av_sync",
+      "rhythm.entrance_events_per_min",
+      "rhythm.shot_mean_s",
+      "rhythm.shot_median_s"
+    ],
+    "inferred": [
+      "components[0]:title_card",
+      "layout.alignment",
+      "layout.decor.glow",
+      "layout.decor.grid_lines",
+      "layout.grid",
+      "layout.margins_pct.right",
+      "layout.margins_pct.top",
+      "layout.safe_area_pct",
+      "motion.easing.family_guess",
+      "motion.keyframes",
+      "motion.title_enter_style",
+      "motion.transition.type",
+      "palette.text",
+      "palette.text_muted",
+      "rhythm.audio_bpm",
+      "rhythm.motion_onset_interval_s",
+      "rhythm.pacing_rule",
+      "rhythm.visual_bpm",
+      "typography.font_substitutions",
+      "typography.vibe"
+    ],
+    "defaults": [
+      "components_style.compare",
+      "components_style.flow",
+      "components_style.progress_bar",
+      "components_style.subtitle",
+      "layout.decor.noise",
+      "layout.radius_px",
+      "motion.durations_s",
+      "motion.easing.emphasis",
+      "motion.easing.enter",
+      "motion.easing.exit",
+      "motion.easings",
+      "motion.enter_distance_px",
+      "motion.enter_style",
+      "motion.spring",
+      "motion.stagger_s",
+      "motion.typing_cps",
+      "palette.accent",
+      "palette.surface",
+      "typography.families",
+      "typography.letter_spacing_em",
+      "typography.line_height",
+      "typography.scale_px.body",
+      "typography.scale_px.caption",
+      "typography.scale_px.code",
+      "typography.scale_px.display",
+      "typography.scale_px.h1",
+      "typography.scale_px.h2",
+      "typography.weights"
+    ],
+    "needs_visual_review": [
+      "typography.families / vibe: 用 Read 看 contact_sheet.png，判断字形气质（几何/人文/圆体/宋体/手写）并选免费替代",
+      "typography.scale_px.display: 大标题经常读不出来，对照关键帧目测",
+      "layout.decor: 背景网格、光斑、噪点、描边、阴影等装饰",
+      "motion.transition.type: wipe/fade/slide 需看 entry/mid 关键帧确认",
+      "components: 检测器漏掉的元件（图标、箭头、流程图、标注框…）"
+    ],
+    "manual_overrides": [],
+    "not_pixel_identical_because": [
+      "原字体文件不复制，只用免费替代字体",
+      "原素材/logo/角色不搬运",
+      "随机种子、抗锯齿和编码损伤不可复原",
+      "缓动曲线是从像素运动反推的近似"
+    ]
+  }
+}

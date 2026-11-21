@@ -1,0 +1,160 @@
+{
+  "video": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/别做梦了，AI风口，与你无关.mp4",
+  "overall_score": 0.326,
+  "verdict": "live_ai_3d",
+  "static_hold_ratio": 0.032,
+  "sample_verdict_share": {
+    "code_template": 0.188,
+    "mixed_or_screen_recording": 0.125,
+    "live_ai_3d": 0.688
+  },
+  "replication_ceiling": "复刻上限低：画面主体是实拍/AI 生成/3D 渲染，本 Skill 只能蒸馏包装层（字幕条、标题卡、配色、剪辑节奏），主体画面需要其它工具或自有素材。",
+  "samples": [
+    {
+      "t": 23.625,
+      "tc": "00:00:23.625",
+      "flat_ratio": 0.103,
+      "color_compact": 0.812,
+      "noise_sigma": 2.97,
+      "score": 0.285,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 70.875,
+      "tc": "00:01:10.875",
+      "flat_ratio": 0.398,
+      "color_compact": 0.498,
+      "noise_sigma": 1.48,
+      "score": 0.321,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 118.125,
+      "tc": "00:01:58.125",
+      "flat_ratio": 0.567,
+      "color_compact": 0.786,
+      "noise_sigma": 0.0,
+      "score": 0.793,
+      "verdict": "code_template"
+    },
+    {
+      "t": 165.375,
+      "tc": "00:02:45.375",
+      "flat_ratio": 0.182,
+      "color_compact": 0.329,
+      "noise_sigma": 1.48,
+      "score": 0.152,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 212.625,
+      "tc": "00:03:32.625",
+      "flat_ratio": 0.084,
+      "color_compact": 0.298,
+      "noise_sigma": 1.48,
+      "score": 0.152,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 259.875,
+      "tc": "00:04:19.875",
+      "flat_ratio": 0.061,
+      "color_compact": 0.414,
+      "noise_sigma": 1.48,
+      "score": 0.152,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 307.125,
+      "tc": "00:05:07.125",
+      "flat_ratio": 0.101,
+      "color_compact": 0.369,
+      "noise_sigma": 1.48,
+      "score": 0.152,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 354.375,
+      "tc": "00:05:54.375",
+      "flat_ratio": 0.407,
+      "color_compact": 0.636,
+      "noise_sigma": 1.48,
+      "score": 0.437,
+      "verdict": "mixed_or_screen_recording"
+    },
+    {
+      "t": 401.625,
+      "tc": "00:06:41.625",
+      "flat_ratio": 0.353,
+      "color_compact": 0.558,
+      "noise_sigma": 1.48,
+      "score": 0.327,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 448.875,
+      "tc": "00:07:28.875",
+      "flat_ratio": 0.355,
+      "color_compact": 0.528,
+      "noise_sigma": 1.48,
+      "score": 0.306,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 496.125,
+      "tc": "00:08:16.125",
+      "flat_ratio": 0.45,
+      "color_compact": 0.825,
+      "noise_sigma": 0.0,
+      "score": 0.719,
+      "verdict": "code_template"
+    },
+    {
+      "t": 543.375,
+      "tc": "00:09:03.375",
+      "flat_ratio": 0.192,
+      "color_compact": 0.4,
+      "noise_sigma": 1.48,
+      "score": 0.152,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 590.625,
+      "tc": "00:09:50.625",
+      "flat_ratio": 0.569,
+      "color_compact": 0.866,
+      "noise_sigma": 0.0,
+      "score": 0.857,
+      "verdict": "code_template"
+    },
+    {
+      "t": 637.875,
+      "tc": "00:10:37.875",
+      "flat_ratio": 0.398,
+      "color_compact": 0.497,
+      "noise_sigma": 1.48,
+      "score": 0.32,
+      "verdict": "live_ai_3d"
+    },
+    {
+      "t": 685.125,
+      "tc": "00:11:25.125",
+      "flat_ratio": 0.404,
+      "color_compact": 0.789,
+      "noise_sigma": 1.48,
+      "score": 0.552,
+      "verdict": "mixed_or_screen_recording"
+    },
+    {
+      "t": 732.375,
+      "tc": "00:12:12.375",
+      "flat_ratio": 0.328,
+      "color_compact": 0.526,
+      "noise_sigma": 1.48,
+      "score": 0.28,
+      "verdict": "live_ai_3d"
+    }
+  ],
+  "status": "inferred",
+  "method": "pixel statistics heuristic; idea from JuneYaooo/rea-video (Apache-2.0), no code reused"
+}

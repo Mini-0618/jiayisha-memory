@@ -1,0 +1,522 @@
+{
+  "created_at": "2026-11-20T19:11:12+00:00",
+  "style": "fastcut-doc-narration",
+  "tokens": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/style/style-tokens.json",
+  "reference_analysis": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis",
+  "same_content": false,
+  "checklist_version": 2,
+  "source_level_rule": "must 只对 seen 字段生效；inferred → should；unknown → should + not-testable。",
+  "baseline_rule": "主色/强调色/元件基准来自参考片分析（不带 overrides 的 distill），建清单时冻结在各项 baseline 字段，之后不随 style-tokens 改动。",
+  "done_rule": "降级后剩下的所有 must 项，在连续两轮、两个不同成片文件（sha256 不同）的 compare 中都为 pass 才算完成；not-testable 不算 pass；同一文件重复比较不计新一轮；两轮总分不动就停下来问人",
+  "attribution": "Tier/gap/ledger 结构改编自 Speedrunlab/reverse-engineer-anything-self-learning-loop (MIT)；'不可比较即 unknown/not-testable' 规则参考 morluto/rea 视觉主张合同 (MIT)；seen/inferred/unknown 分级参考 aicodeking/leanrea (MIT)。",
+  "items": [
+    {
+      "id": "M1",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "画布尺寸与帧率一致",
+      "metric": "canvas_equal",
+      "op": "==",
+      "threshold": true,
+      "method": "ffprobe width/height/fps",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/meta.json",
+      "source_paths": [
+        "canvas.width",
+        "canvas.height",
+        "canvas.fps"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "M2",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "背景色一致",
+      "metric": "bg_delta_e",
+      "op": "<=",
+      "threshold": 3.0,
+      "method": "CIEDE2000(ref bg, replica bg)；bg=边框像素众数",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "palette.bg"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "M3",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "整体色板接近",
+      "metric": "palette_weighted_delta_e",
+      "op": "<=",
+      "threshold": 6.0,
+      "method": "参考色板每个色块(占比≥0.5%)到复刻色板最近色的 ΔE2000，按占比加权平均",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/palette_global.png",
+      "source_paths": [
+        "palette.measured_swatches"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "M4",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "主色/强调色出现在复刻片",
+      "metric": "role_colors_max_delta_e",
+      "op": "<=",
+      "threshold": 8.0,
+      "method": "基准=参考片分析测得的 primary/accent（建清单时冻结）到复刻前景色板最近色的最大 ΔE2000",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/palette_global.png",
+      "source_paths": [
+        "palette.primary",
+        "palette.accent"
+      ],
+      "source_level": "unknown",
+      "baseline": {
+        "primary": "#8D673E",
+        "accent": "#8D673E"
+      },
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "M5",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "入场速度曲线形状一致（缓动）",
+      "metric": "entrance_profile_corr",
+      "op": ">=",
+      "threshold": 0.8,
+      "method": "非转场运动事件的光流速度曲线重采样到 20 点、归一化后取平均，Pearson r",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [
+        "motion.easing.enter"
+      ],
+      "source_level": "unknown",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "M6",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "入场动画时长接近",
+      "metric": "entrance_duration_ratio_err",
+      "op": "<=",
+      "threshold": 0.25,
+      "method": "|median(rep)/median(ref) - 1|",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [
+        "motion.durations_s"
+      ],
+      "source_level": "unknown",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "M7",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "左边距一致",
+      "metric": "margin_left_diff_pct",
+      "op": "<=",
+      "threshold": 2.0,
+      "method": "左边距百分点差",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "layout.margins_pct.left"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "M8",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "对齐方式一致",
+      "metric": "alignment_match",
+      "op": "==",
+      "threshold": true,
+      "method": "dominant_alignment 相同",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "layout.alignment"
+      ],
+      "source_level": "inferred",
+      "downgraded_reason": "来源字段是推测值（inferred）：降为 should，先目测确认再调参"
+    },
+    {
+      "id": "M9",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "安全区接近",
+      "metric": "safe_area_diff_pct",
+      "op": "<=",
+      "threshold": 3.0,
+      "method": "四边安全区百分点差的最大值",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "layout.safe_area_pct"
+      ],
+      "source_level": "inferred",
+      "downgraded_reason": "来源字段是推测值（inferred）：降为 should，先目测确认再调参"
+    },
+    {
+      "id": "M10",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "面板圆角接近",
+      "metric": "radius_diff_px",
+      "op": "<=",
+      "threshold": 6.0,
+      "method": "面板圆角像素差（按画布高度归一）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "layout.radius_px"
+      ],
+      "source_level": "inferred",
+      "baseline": {
+        "radius_px": 16
+      },
+      "downgraded_reason": "来源字段是推测值（inferred）：降为 should，先目测确认再调参"
+    },
+    {
+      "id": "C1",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "元件 title_card 在复刻片中被检测到",
+      "metric": "component_detected",
+      "op": "==",
+      "threshold": true,
+      "method": "对复刻片跑 analyze+distill 的元件检测，要求出现 title_card",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components:title_card"
+      ],
+      "source_level": "inferred",
+      "component": "title_card",
+      "downgraded_reason": "来源字段是推测值（inferred）：降为 should，先目测确认再调参"
+    },
+    {
+      "id": "C2",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "元件 bullet_list 在复刻片中被检测到",
+      "metric": "component_detected",
+      "op": "==",
+      "threshold": true,
+      "method": "对复刻片跑 analyze+distill 的元件检测，要求出现 bullet_list",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components:bullet_list"
+      ],
+      "source_level": "unknown",
+      "component": "bullet_list",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "C3",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "元件 number_counter 在复刻片中被检测到",
+      "metric": "component_detected",
+      "op": "==",
+      "threshold": true,
+      "method": "对复刻片跑 analyze+distill 的元件检测，要求出现 number_counter",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components:number_counter"
+      ],
+      "source_level": "unknown",
+      "component": "number_counter",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "C4",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "元件 bar_chart 在复刻片中被检测到",
+      "metric": "component_detected",
+      "op": "==",
+      "threshold": true,
+      "method": "对复刻片跑 analyze+distill 的元件检测，要求出现 bar_chart",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components:bar_chart"
+      ],
+      "source_level": "unknown",
+      "component": "bar_chart",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "C5",
+      "declared_tier": "must",
+      "tier": "should",
+      "what": "元件 subtitle_bar 在复刻片中被检测到",
+      "metric": "component_detected",
+      "op": "==",
+      "threshold": true,
+      "method": "对复刻片跑 analyze+distill 的元件检测，要求出现 subtitle_bar",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components:subtitle_bar"
+      ],
+      "source_level": "unknown",
+      "component": "subtitle_bar",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "U1",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "字幕底条色一致",
+      "metric": "subtitle_bar_delta_e",
+      "op": "<=",
+      "threshold": 8.0,
+      "method": "复刻片字幕行局部底色（components_style.subtitle.bg，需复刻侧 seen）与冻结基准 ΔE2000",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components_style.subtitle"
+      ],
+      "source_level": "seen",
+      "component": "subtitle_bar",
+      "baseline": {
+        "bg": null
+      }
+    },
+    {
+      "id": "U2",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "字幕字号接近",
+      "metric": "subtitle_size_ratio_err",
+      "op": "<=",
+      "threshold": 0.15,
+      "method": "底部居中 OCR 行的墨迹字号中位数比 |rep/ref - 1|（按画布高度归一；任一侧无 OCR → not-testable）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components_style.subtitle"
+      ],
+      "source_level": "seen",
+      "component": "subtitle_bar",
+      "baseline": {
+        "size_px": null
+      }
+    },
+    {
+      "id": "U3",
+      "declared_tier": "must",
+      "tier": "must",
+      "what": "单条字幕 ≤18 字（一屏一行）",
+      "metric": "subtitle_max_line_chars",
+      "op": "<=",
+      "threshold": 18,
+      "method": "复刻片底部居中 OCR 行去空格/标点后的字数最大值（无 OCR → not-testable）；模板按 ≤18 字自动拆条",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "components_style.subtitle"
+      ],
+      "source_level": "seen",
+      "component": "subtitle_bar"
+    },
+    {
+      "id": "S1",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "正文字号接近",
+      "metric": "body_size_ratio_err",
+      "op": "<=",
+      "threshold": 0.15,
+      "method": "OCR 墨迹高度估计的正文字号比（任一侧无 OCR 或默认值 → not-testable）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "typography.scale_px.body"
+      ],
+      "source_level": "unknown",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "S2",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "标题字号接近",
+      "metric": "h1_size_ratio_err",
+      "op": "<=",
+      "threshold": 0.2,
+      "method": "OCR 标题层字号比（任一侧无 OCR 或默认值 → not-testable）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "typography.scale_px.h1"
+      ],
+      "source_level": "unknown",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "S3",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "转场类型一致且时长接近",
+      "metric": "transition_match",
+      "op": "==",
+      "threshold": true,
+      "method": "光流方向判类型 + 核心时长误差≤30%",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.png",
+      "source_paths": [
+        "motion.transition.type",
+        "motion.transition.duration_s"
+      ],
+      "source_level": "inferred"
+    },
+    {
+      "id": "S4",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "镜头节奏接近",
+      "metric": "shot_mean_ratio_err",
+      "op": "<=",
+      "threshold": 0.35,
+      "method": "平均镜头时长比（受脚本时长影响）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/scenes.csv",
+      "source_paths": [
+        "rhythm.shot_mean_s"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "S5",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "错峰间隔接近",
+      "metric": "stagger_ratio_err",
+      "op": "<=",
+      "threshold": 0.35,
+      "method": "镜头内入场间隔中位数比",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [
+        "motion.stagger_s"
+      ],
+      "source_level": "unknown",
+      "force_not_testable": true,
+      "downgraded_reason": "来源字段未测到（unknown）：降为 should，记 not-testable"
+    },
+    {
+      "id": "S6",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "装饰元素一致（背景网格）",
+      "metric": "decor_match",
+      "op": "==",
+      "threshold": true,
+      "method": "背景网格线检测结果相同",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [
+        "layout.decor.grid_lines"
+      ],
+      "source_level": "inferred"
+    },
+    {
+      "id": "S7",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "音画卡点比例接近（双方都有音轨时）",
+      "metric": "av_sync_ratio_diff",
+      "op": "<=",
+      "threshold": 0.2,
+      "method": "视觉事件落在 80ms 内音频起音点的比例差",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [
+        "rhythm.av_sync"
+      ],
+      "source_level": "seen"
+    },
+    {
+      "id": "S10",
+      "declared_tier": "should",
+      "tier": "should",
+      "what": "入场事件密度接近（次/分钟）",
+      "metric": "entrance_density_ratio_err",
+      "op": "<=",
+      "threshold": 0.35,
+      "method": "非转场运动事件数/分钟之比 |rep/ref - 1|（受脚本内容量影响，故为 should）",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [
+        "rhythm.entrance_events_per_min"
+      ],
+      "source_level": "seen",
+      "baseline": {
+        "entrance_events_per_min": 0.0
+      }
+    },
+    {
+      "id": "O1",
+      "declared_tier": "out",
+      "tier": "out",
+      "what": "整条运动能量曲线相关（仅同内容复刻有意义）",
+      "metric": "timeline_energy_corr",
+      "op": ">=",
+      "threshold": 0.6,
+      "method": "两条运动能量曲线按归一化时间重采样 200 点后 Pearson r",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/motion_energy.csv",
+      "source_paths": [],
+      "source_level": "seen"
+    },
+    {
+      "id": "O2",
+      "declared_tier": "out",
+      "tier": "out",
+      "what": "同时间点画面结构相似（仅同内容）",
+      "metric": "mean_ssim",
+      "op": ">=",
+      "threshold": 0.85,
+      "method": "并排帧灰度 SSIM 平均",
+      "evidence_in": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/contact_sheet.png",
+      "source_paths": [],
+      "source_level": "seen"
+    },
+    {
+      "id": "O3",
+      "declared_tier": "out",
+      "tier": "out",
+      "what": "使用原片字体文件",
+      "metric": null,
+      "op": null,
+      "threshold": null,
+      "method": "政策排除：只用免费可商用替代字体",
+      "evidence_in": null,
+      "source_paths": [],
+      "source_level": "seen"
+    },
+    {
+      "id": "O4",
+      "declared_tier": "out",
+      "tier": "out",
+      "what": "原片素材 / logo / 角色 / 商标",
+      "metric": null,
+      "op": null,
+      "threshold": null,
+      "method": "政策排除：不搬运受保护资产",
+      "evidence_in": null,
+      "source_paths": [],
+      "source_level": "seen"
+    },
+    {
+      "id": "O5",
+      "declared_tier": "out",
+      "tier": "out",
+      "what": "像素级完全一致",
+      "metric": null,
+      "op": null,
+      "threshold": null,
+      "method": "不承诺；尺寸/字体/编码不同则视觉主张记为 not-testable",
+      "evidence_in": null,
+      "source_paths": [],
+      "source_level": "seen"
+    }
+  ],
+  "ref_measured_tokens": "/home/hatch/workspace/jiayisha/视频蒸馏知识库/视频/7626249685828734249/style-distill/ref_analysis/_distill/style-tokens.json"
+}

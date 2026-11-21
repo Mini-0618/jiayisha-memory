@@ -1,0 +1,127 @@
+{
+  "_provenance": {
+    "components_style.subtitle.bg_opacity": {
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "frame": "ref_analysis/keyframes/scene253_settled.png"
+        },
+        {
+          "frame": "ref_analysis/keyframes/scene308_settled.png"
+        }
+      ],
+      "method": "visual review: subtitles sit directly on the picture with a dark outline, no background bar visible in any sampled frame",
+      "status": "seen"
+    },
+    "components_style.subtitle.color": {
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "frame": "ref_analysis/keyframes/scene253_settled.png"
+        },
+        {
+          "frame": "ref_analysis/keyframes/scene308_settled.png"
+        }
+      ],
+      "method": "visual review: white fill with black outline (hex is the nominal fill colour)",
+      "status": "seen"
+    },
+    "components_style.subtitle.position": {
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "frame": "ref_analysis/keyframes/scene253_settled.png"
+        },
+        {
+          "frame": "ref_analysis/keyframes/scene308_settled.png"
+        },
+        {
+          "frame": "ref_analysis/contact_sheet.png"
+        }
+      ],
+      "method": "visual review of keyframes + contact_sheet.png",
+      "status": "seen"
+    },
+    "layout.radius_px": {
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "ref_analysis/keyframes/scene253_settled.png"
+        },
+        {
+          "frame": "ref_analysis/keyframes/scene308_settled.png"
+        }
+      ],
+      "method": "visual estimate: content sits in a rounded-rectangle frame with light-grey border, corner radius roughly 24-30px at 1920px width",
+      "status": "inferred"
+    },
+    "motion.transition.type": {
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "frame": "ref_analysis/motion_energy.png"
+        },
+        {
+          "frame": "ref_analysis/contact_sheet.png"
+        }
+      ],
+      "method": "visual review + motion_energy.png: scene changes are instantaneous content replacements (energy spikes one sample wide at 2fps sampling); the script's 3.0s 'transition' median is a sampling artefact on live footage",
+      "status": "inferred"
+    },
+    "typography.vibe": {
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "frame": "ref_analysis/keyframes/scene253_settled.png"
+        },
+        {
+          "frame": "ref_analysis/keyframes/scene308_settled.png"
+        }
+      ],
+      "method": "visual review of subtitle glyphs in keyframes (font identity itself stays unknown per skill rule)",
+      "status": "inferred"
+    },
+    "motion.transition.duration_s": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "method": "cut transitions have no duration; corrects the 1.5s default left next to the overridden cut type",
+      "evidence": [
+        {
+          "frame": "ref_analysis/motion_energy.png"
+        }
+      ]
+    },
+    "motion.easing.family_guess": {
+      "status": "unknown",
+      "confidence": 0.1,
+      "method": "placeholder for schema (field requires a string): no entrance events measurable in live footage at 2fps sampling; NOT a measurement",
+      "evidence": [
+        {
+          "frame": "ref_analysis/motion_energy.png"
+        }
+      ]
+    }
+  },
+  "components_style": {
+    "subtitle": {
+      "bg_opacity": 0.0,
+      "color": "#FFFFFF",
+      "position": "bottom"
+    }
+  },
+  "layout": {
+    "radius_px": 24
+  },
+  "motion": {
+    "transition": {
+      "type": "cut",
+      "duration_s": 0.0
+    },
+    "easing": {
+      "family_guess": "unknown"
+    }
+  },
+  "typography": {
+    "vibe": "粗黑无衬线（黑体气质）；字幕白色填充＋黑色粗描边，中英双行（中文大、英文字小）"
+  }
+}

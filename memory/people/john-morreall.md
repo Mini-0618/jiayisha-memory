@@ -3,7 +3,7 @@ display_name: "John Morreall"
 first_name: "John"
 last_name: "Morreall"
 summary: "自学第十二轮阅读来源；2026-11-13 读其《Philosophy of Humor》，与另两篇合炼出讽刺规则 H1–H8。"
-rank: 63
+rank: 64
 updated: "2026-11-13"
 ---
 

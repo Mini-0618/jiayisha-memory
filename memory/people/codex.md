@@ -1,7 +1,7 @@
 ---
 display_name: "Codex"
 summary: "在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可，Muse 出稿配音、Codex 做画面合成；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。"
-rank: 38
+rank: 39
 updated: "2026-11-18"
 ---
 

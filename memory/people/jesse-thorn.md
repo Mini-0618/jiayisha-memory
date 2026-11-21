@@ -3,7 +3,7 @@ display_name: "Jesse Thorn"
 first_name: "Jesse"
 last_name: "Thorn"
 summary: "2026-11-12 自学第九轮读其在 CJR 采访 Ira Glass 的 Q&A，本轮报告称全文已读。"
-rank: 58
+rank: 59
 updated: "2026-11-13"
 ---
 

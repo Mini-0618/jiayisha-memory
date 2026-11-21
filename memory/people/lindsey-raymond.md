@@ -3,7 +3,7 @@ display_name: "Lindsey Raymond"
 first_name: "Lindsey"
 last_name: "Raymond"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Erik Brynjolfsson、Danielle Li 合著的《Generative AI at Work》（QJE 2025），5,172 名客服、效率平均提高 15%。"
-rank: 102
+rank: 103
 updated: "2026-11-16"
 ---
 

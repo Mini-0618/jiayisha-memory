@@ -3,7 +3,7 @@ display_name: "Erik Brynjolfsson"
 first_name: "Erik"
 last_name: "Brynjolfsson"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Danielle Li、Lindsey Raymond 合著的《Generative AI at Work》（QJE 2025），5,172 名客服、效率平均提高 15%，该研究成了加伊莎 21 号切片的事实底子。"
-rank: 100
+rank: 101
 updated: "2026-11-16"
 ---
 

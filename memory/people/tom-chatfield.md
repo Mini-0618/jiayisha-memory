@@ -3,7 +3,7 @@ display_name: "Tom Chatfield"
 first_name: "Tom"
 last_name: "Chatfield"
 summary: "文本能力训练的阅读来源之一；2026-11-15 知识库每日收集收录其 Psyche 文章《How to think clearly》，提炼“讲给九岁孩子听”检验法进 B 库。"
-rank: 85
+rank: 86
 updated: "2026-11-15"
 ---
 

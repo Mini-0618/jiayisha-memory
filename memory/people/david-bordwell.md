@@ -3,7 +3,7 @@ display_name: "David Bordwell"
 first_name: "David"
 last_name: "Bordwell"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），与 Roger Ebert、Walter Murch 三篇合炼 8 条视觉叙事与剪辑规则。"
-rank: 92
+rank: 93
 updated: "2026-11-16"
 ---
 

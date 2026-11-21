@@ -1,7 +1,7 @@
 ---
 display_name: "Gentner"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十六轮全文读其《Structure-Mapping》（1983），合炼类比推理规则类1–类8，合并清单升至 287 项。"
-rank: "139"
+rank: 140
 updated: "2026-11-20"
 ---
 

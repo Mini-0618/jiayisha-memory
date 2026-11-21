@@ -3,7 +3,7 @@ display_name: "George Orwell"
 first_name: "George"
 last_name: "Orwell"
 summary: "文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 第十八、十九轮合炼历史叙事 H1–H8 与社会观察 O1–O8 规则，2026-11-20 第三十九轮再读《Politics and the English Language》合炼细节规则细1–细8，合并清单升至 311 项。"
-rank: "30"
+rank: 31
 updated: "2026-11-20"
 ---
 

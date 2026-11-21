@@ -3,7 +3,7 @@ display_name: "Barry Schwartz"
 first_name: "Barry"
 last_name: "Schwartz"
 summary: "文本能力训练的阅读来源之一；2026-11-14 自学第十七轮全文通读其 TED 2005 演讲《选择悖论》，提炼出选择过载、期望管理、带走的东西三条写稿规则。"
-rank: 83
+rank: 84
 updated: "2026-11-14"
 ---
 

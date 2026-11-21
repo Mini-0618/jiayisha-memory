@@ -3,7 +3,7 @@ display_name: "Virginia Woolf"
 first_name: "Virginia"
 last_name: "Woolf"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《How Should One Read a Book?》（1926 年），与契诃夫、纳博科夫三篇合炼 8 条文学语言规则。"
-rank: 95
+rank: 96
 updated: "2026-11-16"
 ---
 

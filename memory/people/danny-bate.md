@@ -3,7 +3,7 @@ display_name: "Danny Bate"
 first_name: "Danny"
 last_name: "Bate"
 summary: "知识库 2026-11-19 收录其 Psyche 文章《How to be a word detective》，讲从词根拆解追形态与义变的词源侦探法。"
-rank: 133
+rank: 134
 updated: "2026-11-19"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Kurt Vonnegut"
 first_name: "Kurt"
 last_name: "Vonnegut"
 summary: "文本能力训练的阅读来源之一；2026-11-11 第五轮读其《故事的形状》、2026-11-12 提炼「冯内古特八问」检查卡，2026-11-19 第三十五轮全文读《Here is a lesson in creative writing》合炼情绪曲线规则张1–张8，第三十七轮读《How to Write with Style》合炼删稿规则删1–删8，合并清单升至 295 项。"
-rank: "134"
+rank: 135
 updated: "2026-11-20"
 ---
 

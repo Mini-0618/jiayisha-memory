@@ -2,7 +2,7 @@
 display_name: "AI Will"
 first_name: "AI Will"
 summary: "X 创作者 AI Will（@FinanceYF5）；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样；同日 Loui 回复过他一条帖，曝光 42、无互动。"
-rank: 51
+rank: 52
 updated: "2026-11-14"
 ---
 

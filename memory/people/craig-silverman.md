@@ -3,7 +3,7 @@ display_name: "Craig Silverman"
 first_name: "Craig"
 last_name: "Silverman"
 summary: "《Verification Handbook》编者；2026-11-18 自学第 32 轮读其书第 2、9 章等，合炼证据核查规则核1–核8，合并清单升至 255 项。"
-rank: 123
+rank: 124
 updated: "2026-11-18"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Francis Bacon"
 first_name: "Francis"
 last_name: "Bacon"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十八轮全文读其《Of Discourse》，合炼口语化改写规则口1–口8，合并清单升至 303 项。"
-rank: "143"
+rank: 144
 updated: "2026-11-20"
 ---
 

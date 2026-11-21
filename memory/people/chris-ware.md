@@ -3,7 +3,7 @@ display_name: "Chris Ware"
 first_name: "Chris"
 last_name: "Ware"
 summary: "自学第 26 轮阅读来源；其与 Ira Glass 的 2002 年对谈实录《Glass/Ware》仅用了已读的公开引文段，未通读全文。"
-rank: 111
+rank: 112
 updated: "2026-11-17"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Max Roser"
 first_name: "Max"
 last_name: "Roser"
 summary: "Our World in Data 文章作者；2026-11-14 知识库收录其《The history of the end of poverty has just begun》，并与 Hans Rosling 合出视频选题；2026-11-15 知识库收录并全文读《The short history of global living conditions》，合炼历史叙事 H1–H8 规则。"
-rank: 69
+rank: 70
 updated: "2026-11-15"
 ---
 

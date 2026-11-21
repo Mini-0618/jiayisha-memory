@@ -3,7 +3,7 @@ display_name: "柱子哥"
 first_name: "柱子哥"
 nickname: "柱子哥"
 summary: "抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。"
-rank: 6
+rank: 7
 updated: "2026-11-10"
 ---
 

@@ -2,7 +2,7 @@
 display_name: "DeepSeek"
 nickname: "DS"
 summary: "简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。"
-rank: 39
+rank: 40
 updated: "2026-11-12"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Daniel Kahneman"
 first_name: "Daniel"
 last_name: "Kahneman"
 summary: "文本能力训练的阅读来源之一；2026-11-14 自学第十七轮全文通读其 TED 2010 演讲《经验与记忆之谜》，提炼出峰值-结尾、记忆句、聚焦错觉三条写稿规则。"
-rank: 82
+rank: 83
 updated: "2026-11-14"
 ---
 

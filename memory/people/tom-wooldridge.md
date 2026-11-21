@@ -3,7 +3,7 @@ display_name: "Tom Wooldridge"
 first_name: "Tom"
 last_name: "Wooldridge"
 summary: "知识库 2026-11-20 收录其 Aeon 文章《What would parenting by AI look like?》，衍生 D 库选题《孩子半夜在跟 AI 说话，父母该担心吗？》."
-rank: "145"
+rank: 146
 updated: "2026-11-20"
 ---
 

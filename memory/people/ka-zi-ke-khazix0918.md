@@ -1,7 +1,7 @@
 ---
 display_name: "卡兹克"
 summary: "X 创作者 @Khazix0918（卡兹克）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 产品与长文。"
-rank: 46
+rank: 47
 updated: "2026-11-12"
 ---
 

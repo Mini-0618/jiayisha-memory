@@ -3,7 +3,7 @@ display_name: "E. M. Forster"
 first_name: "E. M."
 last_name: "Forster"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核查其《The Machine Stops》（1909），提炼用母子对生活方式的分歧呈现技术依赖的写法。"
-rank: 99
+rank: 100
 updated: "2026-11-16"
 ---
 

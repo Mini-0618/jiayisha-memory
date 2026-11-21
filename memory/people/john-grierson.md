@@ -3,7 +3,7 @@ display_name: "John Grierson"
 first_name: "John"
 last_name: "Grierson"
 summary: "自学第十三轮阅读来源；2026-11-13 读其《First Principles of Documentary》，与另两篇合炼出纪录片叙事规则 D1–D8。"
-rank: 66
+rank: 67
 updated: "2026-11-13"
 ---
 

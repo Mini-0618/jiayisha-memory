@@ -1,7 +1,7 @@
 ---
 display_name: "宝玉"
 summary: "X 创作者 @dotey（宝玉）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 与提示工程。"
-rank: 45
+rank: 46
 updated: "2026-11-12"
 ---
 

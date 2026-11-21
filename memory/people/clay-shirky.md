@@ -3,7 +3,7 @@ display_name: "Clay Shirky"
 first_name: "Clay"
 last_name: "Shirky"
 summary: "自学第十六轮阅读来源；2026-11-14 通读其《A Group Is Its Own Worst Enemy》，与另三篇合炼出评论区运营规则 C1–C8 进合并清单。"
-rank: 80
+rank: 81
 updated: "2026-11-14"
 ---
 

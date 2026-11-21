@@ -3,7 +3,7 @@ display_name: "张汉生"
 first_name: "汉生"
 last_name: "张"
 summary: "抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户曾以其团队 120 亿播放的故事重写 AI 短剧主片，但 2026-11-12 已拍板该稿作废、改走更好的新做法。"
-rank: 28
+rank: 29
 updated: "2026-11-12"
 ---
 

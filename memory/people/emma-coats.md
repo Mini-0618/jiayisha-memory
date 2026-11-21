@@ -3,7 +3,7 @@ display_name: "Emma Coats"
 first_name: "Emma"
 last_name: "Coats"
 summary: "文本能力训练的阅读来源之一；2026-11-11 第五轮读其《皮克斯讲故事的 22 条规则》，2026-11-17 第二十五轮全文重读提炼结尾规则 K1–K8，2026-11-19 第三十五轮全文读《Pixar's 22 Rules of Storytelling》合炼情绪曲线规则张1–张8，合并清单升至 279 项。"
-rank: "135"
+rank: 136
 updated: "2026-11-19"
 ---
 

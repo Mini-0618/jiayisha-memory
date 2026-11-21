@@ -3,7 +3,7 @@ display_name: "Richard Feynman"
 first_name: "Richard"
 last_name: "Feynman"
 summary: "文本能力训练的阅读来源之一；用户2026-11-12将 Caltech 档案库定为知识库固定来源站，2026-11-13 知识库再收录其《There's Plenty of Room at the Bottom》并提炼现场算术手法。"
-rank: 31
+rank: 32
 updated: "2026-11-13"
 ---
 

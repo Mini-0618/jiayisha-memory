@@ -3,7 +3,7 @@ display_name: "Brian Clark"
 first_name: "Brian"
 last_name: "Clark"
 summary: "自学第十一轮阅读来源；2026-11-13 通读其 The Barefoot Writer 访谈（2012），「意义＋着迷」标题两分法提炼为 T2 规则进合并清单。"
-rank: 61
+rank: 62
 updated: "2026-11-13"
 ---
 

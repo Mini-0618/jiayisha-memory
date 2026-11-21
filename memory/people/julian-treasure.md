@@ -3,7 +3,7 @@ display_name: "Julian Treasure"
 first_name: "Julian"
 last_name: "Treasure"
 summary: "自学第 26 轮阅读来源；2026-11-17 全文读其 TED 2013 演讲《How to speak so that people want to listen》，合炼声音与旁白设计规则 Y1–Y8。"
-rank: 109
+rank: 110
 updated: "2026-11-17"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Errol Morris"
 first_name: "Errol"
 last_name: "Morris"
 summary: "自学第十三轮阅读来源；2026-11-13 读其《The Anti-Post-Modern Post-Modernist》，与另两篇合炼出纪录片叙事规则 D1–D8。"
-rank: 68
+rank: 69
 updated: "2026-11-13"
 ---
 

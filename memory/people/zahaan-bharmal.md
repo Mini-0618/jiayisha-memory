@@ -3,7 +3,7 @@ display_name: "Zahaan Bharmal"
 first_name: "Zahaan"
 last_name: "Bharmal"
 summary: "知识库 2026-11-18 收录其 Aeon 文章《How to use physics to make sense of the messiness of life》，衍生 D 库选题《为什么越努力，越脆弱？——“冗余容量”》。"
-rank: 120
+rank: 121
 updated: "2026-11-18"
 ---
 

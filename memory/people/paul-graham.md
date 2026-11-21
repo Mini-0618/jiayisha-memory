@@ -3,7 +3,7 @@ display_name: "Paul Graham"
 first_name: "Paul"
 last_name: "Graham"
 summary: "文本能力训练的阅读来源之一；2026-11-19 第三十六轮再读《How to Think for Yourself》合炼类比规则类1–类8，2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项。"
-rank: "29"
+rank: 30
 updated: "2026-11-20"
 ---
 

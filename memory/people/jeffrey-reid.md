@@ -3,7 +3,7 @@ display_name: "Jeffrey Reid"
 first_name: "Jeffrey"
 last_name: "Reid"
 summary: "知识库 2026-11-18 收录其 Psyche 文章《How to think like a Hegelian》，衍生 D 库新问题《与 AI 比计算必输，那人还剩什么可比？》。"
-rank: 121
+rank: 122
 updated: "2026-11-18"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Yousri Marzouki"
 first_name: "Yousri"
 last_name: "Marzouki"
 summary: "知识库 2026-11-17 收录其 Psyche 文章《How to reclaim your attention》，衍生 D 库新问题「注意力是管出来的，还是安放出来的？」。"
-rank: 115
+rank: 116
 updated: "2026-11-17"
 ---
 

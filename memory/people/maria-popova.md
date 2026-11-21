@@ -3,7 +3,7 @@ display_name: "Maria Popova"
 first_name: "Maria"
 last_name: "Popova"
 summary: "知识库 2026-11-17 收录其 The Marginalian 文章《How to Shed the Surface-Self》，借 Evelyn Underhill 讲表层自我与深层自我的冲突。"
-rank: 116
+rank: 117
 updated: "2026-11-17"
 ---
 

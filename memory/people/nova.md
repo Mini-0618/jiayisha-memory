@@ -1,7 +1,7 @@
 ---
 display_name: "Nova"
 summary: "加伊莎 AI Studio（CORE-001）的开发执行方；2026-11-12 验收退回补件，截至 2026-11-15「04:48 放行」确认仍未决、补件任务书无法转发，ai-studio 仓库授权仍未补勾。"
-rank: 42
+rank: 43
 updated: "2026-11-15"
 ---
 

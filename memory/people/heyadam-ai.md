@@ -1,7 +1,7 @@
 ---
 display_name: "@heyadam_ai"
 summary: "X 账号 @heyadam_ai；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。"
-rank: 50
+rank: 51
 updated: "2026-11-12"
 ---
 

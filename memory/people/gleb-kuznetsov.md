@@ -3,7 +3,7 @@ display_name: "Gleb Kuznetsov"
 first_name: "Gleb"
 last_name: "Kuznetsov"
 summary: "Dribbble 设计师；用户 2026-11-13 发来其 Personal Memory Graph 作 Super OS 共享记忆中心（3D 记忆星图）的设计语言参考，只提语言不原样复制。"
-rank: 36
+rank: 37
 updated: "2026-11-13"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Parisa Khoshnami"
 first_name: "Parisa"
 last_name: "Khoshnami"
 summary: "知识库 2026-11-19 收录其 Aeon 文章《It's not political: the young fashionistas of Tehran》，讲伊朗年轻人以日常在场而非口号实现改变。"
-rank: 130
+rank: 131
 updated: "2026-11-19"
 ---
 

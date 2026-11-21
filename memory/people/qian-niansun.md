@@ -3,7 +3,7 @@ display_name: "钱念孙"
 first_name: "念孙"
 last_name: "钱"
 summary: "自学第十四轮阅读来源；2026-11-13 读其《朱光潜论中国诗的声律及诗体衍变》用于语言节奏训练，提炼 J1–J8 规则进合并清单。"
-rank: 70
+rank: 71
 updated: "2026-11-14"
 ---
 

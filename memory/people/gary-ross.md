@@ -3,7 +3,7 @@ display_name: "Gary Ross"
 first_name: "Gary"
 last_name: "Ross"
 summary: "《欢乐谷》导演；2026-11-19 自学第三十四轮全文读 Roger Ebert 1998 年访谈他的《Dreaming in Color》，谈色彩，同轮合炼色彩与光线规则色1–色8。"
-rank: 129
+rank: 130
 updated: "2026-11-19"
 ---
 

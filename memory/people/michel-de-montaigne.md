@@ -3,7 +3,7 @@ display_name: "Michel de Montaigne"
 first_name: "Michel"
 last_name: "de Montaigne"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十八轮全文读其《On the Art of Discussion》，合炼口语化改写规则口1–口8，合并清单升至 303 项。"
-rank: "144"
+rank: 145
 updated: "2026-11-20"
 ---
 

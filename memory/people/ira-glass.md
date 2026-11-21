@@ -3,7 +3,7 @@ display_name: "Ira Glass"
 first_name: "Ira"
 last_name: "Glass"
 summary: "2026-11-12 自学第九轮读 CJR 对他的访谈（Jesse Thorn 采访），本轮报告称全文已读；2026-11-17 第 26 轮又读其与 Chris Ware 的对谈实录，仅用了已读的公开引文段，未通读全文。"
-rank: 57
+rank: 58
 updated: "2026-11-17"
 ---
 

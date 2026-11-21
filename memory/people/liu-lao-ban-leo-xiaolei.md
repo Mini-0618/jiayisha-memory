@@ -1,7 +1,7 @@
 ---
 display_name: "刘老板"
 summary: "X 创作者 @leo_xiaolei（刘老板）；2026-11-12 Loui 第一批种子关注之一，中文主力对标，方向为 AI 短剧教程。"
-rank: 47
+rank: 48
 updated: "2026-11-12"
 ---
 

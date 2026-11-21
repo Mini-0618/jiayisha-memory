@@ -3,7 +3,7 @@ display_name: "韩福涛"
 first_name: "福涛"
 last_name: "韩"
 summary: "新京报调查记者；2026-11-14 自学第十五轮读其《罐车运输乱象调查》，跟车时间线与信源保护做法提炼进调查报道规则 I1–I8。"
-rank: 74
+rank: 75
 updated: "2026-11-14"
 ---
 

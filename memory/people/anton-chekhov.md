@@ -3,7 +3,7 @@ display_name: "Anton Chekhov"
 first_name: "Anton"
 last_name: "Chekhov"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其六条写作规则（The Marginalian 整理，1888 年信件摘录），与纳博科夫、伍尔夫三篇合炼 8 条文学语言规则。"
-rank: 93
+rank: 94
 updated: "2026-11-16"
 ---
 

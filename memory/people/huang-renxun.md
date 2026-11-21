@@ -3,7 +3,7 @@ display_name: "黄仁勋"
 first_name: "仁勋"
 last_name: "黄"
 summary: "英伟达创始人；用户 16 号抖音切片讲他辞职，2026-11-18 又把英伟达 Q3 破千亿作续集候选、顺延下周。"
-rank: 117
+rank: 118
 updated: "2026-11-18"
 ---
 

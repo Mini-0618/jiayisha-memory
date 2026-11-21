@@ -3,7 +3,7 @@ display_name: "Angelina Osborne"
 first_name: "Angelina"
 last_name: "Osborne"
 summary: "London Museum 文章作者；2026-11-13 知识库收录其伦敦码头多元文化往事一文，衍生 D 库选题《被删掉的那一半故事：谁的声音不在 AI 的训练数据里？》。"
-rank: 60
+rank: 61
 updated: "2026-11-13"
 ---
 

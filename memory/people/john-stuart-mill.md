@@ -3,7 +3,7 @@ display_name: "John Stuart Mill"
 first_name: "John"
 last_name: "Mill"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《On Liberty》第二章（1859），与罗素《The Value of Philosophy》、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。"
-rank: 97
+rank: 98
 updated: "2026-11-16"
 ---
 

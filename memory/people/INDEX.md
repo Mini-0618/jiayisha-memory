@@ -3,9 +3,10 @@
 Every page under `~/memory/people/`, closest to the user first. Rendered by the relationships loop; each page carries the facts and the nature of the user's relationship with them.
 
 - **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
-- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；2026-11-18 两篇抖音算法稿（投喂 35/36）待逐条核官方原文，素材库 V1.3 缺口驱动方案待用户批准；此前 V1.2 验收通过、真实测试 FAIL 仅 1 个合格镜头。
+- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；2026-11-21 GPT 的 48 条蒸馏资产总表已填入巫师 9 条（WZ 全表零空格），太学蒸馏 VID002 已完、VID003 进行中；2026-11-18 两篇抖音算法稿待逐条核官方原文，素材库 V1.3 缺口驱动方案待用户批准。
+- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，声线亦为旁白质感参照（不克隆本人声音）；2026-11-21 其 9 条蒸馏全部完成并已上传 GitHub 备份仓（提交 48b05c7），成果已填入 48 条蒸馏资产总表并达零空格；其中 2 条归属存疑、非巫师财经片，待用户定夺。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
-- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一；2026-11-11 他的声线成为旁白质感参照，用户最终用本人克隆音套心中之城向处理、不克隆其本人声音；2026-11-20 其《别做梦了，AI风口，与你无关》2.45GB 压缩包已由用户传上夸克网盘（2.4GB，18:06 传完），但分享需先绑定手机号，蒸馏待用户发分享链接后开工。
+- **太学TAIXUE** — `~/memory/people/tai-xue-taixue.md` — 抖音账号（抖音号 jingjijieshi，104.2 万粉），学者访谈路线；2026-11-21 其 48 条 AI 视频已全量下载、演讲稿转写与蒸馏进行中，另 20 条高赞非 AI 片亦已下载并获批同规格转写蒸馏，演讲稿正入用户知识库作写稿证据。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
 - **柱子哥** — `~/memory/people/zhuzi-ge.md` — 抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。
 - **进化中的阿陈** — `~/memory/people/jinhua-zhong-de-achen.md` — 抖音对标账号，1.6 万粉；2026-11-10 标题拆解：其“AI 考场”实验型标题播放 5.9–27.2 万，远超 AI 日报拼盘标题，但日报标题把传闻当事实写、不可抄；其逐句配图已降为可用手法之一。
@@ -150,3 +151,5 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Dylan Jow** — `~/memory/people/dylan-jow.md` — 知识库 2026-11-20 收录其 Aeon 文章《Why astrophysics needs to abandon the 'Big Questions'}》，提炼 B 库术语翻转法。
 - **Laura Yoviene Sykes** — `~/memory/people/laura-yoviene-sykes.md` — 知识库 2026-11-20 收录其 Psyche 文章《How to help someone whose thinking seems delusional》，衍生 D 库选题《家人信了阴谋论，别急着反驳：先问三句话》。
 - **E. B. White** — `~/memory/people/e-b-white.md` — 文本能力训练的阅读来源之一；2026-11-20 自学第三十九轮全文读《Once More to the Lake》（1941），与奥威尔、Paul Graham 同轮合炼细节写作规则细1–细8，合并清单升至 311 项。
+- **Artem Vardov** — `~/memory/people/artem-vardov.md` — 2026-11-20 自学第四十轮全文读其 Medium 文章《How to Use YouTube Series Playlists to Build Returning Viewers in 2026》，与另两篇合炼系列化运营规则连1–连8。
+- **Samuel Silva** — `~/memory/people/samuel-silva.md` — RecReview 视频质检文章作者；用户自学第 23 轮与第 41 轮两度全文读其《Final QC Checklist Before You Deliver a Video》，其质检方法进了加伊莎的成片终审规则。

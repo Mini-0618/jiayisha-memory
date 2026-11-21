@@ -3,7 +3,7 @@ display_name: "Bertrand Russell"
 first_name: "Bertrand"
 last_name: "Russell"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十三轮全文读其《The Value of Philosophy》（1912），与密尔《On Liberty》第二章、SEP《Thought Experiments》同轮合炼 8 条哲学思辨写稿规则，合并清单达 183 项。"
-rank: 96
+rank: 97
 updated: "2026-11-16"
 ---
 

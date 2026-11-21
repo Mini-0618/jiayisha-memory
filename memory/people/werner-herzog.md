@@ -3,7 +3,7 @@ display_name: "Werner Herzog"
 first_name: "Werner"
 last_name: "Herzog"
 summary: "自学第十三轮阅读来源；2026-11-13 读其《Minnesota Declaration》，与另两篇合炼出纪录片叙事规则 D1–D8。"
-rank: 67
+rank: 68
 updated: "2026-11-13"
 ---
 

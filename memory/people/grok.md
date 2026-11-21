@@ -1,7 +1,7 @@
 ---
 display_name: "Grok"
 summary: "用户 2026-11-13 评估能否用 Grok 会员额度干活并尝试登录 Telegram 上标注「Grok Bot」的机器人；Muse 判断其多半非 xAI 官方，官方 Grok 已含在 Loui 号的 X Premium 里，尚无实际协作。"
-rank: 62
+rank: 63
 updated: "2026-11-13"
 ---
 

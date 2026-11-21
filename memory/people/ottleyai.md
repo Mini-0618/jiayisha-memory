@@ -1,7 +1,7 @@
 ---
 display_name: "@ottleyai"
 summary: "X 账号 @ottleyai；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。"
-rank: 52
+rank: 53
 updated: "2026-11-12"
 ---
 

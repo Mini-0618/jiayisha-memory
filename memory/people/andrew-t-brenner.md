@@ -3,7 +3,7 @@ display_name: "Andrew T Brenner"
 first_name: "Andrew"
 last_name: "Brenner"
 summary: "知识库 2026-11-17 收录其 Aeon 文章《A new answer to why there is something rather than nothing》。"
-rank: 114
+rank: 115
 updated: "2026-11-17"
 ---
 

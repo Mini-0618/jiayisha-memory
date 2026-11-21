@@ -1,7 +1,7 @@
 ---
 display_name: "Bartha"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十六轮全文读其 SEP《Analogy and Analogical Reasoning》，合炼类比推理规则类1–类8，合并清单升至 287 项。"
-rank: "138"
+rank: 139
 updated: "2026-11-20"
 ---
 

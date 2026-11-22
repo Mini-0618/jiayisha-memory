@@ -3,10 +3,10 @@
 Every page under `~/memory/people/`, closest to the user first. Rendered by the relationships loop; each page carries the facts and the nature of the user's relationship with them.
 
 - **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
-- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；2026-11-21 GPT 的 48 条蒸馏资产总表已填入巫师 9 条（WZ 全表零空格），太学蒸馏 VID002 已完、VID003 进行中；2026-11-18 两篇抖音算法稿待逐条核官方原文，素材库 V1.3 缺口驱动方案待用户批准。
-- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，声线亦为旁白质感参照（不克隆本人声音）；2026-11-21 其 9 条蒸馏全部完成并已上传 GitHub 备份仓（提交 48b05c7），成果已填入 48 条蒸馏资产总表并达零空格；其中 2 条归属存疑、非巫师财经片，待用户定夺。
+- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；太学蒸馏 VID001–VID011 已蒸完入表，VID011 推送待用户审批、下一条 VID012 许纪霖；两篇抖音算法稿待核官方原文，素材库 V1.3 方案待用户批准。
+- **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标，声线亦为旁白质感参照（不克隆本人声音）；2026-11-21 其 9 条蒸馏已上传 GitHub 备份仓（提交 48b05c7），2 条归属存疑待用户定夺；2026-11-22 用户判样片《美国人为什么开始反对AI了》最新版会好很多、但未达巫师标准，已令换高清素材＋定制动效顶一版探上限。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
-- **太学TAIXUE** — `~/memory/people/tai-xue-taixue.md` — 抖音账号（抖音号 jingjijieshi，104.2 万粉），学者访谈路线；2026-11-21 其 48 条 AI 视频已全量下载、演讲稿转写与蒸馏进行中，另 20 条高赞非 AI 片亦已下载并获批同规格转写蒸馏，演讲稿正入用户知识库作写稿证据。
+- **太学TAIXUE** — `~/memory/people/tai-xue-taixue.md` — 抖音账号（抖音号 jingjijieshi，104.2 万粉），学者访谈路线；2026-11-21 蒸馏已完成 VID001–VID011（李超、朱西产等），下一条 VID012 许纪霖；用户令剩余 80 条全部蒸完，演讲稿正入知识库作写稿证据。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
 - **柱子哥** — `~/memory/people/zhuzi-ge.md` — 抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。
 - **进化中的阿陈** — `~/memory/people/jinhua-zhong-de-achen.md` — 抖音对标账号，1.6 万粉；2026-11-10 标题拆解：其“AI 考场”实验型标题播放 5.9–27.2 万，远超 AI 日报拼盘标题，但日报标题把传闻当事实写、不可抄；其逐句配图已降为可用手法之一。
@@ -94,7 +94,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Tim Harford** — `~/memory/people/tim-harford.md` — 文本能力训练的阅读来源之一；2026-11-15 自学第二十轮全文读其 TED 2011 演讲《Trial, error and the God complex》，与 Paul Graham 两篇合炼 8 条经济科技写稿规则。
 - **Roger Ebert** — `~/memory/people/roger-ebert.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《How to Read a Movie》合炼视觉叙事规则 V1–V8；2026-11-19 第三十四轮全文读其《Dreaming in Color》（访谈《欢乐谷》导演 Gary Ross），合炼色彩与光线规则色1–色8，合并清单升至 271 项。
 - **Walter Murch** — `~/memory/people/walter-murch.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Rule of Six》一节，与 Roger Ebert、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。
-- **David Bordwell** — `~/memory/people/david-bordwell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），与 Roger Ebert、Walter Murch 三篇合炼 8 条视觉叙事与剪辑规则。
+- **David Bordwell** — `~/memory/people/david-bordwell.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），合炼视觉叙事与剪辑规则 V1–V8；2026-11-21 自学第四十六轮全文读其《Hitchcock, Lessing, and the bomb under the table》（2013-11-29），合炼反转与悬念规则反1–反8，合并清单升至 367 项。
 - **Anton Chekhov** — `~/memory/people/anton-chekhov.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其六条写作规则（The Marginalian 整理，1888 年信件摘录），与纳博科夫、伍尔夫三篇合炼 8 条文学语言规则。
 - **Vladimir Nabokov** — `~/memory/people/vladimir-nabokov.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《Good Readers and Good Writers》（1948 年讲稿），与契诃夫、伍尔夫三篇合炼 8 条文学语言规则。
 - **Virginia Woolf** — `~/memory/people/virginia-woolf.md` — 文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《How Should One Read a Book?》（1926 年），与契诃夫、纳博科夫三篇合炼 8 条文学语言规则。
@@ -137,7 +137,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Jessica Riskin** — `~/memory/people/jessica-riskin.md` — 知识库 2026-11-19 收录其 Aeon 文章《The self-making world of Jean-Baptiste Lamarck》，讲拉马克式主动塑造在表观遗传与行为选择中被重新讨论。
 - **Danny Bate** — `~/memory/people/danny-bate.md` — 知识库 2026-11-19 收录其 Psyche 文章《How to be a word detective》，讲从词根拆解追形态与义变的词源侦探法。
 - **Kurt Vonnegut** — `~/memory/people/kurt-vonnegut.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《故事的形状》、2026-11-12 提炼「冯内古特八问」检查卡，2026-11-19 第三十五轮全文读《Here is a lesson in creative writing》合炼情绪曲线规则张1–张8，第三十七轮读《How to Write with Style》合炼删稿规则删1–删8，合并清单升至 295 项。
-- **Emma Coats** — `~/memory/people/emma-coats.md` — 文本能力训练的阅读来源之一；2026-11-11 第五轮读其《皮克斯讲故事的 22 条规则》，2026-11-17 第二十五轮全文重读提炼结尾规则 K1–K8，2026-11-19 第三十五轮全文读《Pixar's 22 Rules of Storytelling》合炼情绪曲线规则张1–张8，合并清单升至 279 项。
+- **Emma Coats** — `~/memory/people/emma-coats.md` — 文本能力训练的阅读来源之一；其《皮克斯讲故事的 22 条规则》在四轮自学中被拆解，2026-11-21 第四十六轮只用反转相关的 #4、#7、#9、#12、#19，合炼反转规则反1–反8，合并清单升至 367 项。
 - **Reagan** — `~/memory/people/reagan.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十五轮读其与合作者合著的《The emotional arcs of stories are dominated by six basic shapes》（arXiv:1606.07772），合炼情绪曲线规则张1–张8，合并清单升至 279 项。
 - **强 杜 (杜强)** — `~/memory/people/du-qiang.md` — 文本能力训练的阅读来源之一；2026-11-11 自学第五轮全文读其《探寻非虚构写作的背后》（澎湃新闻 2020-04-10，清华讲座整理），与冯内古特、Emma Coats 同轮合炼 8 条叙事结构规则。
 - **Bartha** — `~/memory/people/bartha.md` — 文本能力训练的阅读来源之一；2026-11-19 自学第三十六轮全文读其 SEP《Analogy and Analogical Reasoning》，合炼类比推理规则类1–类8，合并清单升至 287 项。
@@ -153,3 +153,5 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **E. B. White** — `~/memory/people/e-b-white.md` — 文本能力训练的阅读来源之一；2026-11-20 自学第三十九轮全文读《Once More to the Lake》（1941），与奥威尔、Paul Graham 同轮合炼细节写作规则细1–细8，合并清单升至 311 项。
 - **Artem Vardov** — `~/memory/people/artem-vardov.md` — 2026-11-20 自学第四十轮全文读其 Medium 文章《How to Use YouTube Series Playlists to Build Returning Viewers in 2026》，与另两篇合炼系列化运营规则连1–连8。
 - **Samuel Silva** — `~/memory/people/samuel-silva.md` — RecReview 视频质检文章作者；用户自学第 23 轮与第 41 轮两度全文读其《Final QC Checklist Before You Deliver a Video》，其质检方法进了加伊莎的成片终审规则。
+- **Ethan Mollick** — `~/memory/people/ethan-mollick.md` — 《One Useful Thing》作者；自学第 45 轮全文读其两篇人机分工文章，合炼分工规则分1–分8，合并清单升至 359 项。
+- **小lin说财经** — `~/memory/people/xiao-lin-shuo-cai-jing.md` — 视频风格参照：用户 2026-11-22 发来其 wallstreet-explainer 风格 skill，要做一条 30 秒《复利》片，脚本与配音已备好；同日 15:30 用户确认五个 skill 的代码都可以跑，wallstreet-explainer 尚未点名确认、成片未开始跑。

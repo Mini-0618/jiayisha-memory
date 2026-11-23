@@ -2,9 +2,9 @@
 display_name: "Paul Graham"
 first_name: "Paul"
 last_name: "Graham"
-summary: "文本能力训练的阅读来源之一；2026-11-19 第三十六轮再读《How to Think for Yourself》合炼类比规则类1–类8，2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项。"
+summary: "文本能力训练的阅读来源之一；2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项；2026-11-23 第五十一轮再读该文合炼金句写作 8 条规则。"
 rank: 30
-updated: "2026-11-20"
+updated: "2026-11-23"
 ---
 
 # Paul Graham
@@ -24,6 +24,7 @@ updated: "2026-11-20"
 - 口径：Graham 这两篇里的数据是 2004 年估算价，标经验/待核，不当事实（message:assistant-msg-f884bcb9-ed71-ae8c-c9f8-37aece853de0）。
 - 《How to Think for Yourself》（2020，754 行）；2026-11-19 自学第三十六轮「类比推理：借来的道理怎么验」再次全文通读，与 Bartha《Analogy and Analogical Reasoning》、Gentner《Structure-Mapping》同轮合炼出 8 条类比推理规则类1–类8：先写映射表、关系过关属性不过关、先写纵向联系、关键差异一票否决、类比只给「值得查」、数相似不数个数、一个类比只打一个点＋亲口标边界、类比要过反方；本轮合并清单 279 → 287 项，知识库索引 350 篇／5969 块 → 351 篇／6003 块（memory/2026-11-19.md）。
 - 《Write Like You Talk》（2015-10）；2026-11-20 自学第三十九轮《细节写作》再次全文通读，与 Orwell《Politics and the English Language》、E. B. White《Once More to the Lake》同轮合炼出 8 条细节写作规则细1–细8：细节先于判断；一个细节只证明一件事；抽象词 5 字内落地成物；数字带出处／对比／动作三选一；感官至少开两路；每稿留一个「变了」的细节；细节不许替事实背书；删细节按「少知道什么」算账；本轮合并清单 303→311 项，知识库索引 354 篇／6104 块（message:assistant-msg-74833569-5ec6-cb60-fd5f-b956e00e8c31）。
+- 《Write Like You Talk》（2015-10）；2026-11-23 自学第五十一轮《金句写作》再次读，与 Orwell《Politics and the English Language》、Strunk《The Elements of Style》1918 年版同轮合炼出 8 条金句写作规则：金句＝判断＋锚点；字数≤18 字；重音放句尾；用肯定句；比喻从机制来；留一句金句；三段式收尾；可朗读验收；本轮知识库索引 2045 篇／18575 块 → 2048 篇／18638 块（message:assistant-msg-d667952a-9d70-b0d6-d53f-7b1d2ceb9f92）。
 
 ## History
 - 2026-11-12：文本能力进化训练第1轮（投喂20）以《Write Like You Talk》为阅读卡05，用户随后将 paulgraham.com 列入知识库固定来源站。
@@ -35,12 +36,14 @@ updated: "2026-11-20"
 - 2026-11-15：自学第二十轮（经济科技）全文通读《How to Make Wealth》《The Power of the Marginal》，与 Tim Harford 同轮合炼 8 条经济科技写稿规则，合并清单 151→159 项，知识库索引 194 篇/3848 块→195 篇/3848 块（message:assistant-msg-f884bcb9-ed71-ae8c-c9f8-37aece853de0）。
 - 2026-11-19：自学第三十六轮再次全文通读《How to Think for Yourself》，与 Bartha、Gentner 同轮合炼类比推理规则类1–类8；本轮合并清单 279 → 287 项（memory/2026-11-19.md）。
 - 2026-11-20：自学第三十九轮再次全文通读《Write Like You Talk》，与 Orwell、E. B. White 同轮合炼细节写作规则细1–细8；本轮合并清单 303→311 项（message:assistant-msg-74833569-5ec6-cb60-fd5f-b956e00e8c31）。
+- 2026-11-23：自学第五十一轮再次读《Write Like You Talk》，与 Orwell、Strunk 同轮合炼金句写作 8 条规则。
 
 ## The relationship
 - 用户没有给这段关系命名；没有直接往来的证据。
 - 实际表现出的关系是单向的阅读与取材：用户把他的个人网站定为知识库的固定原典来源，训练报告把他的文章拆成可迁移的写作方法（口头复述、从异常现象出发、如何反驳观点、用简单检验想法），供加伊莎写稿使用；2026-11-13 的收录进一步把“口语化不等于诚实”记为反例，约束口语化写法的边界；2026-11-14 的《How to Do Great Work》收录延续了这一取材关系；同日第十七轮把《How to Think for Yourself》的三要素定为“加伊莎判断”的生产工序，每稿思考单加三问（相信几分、谁说的、好奇什么），选题单加一栏“好奇句”；2026-11-15 第二十轮延续这一取材关系，把经济科技写作拆成数—链—账—动作四段式。
 - 2026-11-19 第三十六轮再读《How to Think for Yourself》，把它用作类比推理的检验材料，合炼出类比验收规则类1–类8。
 - 2026-11-20 第三十九轮再读《Write Like You Talk》，把它用作细节写作的检验材料，合炼出细节写作规则细1–细8。
+- 2026-11-23 第五十一轮再读《Write Like You Talk》，把它用作金句写作的检验材料，合炼出金句写作规则 8 条。
 
 ## In common
 - 自然中文口播稿的写法：先口头讲一遍再落字，避免把文章写成正式发言。
@@ -50,6 +53,7 @@ updated: "2026-11-20"
 - 经济科技写作：数—链—账—动作四段式；数字三件套、机制三段、利益三方。
 - 类比推理的检验：先写映射表、关键差异一票否决、一个类比只打一个点并亲口标边界。
 - 细节写作：细节先于判断，一个细节只证明一件事，感官至少开两路，每稿留一个「变了」的细节。
+- 金句写作：金句＝判断＋锚点，字数≤18 字，重音放句尾，用肯定句，比喻从机制来，留一句金句，三段式收尾，可朗读验收。
 
 ## Open threads
 

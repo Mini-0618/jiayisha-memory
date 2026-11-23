@@ -10,6 +10,10 @@ Add an entry whenever you work something out worth keeping, for example:
 
 It starts empty and is meant to grow slowly. Don't pad it; a short, accurate file beats a long, stale one.
 
+## 素材库优先（2026-11-23 用户当面纠正）
+- **找素材的顺序定死：先查自家素材库（~/workspace/jiayisha/素材库/library.db，按主题/标签/关键词检索＋看缩略图），库里没有或等级不够，才出去找（Wikimedia/Pexels 等）。** 反面案例：脚本 25 镜 10 工位空镜一直挂着等 Pexels Key，库里其实有一条 A 级俯拍工位（1280x720）现成的；《美国人》镜 01/02/13 追着 Wikimedia 撞 429 时，也没先翻库里的 city night / server room 候选。
+- 分镜阶段就做库内匹配：每个镜头先在库里找候选，匹配结果写进分镜表（库内命中/缺口），缺口才进外部采集队列。
+
 ## 从 SOP 三方对照学到的工作规矩（2026-11-07，用户命学，详见 workspace/jiayisha/SOP三方对照-学习笔记.md）
 - **标口径**：参数、门槛、报价、基准线必须注明是「已核实（附来源与日期）」「经验基线」还是「推测」，三者不混写；禁止虚假精确（把经验值写成像实测的数字）。
 - **复盘用自有基线**：用账号最近 10–20 条同类作品的中位数做参照，不套外部"行业及格线"，不赌算法权重。

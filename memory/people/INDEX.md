@@ -31,16 +31,16 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **白昼与茄** — `~/memory/people/bai-zhou-yu-qie.md` — 抖音 AI 短剧对标账号，2026-11-10 新增为加伊莎 AI 短剧对标；代表作与数据尚未核实。
 - **心中之城** — `~/memory/people/xin-zhong-zhi-cheng.md` — 抖音解说类创作者；用户 2026-11-11 拿他的低沉磁性男中音作加伊莎旁白声音参照，最终用本人克隆音套心中之城向 C 档处理靠近该质感、未直接往来、不克隆其本人声音；2026-11-14 正式路线仍定 C 档，另做一版“巫师向”8 秒试听待用户判断。
 - **汉生 张 (张汉生)** — `~/memory/people/zhang-han-sheng.md` — 抖音 AI 短剧《持械入宋》总策划，54 岁才学 AI；用户曾以其团队 120 亿播放的故事重写 AI 短剧主片，但 2026-11-12 已拍板该稿作废、改走更好的新做法。
-- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；2026-11-19 第三十六轮再读《How to Think for Yourself》合炼类比规则类1–类8，2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项。
-- **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-15 第十八、十九轮合炼历史叙事 H1–H8 与社会观察 O1–O8 规则，2026-11-20 第三十九轮再读《Politics and the English Language》合炼细节规则细1–细8，合并清单升至 311 项。
+- **Paul Graham** — `~/memory/people/paul-graham.md` — 文本能力训练的阅读来源之一；2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项；2026-11-23 第五十一轮再读该文合炼金句写作 8 条规则。
+- **George Orwell** — `~/memory/people/george-orwell.md` — 文本能力训练的阅读来源之一；Orwell Foundation 为知识库固定来源站；2026-11-20 第三十九轮再读《Politics and the English Language》合炼细节规则细1–细8，合并清单升至 311 项；2026-11-23 第五十一轮再读该文合炼金句写作 8 条规则。
 - **Richard Feynman** — `~/memory/people/richard-feynman.md` — 文本能力训练的阅读来源之一；用户2026-11-12将 Caltech 档案库定为知识库固定来源站，2026-11-13 知识库再收录其《There's Plenty of Room at the Bottom》并提炼现场算术手法。
 - **Hans Rosling** — `~/memory/people/hans-rosling.md` — 文本能力训练的阅读来源之一（TED演讲《The best stats you've ever seen》）；用户2026-11-12将 TED 定为知识库固定来源站，2026-11-14 知识库再收录其 TED 2006 演讲并与 Max Roser 合出视频选题，该演讲此前只核到官方介绍、未通读逐字稿。
 - **栀栀为知之** — `~/memory/people/zhi-zhi-wei-zhi-zhi.md` — 抖音 MJ 人物美学创作者；用户 2026-11-11 发来其《MJ风格训练(一)人物美学》图文作审美参照，垂目表情与单一高饱和锚点色被提炼进加伊莎审美档案。
 - **小王要拍照** — `~/memory/people/xiao-wang-yao-pai-zhao.md` — 抖音 MJ 近景人像创作者；用户 2026-11-11 发来其银发近景图文作审美参照，极特写微表情与逆光光斑被提炼进加伊莎审美档案。
 - **霖恩** — `~/memory/people/lin-en.md` — 抖音 MJ 美学创作者；用户 2026-11-11 发来其夜市组图作审美参照，直视镜头、双色温对撞与带雀斑毛孔的不完美皮肤被提炼进加伊莎审美档案。
+- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可；2026-11-23 用户把 GeekFaka 代充演示站交给他做成可用站，外观方向待定。
 - **Gleb Kuznetsov** — `~/memory/people/gleb-kuznetsov.md` — Dribbble 设计师；用户 2026-11-13 发来其 Personal Memory Graph 作 Super OS 共享记忆中心（3D 记忆星图）的设计语言参考，只提语言不原样复制。
 - **George Railean** — `~/memory/people/george-railean.md` — Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。
-- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可，Muse 出稿配音、Codex 做画面合成；2026-11-12 卡死的 Cursor 关联页交他关闭，结果待报。
 - **DeepSeek ("DS")** — `~/memory/people/deepseek.md` — 简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。
 - **Groq** — `~/memory/people/groq.md` — 开源模型高速推理平台；用户 2026-11-14 提供其 API，Muse 当日验活并登记为 Super OS API 第 5 条、Agent 第 5 号，定位快速推理/转写短任务；同日实测其声音模型被条款阻断、无中文与克隆入口，生成用户声音此路不通。
 - **Adichie** — `~/memory/people/adichie.md` — 文本能力训练的阅读来源之一；2026-11-12知识库收录其 TED 演讲《单一故事的危险》，并衍生 D 库选题「关于 AI，流行的单一故事是什么」，该演讲逐字稿尚未完整取得。
@@ -118,7 +118,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Paul Katsafanas** — `~/memory/people/paul-katsafanas.md` — 知识库 2026-11-17 收录其 Aeon 文章《What explains the perpetual need for political enemies?》，衍生 D 库观点「安抚不了怨恨政治，因为敌人就是它的燃料」。
 - **Andrew Brenner (Andrew T Brenner)** — `~/memory/people/andrew-t-brenner.md` — 知识库 2026-11-17 收录其 Aeon 文章《A new answer to why there is something rather than nothing》。
 - **Yousri Marzouki** — `~/memory/people/yousri-marzouki.md` — 知识库 2026-11-17 收录其 Psyche 文章《How to reclaim your attention》，衍生 D 库新问题「注意力是管出来的，还是安放出来的？」。
-- **Maria Popova** — `~/memory/people/maria-popova.md` — 知识库 2026-11-17 收录其 The Marginalian 文章《How to Shed the Surface-Self》，借 Evelyn Underhill 讲表层自我与深层自我的冲突。
+- **Maria Popova** — `~/memory/people/maria-popova.md` — 知识库 2026-11-17 收录其 The Marginalian 文章《How to Shed the Surface-Self》；2026-11-23 又收录《人与人之间仅有的三种区别》。
 - **仁勋 黄 (黄仁勋)** — `~/memory/people/huang-renxun.md` — 英伟达创始人；用户 16 号抖音切片讲他辞职，2026-11-18 又把英伟达 Q3 破千亿作续集候选、顺延下周。
 - **Shahram Khosravi** — `~/memory/people/shahram-khosravi.md` — 知识库 2026-11-18 收录其 Aeon 文章《Those forced to cross borders are imagining a radical new world》，讲被禁锢者内部长出的另一种想象。
 - **Lhamsuren Munkh-Erdene** — `~/memory/people/lhamsuren-munkh-erdene.md` — 知识库 2026-11-18 收录其 Aeon 文章《The origins of the state are not agrarian but pastoralist》，讲国家起源于游牧而非农业。
@@ -155,3 +155,12 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Samuel Silva** — `~/memory/people/samuel-silva.md` — RecReview 视频质检文章作者；用户自学第 23 轮与第 41 轮两度全文读其《Final QC Checklist Before You Deliver a Video》，其质检方法进了加伊莎的成片终审规则。
 - **Ethan Mollick** — `~/memory/people/ethan-mollick.md` — 《One Useful Thing》作者；自学第 45 轮全文读其两篇人机分工文章，合炼分工规则分1–分8，合并清单升至 359 项。
 - **小lin说财经** — `~/memory/people/xiao-lin-shuo-cai-jing.md` — 视频风格参照：用户 2026-11-22 发来其 wallstreet-explainer 风格 skill，要做一条 30 秒《复利》片，脚本与配音已备好；同日 15:30 用户确认五个 skill 的代码都可以跑，wallstreet-explainer 尚未点名确认、成片未开始跑。
+- **Rodrigo Zamith** — `~/memory/people/rodrigo-zamith.md` — 自学第 50 轮阅读来源之一；2026-11-22 读其《Quotes and Attribution》，与另两篇合炼引用与转述规则引1–引8。
+- **Alix Spiegel** — `~/memory/people/alix-spiegel.md` — 自学第 50 轮阅读来源之一；2026-11-22 读其 Transom 文章《Variation in Tape Use and the Position of the Narrator》，与另两篇合炼引用与转述规则引1–引8。
+- **Klein** — `~/memory/people/klein.md` — 知识库 2026-11-23 收录其《心理学经典实验是怎么误导我们认识自我的》，为当日 A 库入选的 5 篇之一；同日用户问起该文稿子的状态，待确认是否已有动笔的稿子。
+- **Verdejo** — `~/memory/people/verdejo.md` — 知识库 2026-11-23 收录其《你真的能想出别人在想什么吗？》，为当日 A 库入选的 5 篇之一。
+- **Juarez-Garcia** — `~/memory/people/juarez-garcia.md` — 知识库 2026-11-23 收录其《放弃教给你的，比坚持更多的时候》，为当日 A 库入选的 5 篇之一。
+- **French** — `~/memory/people/french.md` — 知识库 2026-11-23 收录其访谈 Dubova 的《科学是一面镜子、一场游戏，还是一场对话？》，为当日 A 库入选的 5 篇之一。
+- **Dubova** — `~/memory/people/dubova.md` — 知识库 2026-11-23 收录其受 French 访谈的《科学是一面镜子、一场游戏，还是一场对话？》，为当日 A 库入选的 5 篇之一。
+- **Strunk** — `~/memory/people/strunk.md` — 《The Elements of Style》作者；2026-11-23 自学第五十一轮读其 1918 年版部分章节，与 Paul Graham、George Orwell 同轮合炼金句写作 8 条规则。
+- **Pachocki** — `~/memory/people/pachocki.md` — OpenAI 首席科学家；2026-11-22 在官方博客提议按困惑度设行业上限，成用户 2026-11-23 当日热点首选视频的题材，脚本 v1 已写好待审核。

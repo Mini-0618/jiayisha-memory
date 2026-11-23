@@ -1,7 +1,7 @@
 ---
 display_name: "小lin说财经"
 summary: "视频风格参照：用户 2026-11-22 发来其 wallstreet-explainer 风格 skill，要做一条 30 秒《复利》片，脚本与配音已备好；同日 15:30 用户确认五个 skill 的代码都可以跑，wallstreet-explainer 尚未点名确认、成片未开始跑。"
-rank: "153"
+rank: 153
 updated: "2026-11-22"
 ---
 

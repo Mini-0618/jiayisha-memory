@@ -3,10 +3,10 @@
 Every page under `~/memory/people/`, closest to the user first. Rendered by the relationships loop; each page carries the facts and the nature of the user's relationship with them.
 
 - **二哥** — `~/memory/people/er-ge.md` — 用户的二哥，从事 K12 教育（戴氏光华）；2026-11-09 用户帮他做《戴氏光华 英语单词荟》记忆短视频，四版风格片已交付，2026-11-12 风格版待选关闭、二哥自己会做，与加伊莎账号无关。
-- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；太学蒸馏 VID001–VID011 已蒸完入表，VID011 推送待用户审批、下一条 VID012 许纪霖；两篇抖音算法稿待核官方原文，素材库 V1.3 方案待用户批准。
+- **GPT** — `~/memory/people/gpt.md` — 全平台运营搭档：GPT 出方案与代码、Muse 执行验收；太学蒸馏 VID001–VID026 已蒸完入表，本地存好攒批未推、下一条三浦展《反内卷，慢生意来了》；两篇抖音算法稿待核官方原文，素材库 V1.3 方案待用户批准。
 - **巫师财经** — `~/memory/people/wushi-caijing.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标，声线亦为旁白质感参照（不克隆本人声音）；2026-11-21 其 9 条蒸馏已上传 GitHub 备份仓（提交 48b05c7），2 条归属存疑待用户定夺；2026-11-22 用户判样片《美国人为什么开始反对AI了》最新版会好很多、但未达巫师标准，已令换高清素材＋定制动效顶一版探上限。
 - **Roland** — `~/memory/people/roland.md` — X 上的自媒体创作者；用户 2026-11-06 分享并采纳了他的增长指南，其“锚点”框架决定了加伊莎的账号定位。
-- **太学TAIXUE** — `~/memory/people/tai-xue-taixue.md` — 抖音账号（抖音号 jingjijieshi，104.2 万粉），学者访谈路线；2026-11-21 蒸馏已完成 VID001–VID011（李超、朱西产等），下一条 VID012 许纪霖；用户令剩余 80 条全部蒸完，演讲稿正入知识库作写稿证据。
+- **太学TAIXUE** — `~/memory/people/tai-xue-taixue.md` — 抖音账号（抖音号 jingjijieshi，104.2 万粉），学者访谈路线；2026-11-24 蒸馏已完成 VID001–VID026（叶檀、张斌、付鹏、李玲、肖星、范为、胡捷等），下一条三浦展《反内卷，慢生意来了》，本地存好攒批未推；用户令剩余条目全部蒸完，演讲稿正入知识库作写稿证据。
 - **抖音产品君** — `~/memory/people/douyin-chanpin-jun.md` — 用户 2026-11-08 定下的加伊莎正式视觉对标之一，抖音号 65180295651，约 47 万粉；2026-11-09 按其原版重做的 28 条版《本周 AI 28 条》已交付代码图版，用户反馈不太好，修复方案与用户实录待定。
 - **柱子哥** — `~/memory/people/zhuzi-ge.md` — 抖音 AI 工具教程型对标账号，24.9 万粉；加伊莎教程类视频沿用其录屏加本人克隆音、不露脸的形式。
 - **进化中的阿陈** — `~/memory/people/jinhua-zhong-de-achen.md` — 抖音对标账号，1.6 万粉；2026-11-10 标题拆解：其“AI 考场”实验型标题播放 5.9–27.2 万，远超 AI 日报拼盘标题，但日报标题把传闻当事实写、不可抄；其逐句配图已降为可用手法之一。
@@ -38,7 +38,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **栀栀为知之** — `~/memory/people/zhi-zhi-wei-zhi-zhi.md` — 抖音 MJ 人物美学创作者；用户 2026-11-11 发来其《MJ风格训练(一)人物美学》图文作审美参照，垂目表情与单一高饱和锚点色被提炼进加伊莎审美档案。
 - **小王要拍照** — `~/memory/people/xiao-wang-yao-pai-zhao.md` — 抖音 MJ 近景人像创作者；用户 2026-11-11 发来其银发近景图文作审美参照，极特写微表情与逆光光斑被提炼进加伊莎审美档案。
 - **霖恩** — `~/memory/people/lin-en.md` — 抖音 MJ 美学创作者；用户 2026-11-11 发来其夜市组图作审美参照，直视镜头、双色温对撞与带雀斑毛孔的不完美皮肤被提炼进加伊莎审美档案。
-- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可；2026-11-23 用户把 GeekFaka 代充演示站交给他做成可用站，外观方向待定。
+- **Codex** — `~/memory/people/codex.md` — 在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可；2026-11-23 GeekFaka 演示站交他做成可用站；2026-11-25 代码动效风格蒸馏工具 V1.1 归 Codex 侧。
 - **Gleb Kuznetsov** — `~/memory/people/gleb-kuznetsov.md` — Dribbble 设计师；用户 2026-11-13 发来其 Personal Memory Graph 作 Super OS 共享记忆中心（3D 记忆星图）的设计语言参考，只提语言不原样复制。
 - **George Railean** — `~/memory/people/george-railean.md` — Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。
 - **DeepSeek ("DS")** — `~/memory/people/deepseek.md` — 简称 DS；2026-11-12 在 Codex 额度耗尽后顶班清理 Claude 残留 cookie 并纠正 Chrome 157 的 WebRtcIPHandling 策略、双站验证无泄漏；新 Claude 号已建成并按用户决定冻结，建号时段 STUN 日志复核仍待 DS 执行。
@@ -119,7 +119,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **Andrew Brenner (Andrew T Brenner)** — `~/memory/people/andrew-t-brenner.md` — 知识库 2026-11-17 收录其 Aeon 文章《A new answer to why there is something rather than nothing》。
 - **Yousri Marzouki** — `~/memory/people/yousri-marzouki.md` — 知识库 2026-11-17 收录其 Psyche 文章《How to reclaim your attention》，衍生 D 库新问题「注意力是管出来的，还是安放出来的？」。
 - **Maria Popova** — `~/memory/people/maria-popova.md` — 知识库 2026-11-17 收录其 The Marginalian 文章《How to Shed the Surface-Self》；2026-11-23 又收录《人与人之间仅有的三种区别》。
-- **仁勋 黄 (黄仁勋)** — `~/memory/people/huang-renxun.md` — 英伟达创始人；用户 16 号抖音切片讲他辞职，2026-11-18 又把英伟达 Q3 破千亿作续集候选、顺延下周。
+- **仁勋 黄 (黄仁勋)** — `~/memory/people/huang-renxun.md` — 英伟达创始人；用户 16 号抖音切片讲他辞职，2026-11-18 又把英伟达 Q3 破千亿作续集候选、顺延下周；2026-11-24 复职脚本《你请假 11 天，公司会求你回来吗？》423 字已写好待审，过稿即进次日 12:00 制作。
 - **Shahram Khosravi** — `~/memory/people/shahram-khosravi.md` — 知识库 2026-11-18 收录其 Aeon 文章《Those forced to cross borders are imagining a radical new world》，讲被禁锢者内部长出的另一种想象。
 - **Lhamsuren Munkh-Erdene** — `~/memory/people/lhamsuren-munkh-erdene.md` — 知识库 2026-11-18 收录其 Aeon 文章《The origins of the state are not agrarian but pastoralist》，讲国家起源于游牧而非农业。
 - **Zahaan Bharmal** — `~/memory/people/zahaan-bharmal.md` — 知识库 2026-11-18 收录其 Aeon 文章《How to use physics to make sense of the messiness of life》，衍生 D 库选题《为什么越努力，越脆弱？——“冗余容量”》。
@@ -163,4 +163,5 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **French** — `~/memory/people/french.md` — 知识库 2026-11-23 收录其访谈 Dubova 的《科学是一面镜子、一场游戏，还是一场对话？》，为当日 A 库入选的 5 篇之一。
 - **Dubova** — `~/memory/people/dubova.md` — 知识库 2026-11-23 收录其受 French 访谈的《科学是一面镜子、一场游戏，还是一场对话？》，为当日 A 库入选的 5 篇之一。
 - **Strunk** — `~/memory/people/strunk.md` — 《The Elements of Style》作者；2026-11-23 自学第五十一轮读其 1918 年版部分章节，与 Paul Graham、George Orwell 同轮合炼金句写作 8 条规则。
-- **Pachocki** — `~/memory/people/pachocki.md` — OpenAI 首席科学家；2026-11-22 在官方博客提议按困惑度设行业上限，成用户 2026-11-23 当日热点首选视频的题材，脚本 v1 已写好待审核。
+- **Pachocki** — `~/memory/people/pachocki.md` — OpenAI 首席科学家；2026-11-22 在官方博客提议按困惑度设行业上限，成用户 2026-11-23 当日热点首选视频的题材，脚本 v1（417 字）已写好待审核；2026-11-24 改作黄仁勋复职稿的备选。
+- **申公豹** — `~/memory/people/shen-gong-bao.md` — 抖音创作者；用户 2026-11-24 发来其新疆风景作品《人会在大自然里，重新长出生命力》，让 Muse 看片后写成可直接用的视频提示词作参考。

@@ -3,7 +3,7 @@ display_name: "E. B. White"
 first_name: "E. B."
 last_name: "White"
 summary: "文本能力训练的阅读来源之一；2026-11-20 自学第三十九轮全文读《Once More to the Lake》（1941），与奥威尔、Paul Graham 同轮合炼细节写作规则细1–细8，合并清单升至 311 项。"
-rank: 149
+rank: 151
 updated: "2026-11-20"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Artem Vardov"
 first_name: "Artem"
 last_name: "Vardov"
 summary: "2026-11-20 自学第四十轮全文读其 Medium 文章《How to Use YouTube Series Playlists to Build Returning Viewers in 2026》，与另两篇合炼系列化运营规则连1–连8。"
-rank: 150
+rank: 152
 updated: "2026-11-20"
 ---
 

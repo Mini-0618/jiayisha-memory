@@ -3,7 +3,7 @@ display_name: "David Mamet"
 first_name: "David"
 last_name: "Mamet"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 2005 年致《The Unit》编剧组备忘录，与亚里士多德、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。"
-rank: 107
+rank: 109
 updated: "2026-11-16"
 ---
 

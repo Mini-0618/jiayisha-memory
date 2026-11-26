@@ -3,7 +3,7 @@ display_name: "William Zinsser"
 first_name: "William"
 last_name: "Zinsser"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十七轮全文读其《On Writing Well》第 2 章〈Simplicity〉，合炼删稿规则删1–删8，合并清单升至 295 项。"
-rank: 142
+rank: 144
 updated: "2026-11-20"
 ---
 

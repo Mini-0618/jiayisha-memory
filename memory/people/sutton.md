@@ -1,7 +1,7 @@
 ---
 display_name: "Sutton"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮全文读其《The Bitter Lesson》，合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。"
-rank: 126
+rank: 128
 updated: "2026-11-18"
 ---
 

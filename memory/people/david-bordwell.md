@@ -3,7 +3,7 @@ display_name: "David Bordwell"
 first_name: "David"
 last_name: "Bordwell"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Cross》（2010-06-01），合炼视觉叙事与剪辑规则 V1–V8；2026-11-21 自学第四十六轮全文读其《Hitchcock, Lessing, and the bomb under the table》（2013-11-29），合炼反转与悬念规则反1–反8，合并清单升至 367 项。"
-rank: 93
+rank: 95
 updated: "2026-11-21"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Hamel Husain"
 first_name: "Hamel"
 last_name: "Husain"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮全文读其《Your AI Product Needs Evals》（2024-03-29），合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。"
-rank: 127
+rank: 129
 updated: "2026-11-18"
 ---
 

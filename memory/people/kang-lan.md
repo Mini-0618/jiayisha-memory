@@ -3,7 +3,7 @@ display_name: "康岚"
 first_name: "岚"
 last_name: "康"
 summary: "文本能力训练的阅读来源之一；2026-11-15 自学第十九轮全文通读其与项飙的访谈〈“重建附近”〉（上），合炼社会观察 O1–O8 规则。"
-rank: 89
+rank: 91
 updated: "2026-11-15"
 ---
 

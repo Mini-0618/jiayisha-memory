@@ -3,7 +3,7 @@ display_name: "Tim Harford"
 first_name: "Tim"
 last_name: "Harford"
 summary: "文本能力训练的阅读来源之一；2026-11-15 自学第二十轮全文读其 TED 2011 演讲《Trial, error and the God complex》，与 Paul Graham 两篇合炼 8 条经济科技写稿规则。"
-rank: 90
+rank: 92
 updated: "2026-11-15"
 ---
 

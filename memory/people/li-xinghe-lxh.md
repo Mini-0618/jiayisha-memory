@@ -3,7 +3,7 @@ display_name: "李星河LXH"
 first_name: "星河"
 last_name: "李"
 summary: "抖音对标账号，约 40 万粉；靠“作家传记”合集连载 102 期沉淀粉丝，用户 2026-11-06 委托研究其打法。"
-rank: 14
+rank: 16
 updated: "2026-11-10"
 ---
 

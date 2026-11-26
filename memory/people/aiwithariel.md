@@ -1,7 +1,7 @@
 ---
 display_name: "@AIwithAriel"
 summary: "X 账号 @AIwithAriel；2026-11-12 Loui 第一批种子关注之一，英文工具号对照组，关注留着观察、不当榜样。"
-rank: 54
+rank: 56
 updated: "2026-11-12"
 ---
 

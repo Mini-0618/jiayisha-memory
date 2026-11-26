@@ -1,7 +1,7 @@
 ---
 display_name: "Marvis"
 summary: "腾讯 Marvis，用户电脑上的 3D 建模执行 agent；2026-11-10 起承接 GPT 出图、脚本驱动 Blender 的建模流程，已做出人民大会堂内部建模并因运算量大把电脑跑卡。"
-rank: 45
+rank: 47
 updated: "2026-11-12"
 ---
 

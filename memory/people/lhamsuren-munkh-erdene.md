@@ -3,7 +3,7 @@ display_name: "Lhamsuren Munkh-Erdene"
 first_name: "Lhamsuren"
 last_name: "Munkh-Erdene"
 summary: "知识库 2026-11-18 收录其 Aeon 文章《The origins of the state are not agrarian but pastoralist》，讲国家起源于游牧而非农业。"
-rank: 120
+rank: 122
 updated: "2026-11-18"
 ---
 

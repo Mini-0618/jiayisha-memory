@@ -1,7 +1,7 @@
 ---
 display_name: "Verdejo"
 summary: "知识库 2026-11-23 收录其《你真的能想出别人在想什么吗？》，为当日 A 库入选的 5 篇之一。"
-rank: 157
+rank: 159
 updated: "2026-11-23"
 ---
 

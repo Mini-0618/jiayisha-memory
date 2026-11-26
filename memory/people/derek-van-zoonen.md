@@ -3,7 +3,7 @@ display_name: "Derek van Zoonen"
 first_name: "Derek"
 last_name: "van Zoonen"
 summary: "知识库 2026-11-17 收录其 Aeon 文章《We need a language to name the grief that comes without death》，衍生 D 库选题《没有葬礼的失去》。"
-rank: 113
+rank: 115
 updated: "2026-11-17"
 ---
 

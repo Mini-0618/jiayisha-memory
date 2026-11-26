@@ -2,7 +2,7 @@
 display_name: "Dell'Acqua"
 last_name: "Dell'Acqua"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第 33 轮读其合著的 HBS 工作论文《Navigating the Jagged Technological Frontier》（WP 24-013）摘要与第 1–3.3 节，合炼 AI 工具评测规则评1–评8，合并清单升至 263 项。"
-rank: 128
+rank: 130
 updated: "2026-11-18"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Elmore Leonard"
 first_name: "Elmore"
 last_name: "Leonard"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十七轮全文读其《Easy on the Adverbs, Exclamation Points and Especially Hooptedoodle》，合炼删稿规则删1–删8，合并清单升至 295 项。"
-rank: 141
+rank: 143
 updated: "2026-11-20"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Paul Katsafanas"
 first_name: "Paul"
 last_name: "Katsafanas"
 summary: "知识库 2026-11-17 收录其 Aeon 文章《What explains the perpetual need for political enemies?》，衍生 D 库观点「安抚不了怨恨政治，因为敌人就是它的燃料」。"
-rank: 114
+rank: 116
 updated: "2026-11-17"
 ---
 

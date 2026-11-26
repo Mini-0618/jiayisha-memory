@@ -3,7 +3,7 @@ display_name: "Andrew Stanton"
 first_name: "Andrew"
 last_name: "Stanton"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其 TED 2012 演讲《The clues to a great story》，与亚里士多德、Mamet 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。"
-rank: 108
+rank: 110
 updated: "2026-11-16"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Nick Kabrel"
 first_name: "Nick"
 last_name: "Kabrel"
 summary: "文本能力训练的阅读来源之一；2026-11-15 知识库每日收集收录其 Psyche 文章《How to use AI chatbots to make you smarter》，提炼“三明治”用 AI 法进 B 库。"
-rank: 87
+rank: 89
 updated: "2026-11-15"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Yuval Noah Harari"
 first_name: "Yuval"
 last_name: "Harari"
 summary: "文本能力训练的阅读来源之一；2026-11-15 自学第十八轮全文通读其 TED 2015 演讲《What explains the rise of humans?》，与 Orwell、Roser 合炼历史叙事 H1–H8 规则。"
-rank: 85
+rank: 87
 updated: "2026-11-15"
 ---
 

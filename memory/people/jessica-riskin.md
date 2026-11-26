@@ -3,7 +3,7 @@ display_name: "Jessica Riskin"
 first_name: "Jessica"
 last_name: "Riskin"
 summary: "知识库 2026-11-19 收录其 Aeon 文章《The self-making world of Jean-Baptiste Lamarck》，讲拉马克式主动塑造在表观遗传与行为选择中被重新讨论。"
-rank: 133
+rank: 135
 updated: "2026-11-19"
 ---
 

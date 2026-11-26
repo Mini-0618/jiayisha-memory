@@ -3,7 +3,7 @@ display_name: "Roger Ebert"
 first_name: "Roger"
 last_name: "Ebert"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《How to Read a Movie》合炼视觉叙事规则 V1–V8；2026-11-19 第三十四轮全文读其《Dreaming in Color》（访谈《欢乐谷》导演 Gary Ross），合炼色彩与光线规则色1–色8，合并清单升至 271 项。"
-rank: 91
+rank: 93
 updated: "2026-11-19"
 ---
 

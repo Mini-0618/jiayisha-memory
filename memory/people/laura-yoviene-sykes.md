@@ -3,7 +3,7 @@ display_name: "Laura Yoviene Sykes"
 first_name: "Laura"
 last_name: "Yoviene Sykes"
 summary: "知识库 2026-11-20 收录其 Psyche 文章《How to help someone whose thinking seems delusional》，衍生 D 库选题《家人信了阴谋论，别急着反驳：先问三句话》。"
-rank: 148
+rank: 150
 updated: "2026-11-20"
 ---
 

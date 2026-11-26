@@ -1,7 +1,7 @@
 ---
 display_name: "Juarez-Garcia"
 summary: "知识库 2026-11-23 收录其《放弃教给你的，比坚持更多的时候》，为当日 A 库入选的 5 篇之一。"
-rank: 158
+rank: 160
 updated: "2026-11-23"
 ---
 

@@ -2,7 +2,7 @@
 display_name: "Aristotle"
 first_name: "Aristotle"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十四轮全文读其《诗学》人物相关章节，与 Mamet、Stanton 三篇合炼 8 条人物塑造规则，合并清单升至 191 项。"
-rank: 106
+rank: 108
 updated: "2026-11-16"
 ---
 

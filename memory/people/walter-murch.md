@@ -3,7 +3,7 @@ display_name: "Walter Murch"
 first_name: "Walter"
 last_name: "Murch"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十一轮全文读其《The Rule of Six》一节，与 Roger Ebert、David Bordwell 三篇合炼 8 条视觉叙事与剪辑规则。"
-rank: 92
+rank: 94
 updated: "2026-11-16"
 ---
 

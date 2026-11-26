@@ -3,7 +3,7 @@ display_name: "Mary Risk"
 first_name: "Mary"
 last_name: "Risk"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十四轮全文读其 StudioBinder《How to Use Color in Film》（50+ 电影调色板实例），与另两篇同轮合炼色彩与光线规则色1–色8。"
-rank: 129
+rank: 131
 updated: "2026-11-19"
 ---
 

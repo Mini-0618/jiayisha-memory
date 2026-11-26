@@ -3,7 +3,7 @@ display_name: "Emma Coats"
 first_name: "Emma"
 last_name: "Coats"
 summary: "文本能力训练的阅读来源之一；其《皮克斯讲故事的 22 条规则》在四轮自学中被拆解，2026-11-21 第四十六轮只用反转相关的 #4、#7、#9、#12、#19，合炼反转规则反1–反8，合并清单升至 367 项。"
-rank: 136
+rank: 138
 updated: "2026-11-21"
 ---
 

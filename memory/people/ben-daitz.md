@@ -3,7 +3,7 @@ display_name: "Ben Daitz"
 first_name: "Ben"
 last_name: "Daitz"
 summary: "知识库 2026-11-19 收录其 Aeon 文章《How does Roshi Joan Halifax make sense of her Buddhist life?》，讲利他与同理心是可耗尽的边缘状态、警惕病态利他。"
-rank: 132
+rank: 134
 updated: "2026-11-19"
 ---
 

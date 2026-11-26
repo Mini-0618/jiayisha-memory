@@ -3,7 +3,7 @@ display_name: "Hannah Ritchie"
 first_name: "Hannah"
 last_name: "Ritchie"
 summary: "Our World in Data 文章作者；2026-11-13 知识库收录其《How much energy do data centers and artificial intelligence use?》，提炼「AI 用电真正问题不是总量，是集中度」并衍生 D 库选题。"
-rank: 60
+rank: 62
 updated: "2026-11-13"
 ---
 

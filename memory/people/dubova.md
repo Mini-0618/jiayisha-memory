@@ -1,7 +1,7 @@
 ---
 display_name: "Dubova"
 summary: "知识库 2026-11-23 收录其受 French 访谈的《科学是一面镜子、一场游戏，还是一场对话？》，为当日 A 库入选的 5 篇之一。"
-rank: 160
+rank: 162
 updated: "2026-11-23"
 ---
 

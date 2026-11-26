@@ -3,7 +3,7 @@ display_name: "Rob Rosenthal"
 first_name: "Rob"
 last_name: "Rosenthal"
 summary: "自学第 26 轮阅读来源；2026-11-17 全文读其 Transom 文章《Deploy This One Tiny Maneuver to Improve Audio Essays》，合炼声音与旁白设计规则 Y1–Y8。"
-rank: 111
+rank: 113
 updated: "2026-11-17"
 ---
 

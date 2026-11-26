@@ -1,7 +1,7 @@
 ---
 display_name: "Strunk"
 summary: "《The Elements of Style》作者；2026-11-23 自学第五十一轮读其 1918 年版部分章节，与 Paul Graham、George Orwell 同轮合炼金句写作 8 条规则。"
-rank: 161
+rank: 163
 updated: "2026-11-23"
 ---
 

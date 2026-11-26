@@ -3,7 +3,7 @@ display_name: "Samuel Silva"
 first_name: "Samuel"
 last_name: "Silva"
 summary: "RecReview 视频质检文章作者；用户自学第 23 轮与第 41 轮两度全文读其《Final QC Checklist Before You Deliver a Video》，其质检方法进了加伊莎的成片终审规则。"
-rank: 151
+rank: 153
 updated: "2026-11-20"
 ---
 

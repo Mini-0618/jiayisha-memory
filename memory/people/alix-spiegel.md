@@ -3,7 +3,7 @@ display_name: "Alix Spiegel"
 first_name: "Alix"
 last_name: "Spiegel"
 summary: "自学第 50 轮阅读来源之一；2026-11-22 读其 Transom 文章《Variation in Tape Use and the Position of the Narrator》，与另两篇合炼引用与转述规则引1–引8。"
-rank: 155
+rank: 157
 updated: "2026-11-23"
 ---
 

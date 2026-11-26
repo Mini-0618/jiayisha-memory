@@ -3,7 +3,7 @@ display_name: "Kim Cross"
 first_name: "Kim"
 last_name: "Cross"
 summary: "2026-11-12 自学第九轮全文读其两篇 Nieman Storyboard 采访文章，提炼进本轮采访规则。"
-rank: 57
+rank: 59
 updated: "2026-11-13"
 ---
 

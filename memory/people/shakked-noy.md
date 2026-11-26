@@ -3,7 +3,7 @@ display_name: "Shakked Noy"
 first_name: "Shakked"
 last_name: "Noy"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其与 Whitney Zhang 合著的 ChatGPT 生产率随机实验（Science 2023），453 名专业人员、完成时间平均减少 40%、质量评分提高 18%。"
-rank: 104
+rank: 106
 updated: "2026-11-16"
 ---
 

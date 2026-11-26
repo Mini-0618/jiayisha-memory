@@ -1,7 +1,7 @@
 ---
 display_name: "whata-ha"
 summary: "抖音 AI 短剧对标账号；作品《The Accident》，2026-11-10 新增为加伊莎 AI 短剧对标。"
-rank: 25
+rank: 27
 updated: "2026-11-10"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Jesse Eisinger"
 first_name: "Jesse"
 last_name: "Eisinger"
 summary: "ProPublica 调查记者；2026-11-14 自学第十五轮全文读其合著《The Secret IRS Files》，该文为调查报道规则 I1–I8 的来源之一。"
-rank: 72
+rank: 74
 updated: "2026-11-14"
 ---
 

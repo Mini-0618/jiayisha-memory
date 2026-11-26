@@ -2,7 +2,7 @@
 display_name: "Reagan"
 last_name: "Reagan"
 summary: "文本能力训练的阅读来源之一；2026-11-19 自学第三十五轮读其与合作者合著的《The emotional arcs of stories are dominated by six basic shapes》（arXiv:1606.07772），合炼情绪曲线规则张1–张8，合并清单升至 279 项。"
-rank: 137
+rank: 139
 updated: "2026-11-19"
 ---
 

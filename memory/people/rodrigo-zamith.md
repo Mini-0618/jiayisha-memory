@@ -3,7 +3,7 @@ display_name: "Rodrigo Zamith"
 first_name: "Rodrigo"
 last_name: "Zamith"
 summary: "自学第 50 轮阅读来源之一；2026-11-22 读其《Quotes and Attribution》，与另两篇合炼引用与转述规则引1–引8。"
-rank: 154
+rank: 156
 updated: "2026-11-23"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Debbie Cenziper"
 first_name: "Debbie"
 last_name: "Cenziper"
 summary: "ProPublica／Pittsburgh Post-Gazette 调查报道合著者；2026-11-14 自学第十五轮全文读其合著的飞利浦 CPAP 召回调查方法论，该文为调查报道规则 I1–I8 的来源之一。"
-rank: 76
+rank: 78
 updated: "2026-11-14"
 ---
 

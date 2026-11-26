@@ -3,7 +3,7 @@ display_name: "Paul Graham"
 first_name: "Paul"
 last_name: "Graham"
 summary: "文本能力训练的阅读来源之一；2026-11-20 第三十九轮再读《Write Like You Talk》合炼细节规则细1–细8，合并清单升至 311 项；2026-11-23 第五十一轮再读该文合炼金句写作 8 条规则。"
-rank: 30
+rank: 32
 updated: "2026-11-23"
 ---
 

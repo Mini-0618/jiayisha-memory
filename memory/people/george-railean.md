@@ -3,7 +3,7 @@ display_name: "George Railean"
 first_name: "George"
 last_name: "Railean"
 summary: "Dribbble 设计师；用户 2026-11-13 发来其 AI Dashboard Design 作 Super OS 总控制台（动态关系网络）的设计语言参考，只提语言不原样复制。"
-rank: 39
+rank: 41
 updated: "2026-11-13"
 ---
 

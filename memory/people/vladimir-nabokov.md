@@ -3,7 +3,7 @@ display_name: "Vladimir Nabokov"
 first_name: "Vladimir"
 last_name: "Nabokov"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第二十二轮全文读其《Good Readers and Good Writers》（1948 年讲稿），与契诃夫、伍尔夫三篇合炼 8 条文学语言规则。"
-rank: 95
+rank: 97
 updated: "2026-11-16"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Dylan Jow"
 first_name: "Dylan"
 last_name: "Jow"
 summary: "知识库 2026-11-20 收录其 Aeon 文章《Why astrophysics needs to abandon the 'Big Questions'}》，提炼 B 库术语翻转法。"
-rank: 147
+rank: 149
 updated: "2026-11-20"
 ---
 

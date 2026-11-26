@@ -3,7 +3,7 @@ display_name: "Jonathan Swift"
 first_name: "Jonathan"
 last_name: "Swift"
 summary: "自学第十二轮阅读来源；2026-11-13 读其《A Modest Proposal》，与另两篇合炼出讽刺规则 H1–H8。"
-rank: 65
+rank: 67
 updated: "2026-11-13"
 ---
 

@@ -3,7 +3,7 @@ display_name: "Shahram Khosravi"
 first_name: "Shahram"
 last_name: "Khosravi"
 summary: "知识库 2026-11-18 收录其 Aeon 文章《Those forced to cross borders are imagining a radical new world》，讲被禁锢者内部长出的另一种想象。"
-rank: 119
+rank: 121
 updated: "2026-11-18"
 ---
 

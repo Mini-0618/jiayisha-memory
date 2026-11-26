@@ -1,7 +1,7 @@
 ---
 display_name: "Codex"
-summary: "在用户电脑上执行 Clash/X链式修复与渲染的执行者，Super OS 圆桌中为执行位不是 API 参与方；2026-11-18 按五个视频 Skill 用真实素材重做 22 号切片画面获用户认可；2026-11-23 GeekFaka 演示站交他做成可用站；2026-11-25 代码动效风格蒸馏工具 V1.1 归 Codex 侧。"
-rank: 37
+summary: "在用户电脑上执行 Clash/X链式修复与渲染的执行者；2026-11-18 按五个视频 Skill 重做 22 号切片获用户认可；2026-11-25 用户重建 AI 原生视频制作体系，Codex 任总导演（声音时间轴／分镜／代码动效／三维／剪辑渲染）。"
+rank: 39
 updated: "2026-11-25"
 ---
 
@@ -22,6 +22,7 @@ updated: "2026-11-25"
 - 2026-11-22 用户的套餐为 Pro 100：只有每周限额、没有 5 小时限额，当时每周限额剩余 95%、约 5 天 23 小时后重置；额外购买的付费 credits 余额为 0，用户没买过，与套餐用量无关；连续长时间跑 Codex 不会被 5 小时窗口卡住，只需盯每周额度（message:fb8c56b2-7507-4bb2-97b3-18111a1418c0、message:assistant-msg-3f80b180-d045-4387-875b-81db3a993764、message:assistant-msg-5a550173-ba4c-4268-ac88-3a7142f56b8b）。
 - 2026-11-23 用户把 GeekFaka 代充演示站交给 Codex 做成可用站：Muse 已打包交接（1.7MB、168 个文件，含完整源码、演示数据库与《HANDOVER-交接说明.md》）；离能用还差部署、真实商品与卡密、接支付、改演示配置，外观方向待用户定（用户此前已判该演示站「太丑了」）；同日用户发来 Craft Anything（storytold/craft-anything）问能做什么，Muse 建议可拿 NIUB 自营店作原版给 GeekFaka 换皮，是否补进 Codex 交接说明待用户决定（message:4b725375-fdcd-4af3-b0cb-a4ba6bec63ac、message:assistant-msg-a45700c4-39f8-47f3-b908-6c84f7454c85、message:assistant-msg-c341c2c2-cbd2-4815-a631-a44c62120b2f）。
 - 2026-11-25 用户发来 code-video-style-distill V1.1（2026-11-24）：专项技术工具，已退出默认创作流程，仅在明确需要复刻代码动效风格时调用，其输出进正式创作前仍须按 video-distill-master V1.2 核验；精确运镜、数据动画、标题卡、要点列表、图表、时间线、对比双栏、流程图这类代码生成的画面归 Codex 侧，不归 Muse 的电影感镜头、人物、环境、视觉隐喻；文档所写工具路径 /workspace/ip-team/tools/code-video-style-distill/ 经 2026-11-25 实查在本机不存在，Muse 这边不能直接跑，须先落实本地路径；文档自述局限为测试参考片是工具自渲、真实外部视频未测过，Lemo 后端在入场时长 M6 一项卡住判停滞，Motion Canvas 后端只支持 9 种段落中的 5 种（message:d768ed60-a7d5-4a38-9454-7dde4d9b51d8、message:assistant-msg-03817b45-7f08-4943-911a-a3c79a68a43e）。
+- 2026-11-25 用户重建 AI 原生视频制作体系，旧创作规则／审美／工作流不再作默认，旧的已验证技术与能力保留；Codex 任总导演，管声音时间轴／分镜／代码动效／三维／剪辑渲染；三原则为声音决定叙事时间、证据决定画面责任、预演决定哪些镜头值得投入；流程为选题→文案→音乐情绪规划→正式配音→锁定声音时间轴→导演分镜→低成本预演→正式素材生成→剪辑→调色与声音设计→审片→返工；本轮只做只读调查与讨论，未生成、未改生产系统（MEMORY.md）。
 
 ## History
 - 2026-11-10：用户让 Muse 在云电脑上装 Codex，实测已预装 codex-cli 0.164.0-alpha.9、Node 24 齐备，未登录，待用户选 ChatGPT 账号登录或 API key（memory/2026-11-10.md#L128、L125）。
@@ -37,6 +38,7 @@ updated: "2026-11-25"
 - 2026-11-22：用户确认其 Pro 100 套餐只有每周限额、无 5 小时限额，当时每周限额剩余 95%；2026-11-12 的额度耗尽状态至此已恢复，连续长时间跑 Codex 不再受 5 小时窗口限制（message:assistant-msg-3f80b180-d045-4387-875b-81db3a993764）。
 - 2026-11-23：用户把 GeekFaka 代充演示站交给 Codex 做成可用站（Muse 打包 1.7MB、168 个文件含交接说明）；同日用户发来 Craft Anything 仓库，Muse 建议用它对照 NIUB 给 GeekFaka 换皮，是否补进交接说明待用户决定（message:4b725375-fdcd-4af3-b0cb-a4ba6bec63ac、message:assistant-msg-c341c2c2-cbd2-4815-a631-a44c62120b2f）。
 - 2026-11-25：用户发来 code-video-style-distill V1.1 并由 Muse 登记：代码动效风格蒸馏归 Codex 侧，Muse 的电影感镜头不往该工具送；文档所写工具路径在本机实查不存在，Muse 不能直接跑（message:d768ed60-a7d5-4a38-9454-7dde4d9b51d8、message:assistant-msg-03817b45-7f08-4943-911a-a3c79a68a43e）。
+- 2026-11-25：用户重建 AI 原生视频制作体系，Codex 任总导演（声音时间轴／分镜／代码动效／三维／剪辑渲染）；同日 M-001 任务 2 待 Codex 提交第一个具体镜头（MEMORY.md）。
 
 ## The relationship
 - 用户没有给这段关系命名；这里不命名。
@@ -47,6 +49,7 @@ updated: "2026-11-25"
 - 2026-11-18 五 Skill 画面路线经用户实证跑通，分工为 Muse 出稿与配音、Codex 本机做素材画面合成；同日用户补明 Muse 本人可直接用这五个 Skill 做片，不必只经 Codex（memory/2026-11-18.md#L804、L807）。
 - 2026-11-23 用户再次直接派活给 Codex：把 GeekFaka 代充演示站交给他做成可用站，Muse 打包交接说明，用户须另定外观方向（message:4b725375-fdcd-4af3-b0cb-a4ba6bec63ac）。
 - 2026-11-25 代码动效风格蒸馏（code-video-style-distill V1.1）划归 Codex 侧：精确运镜、数据动画与代码生成的标题卡、要点、图表、时间线、对比双栏、流程图归 Codex，Muse 的电影感镜头、人物、环境、视觉隐喻不往该工具送；该工具在本机无本地安装，须先落实路径才能调用（message:assistant-msg-03817b45-7f08-4943-911a-a3c79a68a43e）。
+- 2026-11-25 起 Codex 在重建的 AI 原生视频制作体系里任总导演；M-001 的最终素材由 ChatGPT 与 Codex 共同审查。
 
 ## In common
 - X 固定出口与 Clash 链式（X链式v2、LinkStatic 纽约出口 64.50.132.248、29 个前置节点）。
@@ -55,6 +58,7 @@ updated: "2026-11-25"
 - 五个视频 Skill 的画面方法（2026-11-18 经 Codex 在本机实证跑通）：Muse 出稿与配音、Codex 换真实素材重做画面。
 - GeekFaka 代充演示站（2026-11-23 交 Codex 做成可用站）。
 - 代码动效风格蒸馏 code-video-style-distill V1.1（2026-11-25 划归 Codex 侧，专项工具、仅在明确需要复刻代码动效风格时调用）。
+- AI 原生视频制作体系（2026-11-25 重建）：Codex 任总导演，管声音时间轴、分镜、代码动效、三维、剪辑渲染。
 
 ## Open threads
 - [ ] 卡死的 Cursor/Grok/X 账户关联旧页面已交 Codex 关闭（2026-11-12）：窗口内无处理结果回报；红线为不点任何绑定按钮、不动 X Premium 订阅（有效期至 2026-12-12、续订已取消），发现已误关联先报告用户（memory/2026-11-12.md Verified extraction 03:52 UTC 第二条）。

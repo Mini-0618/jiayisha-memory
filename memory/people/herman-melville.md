@@ -3,7 +3,7 @@ display_name: "Herman Melville"
 first_name: "Herman"
 last_name: "Melville"
 summary: "文本能力训练的阅读来源之一；2026-11-16 自学第 108 轮核读其《Bartleby, the Scrivener》（1853），提炼先给观众看人物留下的痕迹、再决定是否解释处境的写法。"
-rank: 99
+rank: 101
 updated: "2026-11-16"
 ---
 

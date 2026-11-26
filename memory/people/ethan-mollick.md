@@ -3,7 +3,7 @@ display_name: "Ethan Mollick"
 first_name: "Ethan"
 last_name: "Mollick"
 summary: "《One Useful Thing》作者；自学第 45 轮全文读其两篇人机分工文章，合炼分工规则分1–分8，合并清单升至 359 项。"
-rank: 152
+rank: 154
 updated: "2026-11-21"
 ---
 
